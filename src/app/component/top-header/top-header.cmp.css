@@ -1,0 +1,27 @@
+.top-home {
+  width: 100%;
+  position: relative;
+  display: block; }
+
+nav {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.fa {
+  color: white;
+  font-size: 25px;
+  padding: 7px;
+}
+
+.nav-icons {
+  display: flex;
+  padding: 0 0 0 30px;
+ }
+
+.newsletter-signup {
+  padding: 6px 30px 0 0;
+}
+

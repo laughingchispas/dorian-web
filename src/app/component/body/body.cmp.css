@@ -1,0 +1,19 @@
+* {
+  color: pink;
+}
+
+.panel-container {
+  display: flex;
+  background-color: hotpink;
+
+}
+
+.left-panel {
+  width: 30%;
+  background-color: red;
+}
+
+.right-panel {
+  width: 70%;
+  background-color: purple;
+}
