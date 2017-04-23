@@ -1,4 +1,60 @@
-* {
-  color: orange;
-  background-color: yellow;
+.left-block {
+  padding: 20px;
+  color: white;
+  width: 20%;
+  background-color: black; }
+
+.icon-box-home {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.fa {
+  font-size: 80px;
+  color: #ffe700;
+  text-align: center;
+  width:100%;
+}
+
+
+.left-block a {
+  text-decoration: none;
+  color: white;
+  text-transform: none;
+}
+
+a:hover {
+  color: #ffe700;
+}
+
+.left-concerts-a-venir {
+  display: block;
+  font-size: 20px; }
+
+.left-concert {
+  display: block;
+  font-size: 12px;
+  color: white;
+}
+
+.a-propos {
+  padding: 20px 0;
+}
+
+.a-propos-content {
+  font-size: 12px;
+  text-align: justify;
+  text-transform: none; }
+
+.a-propos a {
+  text-decoration: none;
+}
+
+.bottom-title {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 0;
 }

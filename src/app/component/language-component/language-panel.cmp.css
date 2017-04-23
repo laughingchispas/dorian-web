@@ -1,12 +1,10 @@
 .language-element-container {
   width: 100%;
-  background-color: purple;
   height: 40px;
 
 }
 
 .language-elements {
-  background-color: green;
   width: 30%;
   float: right;
   position: relative;
@@ -20,6 +18,4 @@
 .language-element {
   padding: 0 3px;
   color: white;
-  background-color: pink;
-
 }

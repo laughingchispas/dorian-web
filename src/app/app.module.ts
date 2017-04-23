@@ -6,8 +6,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import {
+  AgendaComponent,
   BodyComponent,
   BonusComponent,
+  ContactComponent,
+  FooterComponent,
   DiscographieComponent,
   DorianComponent,
   HomeComponent,
@@ -20,12 +23,15 @@ import {
   PresseComponent,
   ProjetsComponent,
   RightPanelComponent,
+  ScrollComponent,
   TopHeader
 } from './component/';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'agenda', component: AgendaComponent},
   { path: 'bonus', component: BonusComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'discographie', component: DiscographieComponent },
   { path: 'dorian', component: DorianComponent },
   { path: 'musique', component: MusiqueComponent },
@@ -36,11 +42,14 @@ const appRoutes: Routes = [
 
 @NgModule({
   declarations: [
+    AgendaComponent,
     AppComponent,
     BodyComponent,
+    ContactComponent,
     BonusComponent,
     DiscographieComponent,
     DorianComponent,
+    FooterComponent,
     HomeComponent,
     LanguageComponent,
     LeftPanelComponent,
@@ -51,6 +60,7 @@ const appRoutes: Routes = [
     NewsComponent,
     ProjetsComponent,
     RightPanelComponent,
+    ScrollComponent,
     TopHeader,
   ],
   imports: [
