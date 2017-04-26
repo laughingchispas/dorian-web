@@ -1,4 +1,4 @@
-* {
+body {
   padding: 0;
   margin: 0;
   background-color: black;
@@ -7,8 +7,27 @@
 
 a {
     text-decoration: none;
+  color: white;
 }
 
 a:hover {
   color: #ffe700;
+}
+
+
+.contact-image {
+  background-position: center center;
+  background-repeat: none;
+  height: 300px;
+  width: 400px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.contact-title {
+  position: absolute;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffe700;
+  font-size: 30px;
 }

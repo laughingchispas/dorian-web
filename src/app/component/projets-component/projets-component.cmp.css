@@ -1,3 +1,52 @@
 * {
-  background-color: paleturquoise;
+}
+
+
+.projets-image {
+  background-image: url(../../../assets/unicorn.jpg);
+}
+
+
+.projets-image-title {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffe700;
+  font-size: 30px;
+}
+
+
+.projets-supra-container {
+  width: 100%;
+}
+
+.projets-info {
+
+
+}
+
+
+.projects-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.projet {
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+  font-size: 15px;
+}
+
+.projet-image {
+  width: 90%;
+  margin: 7px 0 0 0;
+  border-style: solid;
+  border-width: 8px;
+  border-color: white;
 }

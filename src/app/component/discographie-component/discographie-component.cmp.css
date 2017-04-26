@@ -1,1 +1,50 @@
-* {background-color: red;}
+.contact-image {
+  background-image: url(../../../assets/unicorn.jpg);
+
+}
+
+.contact-title {
+  background-color: transparent;
+  position: absolute;
+}
+
+.small-album-format {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  padding: 0 150px 0 150px;
+}
+
+.small-album-container-title {
+  text-transform: uppercase;
+}
+
+.small-albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 0 0;
+}
+
+.small-album-image-container {
+  width: 150px;
+  height: 180px;
+  margin: 0 20px 20px 0;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.small-album-image {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  padding: 10px 0 0 10px;
+  background-color: transparent;
+}
+
+.small-album-title {
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  font-size: 11px;
+}
+

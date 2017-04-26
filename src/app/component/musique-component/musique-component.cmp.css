@@ -1,3 +1,43 @@
 * {
-  background-color:yellowgreen;
+
+}
+
+
+.musique-image {
+  background-image: url(../../../assets/clown.jpg);
+}
+
+
+.musique-image-title {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffe700;
+  font-size: 30px;
+}
+
+.musique-sound-cloud-container, .musique-youtube-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+
+.bottom-title {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0 10px 0;
+}
+
+.video, .sound-cloud {
+    padding: 0 0 10px 0;
+}
+
+.youtube-links, .sound-cloud-links {
+  width: 100%;
+  text-align: center;
+  padding: 2px 0;
 }

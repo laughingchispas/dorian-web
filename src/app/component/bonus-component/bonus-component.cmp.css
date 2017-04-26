@@ -1,3 +1,100 @@
 * {
-  color: yellow;
+  color: black;
+  background-color: white;
+
 }
+
+body {
+  padding: 20px 0 0 0;
+}
+
+
+.fa {
+  color: black;
+  font-size: 40px;
+}
+
+i:hover {
+  color: #ffe700;
+}
+
+
+.bonus-image {
+  background-image: url(../../../assets/unicorn.jpg);
+}
+
+
+.bonus-image-title {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffe700;
+  font-size: 30px;
+}
+
+.bonus-content {
+    display: block;
+}
+
+.thanks-title, .gallerie-title, .jouez-lez-title, .jouez-moi-title, .chic-title {
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.title {
+  padding: 0 10px;
+
+}
+
+.chic-title {
+  justify-content: flex-end;
+  width: 99%;
+
+}
+
+.gallerie-title {
+  justify-content: center;
+  width: 90%;
+
+}
+
+.jouez-moi-title {
+  justify-content: flex-end;
+  width: 65%;
+}
+
+.jouez-lez-title {
+  justify-content: center;
+  width: 30%;
+}
+
+.thanks-title {
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.gallerie {
+  padding: 30px 0;
+}
+
+.chic {
+  padding: 15px 0;
+}
+
+.jouez-moi {
+  padding: 15px 0;
+}
+
+.jouez-lez {
+  padding: 15px 0;
+}
+
+.thanks {
+  padding: 15px 0;
+}
+
