@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+import { dorian } from '../../content-detail';
+import { FrenchContentService } from '../../french-content.service';
+
 @Component({
   selector: 'left-panel',
   templateUrl: './left-panel.cmp.html',
@@ -7,8 +10,10 @@ import { Component } from '@angular/core';
 })
 export class LeftPanelComponent {
 
+  dorian = DORIAN;
 
-  constructor() { }
+  constructor(private FrenchContentService: FrenchContentService) { }
+
 
 }
 

@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FrenchContentService } from './french-content.service';
+
+dorian: Dorian[];
 
 @Component({
   selector: 'app-root',

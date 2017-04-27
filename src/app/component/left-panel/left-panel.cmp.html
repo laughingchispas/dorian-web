@@ -10,10 +10,7 @@
 <div class="icon-box-home"><i class="fa fa-cloud"></i></div>
 <div class="left-concerts-a-venir">
   <div class="bottom-title">Concerts à venir</div>
-  <a href="#" class="left-concert" target="_blank">23/4</a>
-  <a href="#" class="left-concert" target="_blank">24/5</a>
-  <a href="#" class="left-concert" target="_blank">26/6</a>
-  <a href="#" class="left-concert">27/7</a>
+  <a href="{{dorian_item.concert_link}}" class="left-concert" target="_blank" *ngFor="let dorian_item of dorian">{{dorian_item.concert_date}}</a>
   <a href="#" id="voir-list" target="_blank">voir liste complete</a>
 </div>
 <div class="a-propos">
