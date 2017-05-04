@@ -1,0 +1,53 @@
+{
+  "navigation": [
+    {"title": "home", "router": ""},
+    {"title": "about", "router": "/calendar"},
+    {"title": "concerts", "router": "/calendar"},
+    {"title": "media", "router": "/media"},
+    {"title": "contact", "router": "/contact"}
+  ],
+  "tableTitle_Fr": [
+    {"date": "date", "place": "lieu", "project":"projet"}
+  ],
+  "concertDatesTitle_Fr": "Concerts du futur",
+  "pastConcertDatesTitle_Fr": "Concerts du passé",
+  "concertDates": [
+    {"date": "27.03.17", "venue": "Jazzstation - Bruxelles","venueLink": "http://www.jazzstation.be/?lang=fr", "artist": "Philemon", "artistLink": "https://philemonchien.wordpress.com/"},
+    {"date": "9.03.17", "venue": "De Brakke Gond - Amsterdam","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "J.M.O. THE BLOGPERA", "artistLink": "http://marillion.com"},
+    {"date": "02.05.17", "venue": "Sounds - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "Easy Pieces", "artistLink": "http://marillion.com"},
+    {"date": "03.05.17", "venue": "Atelier Vert - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "CHARLOTTE HAESEN QUINTET", "artistLink": "http://marillion.com"}
+   ],
+  "pastConcertDates": [
+    {"date": "27.03.17", "venue": "Jazzstation - Bruxelles","venueLink": "http://www.jazzstation.be/?lang=fr", "artist": "Philemon", "artistLink": "https://philemonchien.wordpress.com/"},
+    {"date": "9.03.17", "venue": "De Brakke Gond - Amsterdam","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "J.M.O. THE BLOGPERA", "artistLink": "http://marillion.com"},
+    {"date": "02.05.17", "venue": "Sounds - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "Easy Pieces", "artistLink": "http://marillion.com"},
+    {"date": "03.05.17", "venue": "Atelier Vert - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "CHARLOTTE HAESEN QUINTET", "artistLink": "http://marillion.com"}
+  ],
+  "contactGreeting": "For studio and concert bookings",
+  "contactInfo": [
+    {"how": "email", "what": "laughinchispas@gmail.com"},
+    {"how": "phone", "what": "+32 (0)496 390024"}
+  ],
+  "photoBoxContent": [
+    {"photo": "../../../assets/les_filles.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/les_filles_tn.jpg"},
+    {"photo": "../../../assets/circle.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/circle_tn.jpg"},
+    {"photo": "../../../assets/fu.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/fu_tn.jpg"},
+    {"photo": "../../../assets/maia_marillion.png", "photoTitle": "Maia Frankowski - Marillion Show Port Zélande", "thumbNail": "../../../assets/maia_marillion_tn.jpg"},
+    {"photo": "../../../assets/robes.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/robes_tn.jpg"},
+    {"photo": "../../../assets/annemie.png", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/annemie_tn.jpg"},
+    {"photo": "../../../assets/forest.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/forest_tn.jpg"},
+    {"photo": "../../../assets/meg.png", "photoTitle": "Margaret Hermant: Credit Hugo Fustier", "thumbNail": "../../../assets/meg_tn.jpg"},
+    {"photo": "../../../assets/4.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/4_tn.jpg"},
+    {"photo": "../../../assets/filles_walk.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/filles_walk_tn.jpg"},
+    {"photo": "../../../assets/circle.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/circle_tn.jpg"},
+    {"photo": "../../../assets/nicole_studio.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/nicole_studio_tn.jpg"},
+    {"photo": "../../../assets/velos.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/velos_tn.jpg"},
+    {"photo": "../../../assets/back.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/back_tn.jpg"},
+    {"photo": "../../../assets/4tet.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/4tet_tn.jpg"},
+    {"photo": "../../../assets/marillion_quartet.png", "photoTitle": "Performance with Marillion - Port Zélande, NL", "thumbNail": "../../../assets/marillion_quartet_tn.jpg"},
+    {"photo": "../../../assets/marillion.jpg", "photoTitle": "Marillion in Port Zélande. Photo credit Alison Toon", "thumbNail": "../../../assets/marillion_tn.jpg"},
+    {"photo": "../../../assets/haa.jpg", "photoTitle": "Marillion in Port Zélande", "thumbNail": "../../../assets/haa_tn.jpg"},
+    {"photo": "../../../assets/studio.png", "photoTitle": "Studio Recording: La Savonnerie, Brussels", "thumbNail": "../../../assets/studio_tn.jpg"},
+    {"photo": "../../../assets/end_of_the_world.png", "photoTitle": "Performance with Marillion - Port Zélande, NL", "thumbNail": "../../../assets/end_of_the_world_tn.jpg"}
+  ]
+}

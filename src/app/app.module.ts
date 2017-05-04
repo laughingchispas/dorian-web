@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
-
+import {ContentService} from './service';
 import { AppComponent } from './app.component';
 
 import {
@@ -68,7 +68,9 @@ const appRoutes: Routes = [
     HttpModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [
+    ContentService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
