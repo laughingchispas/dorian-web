@@ -1,5 +1,9 @@
+* {
+  font-family: 'Arsenal', cursive;
+}
+
 body {
-  padding: 0;
+  padding: 10px 170px 0px 170px;
   margin: 0;
   background-color: black;
   color: white;

@@ -5,10 +5,12 @@
 </div>
 
 <div class="presse-content">
-  <div>Cette section est en construction...</div><br>
+  <div>{{content.construction_fr}}</div><br>
   <div>Si t’es pas content voici un espace pour t’exprimer : ________________SUBMIT (en 13 caractères maximum)</div><br><br><br>
-  <div>Par contre j’espère que tu es conscient que c’est envoyer l’équivalent d’un « poke » au cyber-espace.</div><br><br>
-  <div>C’est à dire que personne ne te lira.</div>
-  <div>C’est entre toi et ton clavier...</div>
-  <div>Donc régale toi bien et fais toi plaisir, c’est le moment de se lâcher (en 13 caractères).</div>
+  <div *ngFor="let presse of content.presse_fr">
+    <div>{{presse.presse_poke_fr}}</div><br><br>
+    <div *ngFor="let presse_content of presse.content_fr">
+        {{presse_content.par}}
+    </div>
+  </div>
 </div>

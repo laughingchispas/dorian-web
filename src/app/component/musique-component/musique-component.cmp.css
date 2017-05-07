@@ -1,7 +1,5 @@
 * {
-
 }
-
 
 .musique-image {
   background-image: url(../../../assets/clown.jpg);
@@ -27,9 +25,9 @@
 
 .bottom-title {
   text-transform: uppercase;
-  width: 100%;
-  text-align: center;
+  width: 100px;
   padding: 5px 0 10px 0;
+  text-align: center;
 }
 
 .video, .sound-cloud {
@@ -40,4 +38,5 @@
   width: 100%;
   text-align: center;
   padding: 2px 0;
+  text-align: left;
 }

@@ -3,13 +3,13 @@
 
 
 .projets-image {
-  background-image: url(../../../assets/unicorn.jpg);
+  background-image: url(../../../assets/projets.jpg);
 }
 
 
 .projets-image-title {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   left: 90px;
   background-color: transparent;
   text-transform: uppercase;
@@ -20,11 +20,6 @@
 
 .projets-supra-container {
   width: 100%;
-}
-
-.projets-info {
-
-
 }
 
 

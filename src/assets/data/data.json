@@ -1,11 +1,97 @@
 {
   "navigation": [
-    {"title": "home", "router": ""},
-    {"title": "about", "router": "/calendar"},
-    {"title": "concerts", "router": "/calendar"},
-    {"title": "media", "router": "/media"},
-    {"title": "contact", "router": "/contact"}
+    {"title_fr": "home", "router": ""},
+    {"title_fr": "bio", "router": "/dorian"},
+    {"title_fr": "projets", "router": "/projets"},
+    {"title_fr": "musique", "router": "/musique"},
+    {"title_fr": "albums", "router": "/discographie"},
+    {"title_fr": "agenda", "router": "/agenda"},
+    {"title_fr": "bonus ?!", "router": "/bonus"},
+    {"title_fr": "contact", "router": "/contact"}
   ],
+  "new_fresh_fr": "nouvelles fraîches",
+  "new_fresh_content_fr": [
+    {"image": "",
+      "new_content": [
+        {"par": "28 avril 2017, 09h13,"},
+        {"par": "En plein mixage pour l’album d’EASY PIECES"}
+      ]
+    },
+    {"image": "../../../assets/phil.png",
+      "new_content": [
+        {"par": "25 avril 2017, 11h23,"},
+        {"par": "Résidence avec le groupe EFFDÉ"}
+      ]
+    },
+    {"image": "../../../assets/phil.png",
+      "new_content": [
+        {"par": "20 avril 2017, 16h46,"},
+        {"par": "fin des 3 jours de studio avec EASY PIECES"}
+      ]
+    },
+    {"image": "../../../assets/phil.png",
+      "new_content": [
+        {"par": "19 avril 2017, 22h09,"},
+        {"par": "Le site est tout frais tout chaud et vient de s’ouvrir!"},
+        {"par": "Joie."},
+        {"par": "Je suis tout excité."},
+        {"par": "Un grand merci à Nicole Miller pour son travail."},
+        {"par": "Une femme d’exception (n’ayons pas peur des mots)"}
+      ]
+    }
+  ],
+  "voir_fr": "voir liste complète",
+  "a_propos_fr": "a propos",
+  "a_propos_content_fr": [
+    {"par": "Dorian est un pianiste français basé à Bruxelles."},
+    {"par": "Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers."},
+    {"par": "Et le tout à divers moments."},
+    {"par": "Il part et repart (tel un mars) vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit glouton de découverte jamais rassasié."}
+  ],
+  "left_comment_fr": "Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?",
+  "audio_moment_fr": "L'audio du moment",
+  "video_moment_fr": "La Vidéo du moment",
+  "bio_plus_fr": "SI VOUS VOULEZ EN SAVOIR +",
+  "bio_fr": [
+    {"par": "Sachez qu’après avoir lu tout ça vous ne saurez malheureusement pas tout sur Dorian Dumont (qui est un être complexe) mais vous en saurez tout de même plus que la plupart des gens. Ce qui est quand même pas mal, vous en conviendrez."},
+    {"par": "Né le 08 juin 1988 à Montpellier, Dorian Dumont se passionne très tôt pour la musique, cet art de combiner les sons, en suivant certaines règles. Ou non..."},
+    {"par":"Comme il faut quand même bien les apprendre quelque part ces règles, Dorian commence le piano classique à 7 ans au Conservatoire National de Région de Montpellier (France). Avec une sacré pédagogue : Mireille Michaud, une personne qui aime la musique et qui a compris qu’on obtient rien sans rien et surtout qui sait le faire comprendre aux autres. Pour suivre avec Susan Campbell qui se chargera de peaufiner finement tout ça. Ainsi que son prix de Solfège décrochant ainsi son Diplôme d’Études Musicales: D.E.M."},
+    {"par": "À Montpellier, il y obtient en 2005 la Médaille d’Or en Piano: Mention très bien à l’unanimité avec les félicitations du jury et aussi en Musique de Chambre avec la même mention.Dorian sera même le soliste interprète du Concerto pour Piano en Ré Majeur de Haydn avec l’Orchestre Symphonique de la Faculté de Montpellier en 2005."},
+    {"par": "Ce n’est qu’en 2006, à l’âge de 18 ans que, tout en continuant son perfectionnement au classique, Dorian commence à s’intéresser au Jazz et à la musique improvisé. Il intègre l’atelier jazz de Montpellier qui a lieu une fois par mois et où Pierre de Bethmann, François Théberge, Stéphane Foucher et Peter Giron sont les intervenants."},
+    {"par": "Après s’être férocement (tel un lion) nourris de musique classique, il s’oriente définitivement vers le jazz en quittant Montpellier, ses cigales et sa garrigue pour la capitale du plat pays: Bruxelles, son ciel bas et sa bonhomie contagieuse. Là il entre au Conservatoire Royal de Musique en 2007 avec Éric Legnini comme professeur."},
+    {"par": "Il y restera 2 ans avant de passer au Conservatoire Flamand, au Koninklijk Conservatorium of Brussels où il étudie avec Diederik Wissels, Kris Defoort, David Linx, Natalie Loriers, John Ruocco...en sortira diplôme en poche en 2012."},
+    {"par": "Bruxelles, ville accueillante, cité cosmopolite et carrefour européen (s’il en est) sera la plateforme de la plupart des formations futures de Dorian. Ainsi que son lieu de vie. Ce qui rend la chose très pratique."},
+    {"par": "Cultivant sa curiosité musicale, il participe à de nombreux projets aux styles divers:"},
+    {"par": "Jazz avec « Easy Pieces » un trio à la formation inhabituel avec 2 piano et 1 guitare avec Hendrik Lasure et Ben Sauzereau. Ils prévoient de sortir leur 1er Album en avril 2017."},
+    {"par": "Jazz aussi mais avec une approche plus débridé et pas mal d’improvisation libre sur des concepts de jeu différents et originaux avec « Jens Maurits Orchestra » et ses différents projets: -« Jens Maurits Orchestra : The Dubtapes » avec Jens Bouttery aux compositions et qui a pensé le concept avec Daan Milius qui s’occupe aussi de la vidéo sur le projet."},
+    {"par": "Dorian est également accompagné sur scène de: Niels Van Heertum, Gregor Siedl, Ben Sauzereau et Joris Lindemans. Ensemble, ils réalisent une tournée « JazzLab Series » en 2013. L’album ainsi que le DVD « the Dubtapes » est paru en septembre 2013. Enregistré lors d’un live à De Werf, à Bruges."},
+    {"par": "-« Jens Maurits Orchestra : Triggers & Thresholds » ce projet pose la question « d’où vient la musique? » et de ce qui l’a « déclenché » avec Jens Bouttery à la baguette et aux compositions toujours, accompagné une nouvelle fois de Daan Milius le vidéaste dans une formule élargie avec Rik Sturtewagen, Lennart Heyndels, et Lucas Kramer qui se rajoutent à l’équipe. Ils ont sortis un CD-Book: « They do it for a reason » paru en septembre 2016. Ils se sont produits au « Rataplan » notamment ainsi que dans de nombreux festivals comme « Follow the Sound » ou encore « Balzaal Vooruit »."},
+    {"par": "-« Jens Maurits Orchestra : The Blogpera » qui est une extension du précédent projet mais dans une formule plus compact et ludique. Il forme un trio sur scène avec Jens Bouttery à la batterie et Lucas Kramer qui les accompagnent sur sa machine « la Bestia ». Avec « The Blogpera », Dorian a joué aussi bien en Hollande qu’en Allemagne et ils ont notamment été sélectionnés comme lauréat de la masterclass au festival la Ruhrtriennale."},
+    {"par": "Jazz encore avec « Lift » dont l’album « 1rst Floor » est sortie en janvier 2014 avec Thomas Mayade, Emily Allison, Jérôme Klein, Lennart Heyndels et David Linx et Christophe Panzani. Groupe avec lequel il se produit à « Jazz à Vienne » et aussi où il remporte le concours « Jazz à Ixelles » en 2012 et avec lequel il sera également lauréat du concours à « Crest Jazz Vocal » en 2013."},
+    {"par": "Parmi ses premiers groupes on retrouve également:"},
+    {"par": "« Paradigm Junction » avec Pat Cleaver et Jérôme Klein."},
+    {"par": "Ou « Blindsight » avec Maayan Smith, Lionel Beuvens et Hendrik Vanattenhoven."},
+    {"par": "Ou encore avec « Philémon, le chien qui ne voulait pas grandir » dans un style plus proche de la musique de chambre avec Ben Sauzereau, Mathieu Robert, Benoît Leseure, Nicolle Miller et Annemie Osborne. Le 1er album est parue en avril 2016 sur le label suite."},
+    {"par": "Ainsi qu’avec « Charlotte Haesen Quintet » avec Charlotte Haesen, Fil Caporali, Phillip Breidenbach et Samuel Reisen. Dans une esthétique plus « pop » et « world music ». Ensemble ils prévoient d’enregistrer leur 1er album au printemps 2017."},
+    {"par": "Mais aussi Chanson-Française avec « Brazùk » avec lequel il sera Lauréat de la Biennale de la Chanson Française à Bruxelles en 2008 ainsi que «Coup de Coeur» des Trois Baudets 2009 à Paris. Et dans le même style, Dorian se produit de temps en temps avec l’inimitable « Karim Gharbi ».Et il fais partis du goupe « Effdé » du chanteur Fabrice Ducognon, avec Romain Castéra. Formation avec laquelle Dorian a enregistré un EP « Fendillés » paru en novembre 2016."},
+    {"par": "Également un projet plutôt Progressive Soul/Pop/Rock/Groove (c’est dur de mettre des étiquettes sur la musique qui est faîtes parfois) avec « Blue Monday People » le projet de François Vaiana avec Wendlavim Zabsonre et Ben Sauzereau. Après un EP « Love », ils ont sortis un album « Empire of Matches » en janvier 2016 au CC Jacques Franq."},
+    {"par": "Dorian n’a donc pas peur de l’éclectisme. Bien au contraire. Ni des grands écarts."},
+    {"par": "Il part et repart (tel un mars), vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit (glouton) de découverte jamais rassasié. Et, tout en préparant l’élaboration de son propre projet (à venir...), il se produit à divers moments et en diverses occasions avec ces diverses personnes sus-nommées ou d’autres divers personnages encore, qu’ils soient dix ou moins ou vert ou autre, en hiver ou non, tous très divers en tout cas, envers et contre tout, et d’horizons lointains ou même parfois proche, vers là, on verra dit-il, pour jouer dans divers styles toutes ces musiques très diverses."},
+    {"par": "Allant vers et allant droit."},
+    {"par": "Et le tout en divers endroits."},
+    {"par": "« dit: vert. M’ont-ils dit. » dit-il. Alors il le fit."},
+    {"par": "En vers et sans verre (sans rire)."},
+    {"par": "Et finissons par une citation qui claque, comme dans les plus beaux devoirs de philo ou les films avec Bruce Willis dedans: « Pour moi, l’art, la musique surtout, consiste à nous élever le plus loin possible au-dessus de ce qui est. »"},
+    {"par": "Gabriel Fauré"},
+    {"par": "Toi même tu sais. Plussoie si tu l’oses"}
+  ],
+  "presse_left_fr": "presse",
+  "lire_plus_fr": "lire +",
+  "news": "news",
+  "lire_nouvelles_fr": "lire toutes les dernières nouvelles",
+  "dernier_album_titre_fr": "Le dernier album en date:",
+  "album_groupe": "jens maurits orchestra",
+  "album_titre": "they do it for a reason",
   "tableTitle_Fr": [
     {"date": "date", "place": "lieu", "project":"projet"}
   ],
@@ -23,31 +109,45 @@
     {"date": "02.05.17", "venue": "Sounds - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "Easy Pieces", "artistLink": "http://marillion.com"},
     {"date": "03.05.17", "venue": "Atelier Vert - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "CHARLOTTE HAESEN QUINTET", "artistLink": "http://marillion.com"}
   ],
-  "contactGreeting": "For studio and concert bookings",
-  "contactInfo": [
-    {"how": "email", "what": "laughinchispas@gmail.com"},
-    {"how": "phone", "what": "+32 (0)496 390024"}
+  "discTitle_Fr": "disques",
+  "discAlbum": [
+    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png"},
+    {"title": "Jens Maurits Orchestra - They Do it For a Reason", "image": "../../../assets/doggy.png"},
+    {"title": "Philémon, le chien qui ne voulait pas grandir", "image": "../../../assets/phil.png"},
+    {"title": "Lift - 1st Floor", "image": "../../../assets/lift.png"},
+    {"title": "Blue Monday People - Empire of Matches", "image": "../../../assets/empire.png"},
+    {"title": "Jens Maurits Orchestra -The Dubtapes", "image": "../../../assets/dubtapes.png"}
   ],
-  "photoBoxContent": [
-    {"photo": "../../../assets/les_filles.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/les_filles_tn.jpg"},
-    {"photo": "../../../assets/circle.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/circle_tn.jpg"},
-    {"photo": "../../../assets/fu.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/fu_tn.jpg"},
-    {"photo": "../../../assets/maia_marillion.png", "photoTitle": "Maia Frankowski - Marillion Show Port Zélande", "thumbNail": "../../../assets/maia_marillion_tn.jpg"},
-    {"photo": "../../../assets/robes.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/robes_tn.jpg"},
-    {"photo": "../../../assets/annemie.png", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/annemie_tn.jpg"},
-    {"photo": "../../../assets/forest.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/forest_tn.jpg"},
-    {"photo": "../../../assets/meg.png", "photoTitle": "Margaret Hermant: Credit Hugo Fustier", "thumbNail": "../../../assets/meg_tn.jpg"},
-    {"photo": "../../../assets/4.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/4_tn.jpg"},
-    {"photo": "../../../assets/filles_walk.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/filles_walk_tn.jpg"},
-    {"photo": "../../../assets/circle.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/circle_tn.jpg"},
-    {"photo": "../../../assets/nicole_studio.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/nicole_studio_tn.jpg"},
-    {"photo": "../../../assets/velos.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/velos_tn.jpg"},
-    {"photo": "../../../assets/back.jpg", "photoTitle": "In Praise of Folly: Credit Julie Calbert", "thumbNail": "../../../assets/back_tn.jpg"},
-    {"photo": "../../../assets/4tet.jpg", "photoTitle": "In Praise of Folly: Credit Hugo Fustier", "thumbNail": "../../../assets/4tet_tn.jpg"},
-    {"photo": "../../../assets/marillion_quartet.png", "photoTitle": "Performance with Marillion - Port Zélande, NL", "thumbNail": "../../../assets/marillion_quartet_tn.jpg"},
-    {"photo": "../../../assets/marillion.jpg", "photoTitle": "Marillion in Port Zélande. Photo credit Alison Toon", "thumbNail": "../../../assets/marillion_tn.jpg"},
-    {"photo": "../../../assets/haa.jpg", "photoTitle": "Marillion in Port Zélande", "thumbNail": "../../../assets/haa_tn.jpg"},
-    {"photo": "../../../assets/studio.png", "photoTitle": "Studio Recording: La Savonnerie, Brussels", "thumbNail": "../../../assets/studio_tn.jpg"},
-    {"photo": "../../../assets/end_of_the_world.png", "photoTitle": "Performance with Marillion - Port Zélande, NL", "thumbNail": "../../../assets/end_of_the_world_tn.jpg"}
-  ]
+  "epTitle_Fr": "E.P.(s)",
+  "epAlbum": [
+    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png"},
+    {"title": "Blue Monday People - Love", "image": "../../../assets/love.png"}
+  ],
+  "largeAlbum": [
+    {"image": "../../../assets/phil.png",
+      "label": "suite 2016", "title": "Philemon, le chien qui ne voulait pas grandir", "group": "Philemon, le chien qui ne voulait pas grandir",
+      "musicians": [
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
+        {"name": "Mathieu Robert", "instrument": "saxophone soprano"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benoît Leseure", "instrument": "violin"},
+        {"name": "Nicole Miller", "instrument": "alto"},
+        {"name": "Annemie Osborne", "instrument": "violoncelle"}
+      ]
+    }
+  ],
+  "bonus": "chic",
+  "contact_fr": "Contact Dorian Dumont : dorian.dumont@hotmail.fr",
+  "footer_fr": "=SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.",
+  "presse_fr": [
+    {"presse_poke_fr": "Par contre j’espère que tu es conscient que c’est envoyer l’équivalent d’un « poke » au cyber-espace.",
+    "content_fr": [
+      {"par": "C’est à dire que personne ne te lira."},
+      {"par": "C’est entre toi et ton clavier..."},
+      {"par": "Donc régale toi bien et fais toi plaisir, c’est le moment de se lâcher (en 13 caractères)."}
+      ]
+    }
+  ],
+  "construction_fr": "Cette section est en construction...",
+  "scroll_fr": "Clique ici si t’as la flemme de « scroller » jusqu’en haut pour voir le menu."
 }

@@ -12,13 +12,13 @@ nav {
 
 .fa {
   color: white;
-  font-size: 25px;
-  padding: 7px;
+  font-size: 18px;
+  padding: 15px;
 }
 
 .nav-icons {
   display: flex;
-  padding: 0 0 0 30px;
+
  }
 
 .newsletter-signup {
@@ -27,5 +27,14 @@ nav {
 
 .fa:hover {
   color: #ffe700;
+}
+
+button {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  height: 20px;
+  margin: 0 0 0 10px;
+
 }
 

@@ -11,13 +11,9 @@
 
 
 <div class="bottom-home-main-container">
-  <div class="bottom-home-title">nouvelles fraîches</div>
-  <div class="nouvelle-fraiche">  <div>28 avril 2017, 09h13,</div><div>En plein mixage pour l’album d’EASY PIECES</div></div>
-  <div class="nouvelle-fraiche">  <div>25 avril 2017, 11h23,</div> <div>Résidence avec le groupe EFFDÉ</div></div>
-  <div class="nouvelle-fraiche">  <div> 20 avril 2017, 16h46,</div> <div>fin des 3 jours de studio avec EASY PIECES</div>
-    <div class="image-home-bottom-nouvelles"></div>
+  <div class="bottom-home-title">{{content.new_fresh_fr}}</div>
+  <div class="nouvelle-fraiche" *ngFor="let paragraph of content.new_fresh_content_fr">
+    <div  *ngFor="let content of paragraph.new_content">{{content.par}}</div>
+    <img class="image-home-bottom-nouvelles" src="{{paragraph.image}}">
   </div>
-  <div class="nouvelle-fraiche">  <div>19 avril 2017, 22h09,</div> <div>Le site est tout frais tout chaud et vient de s’ouvrir!</div>
-    <div>Joie.</div> <div>Je suis tout excité.</div><div></div>
-    <div>Un grand merci à Nicole Miller pour son travail.</div>Une femme d’exception (n’ayons pas peur des mots)</div>
 </div>

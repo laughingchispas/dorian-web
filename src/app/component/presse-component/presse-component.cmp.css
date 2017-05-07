@@ -2,7 +2,9 @@
 
 
 .presse-image {
-  background-image: url(../../../assets/unicorn.jpg);
+  background-image: url(../../../assets/presse_color.jpg);
+  height: 220px;
+  margin: 40px auto;
 }
 
 
