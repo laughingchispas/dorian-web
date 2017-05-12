@@ -1,19 +1,10 @@
-* {
-}
-
 .musique-image {
-  background-image: url(../../../assets/clown.jpg);
 }
 
 
 .musique-image-title {
-  position: absolute;
-  bottom: 0;
+  bottom: 200px;
   left: 90px;
-  background-color: transparent;
-  text-transform: uppercase;
-  color: #ffe700;
-  font-size: 30px;
 }
 
 .musique-sound-cloud-container, .musique-youtube-container {
@@ -36,7 +27,6 @@
 
 .youtube-links, .sound-cloud-links {
   width: 100%;
-  text-align: center;
   padding: 2px 0;
   text-align: left;
 }

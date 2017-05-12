@@ -1,47 +1,58 @@
-* {
-}
-
-
-.projets-image {
-  background-image: url(../../../assets/projets.jpg);
-}
 
 
 .projets-image-title {
-  position: absolute;
   bottom: 50px;
   left: 90px;
-  background-color: transparent;
-  text-transform: uppercase;
-  color: #ffe700;
-  font-size: 30px;
 }
 
 
 .projets-supra-container {
   width: 100%;
+  padding: 20px 0 0 0;
 }
 
 
-.projects-container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
+.projets-container {
   text-transform: uppercase;
+  width: 100%;
+}
+
+.projets-image {
+  width: 100%;
 }
 
 .projet {
-  width: 200px;
-  height: 150px;
-  margin: 15px;
+  width: 100%;
+  margin: 1px 0;
   font-size: 15px;
 }
 
 .projet-image {
   width: 90%;
-  margin: 7px 0 0 0;
+  height: 100px;
   border-style: solid;
-  border-width: 8px;
-  border-color: white;
+  border-width: 6px;
+  color: #ffe700;
 }
+
+.title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.project-content {
+  display: flex;
+  height: 200px;
+}
+
+.project-image {
+  padding: 0 15px 0 0;
+}
+
+.membre {
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+}
+

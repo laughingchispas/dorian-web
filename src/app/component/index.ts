@@ -11,7 +11,6 @@ export * from './left-panel/left-panel.cmp';
 export * from './musique-component/musique-component.cmp';
 export * from './name-title-component/name-title.cmp'
 export * from './navigation-component/navigation-component.cmp';
-export * from './news-component/news-component.cmp';
 export * from './presse-component/presse-component.cmp';
 export * from './projets-component/projets-component.cmp';
 export * from './right-panel/right-panel.cmp';

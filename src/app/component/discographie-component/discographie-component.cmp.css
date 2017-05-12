@@ -1,10 +1,10 @@
-.contact-image {
-  background-image: url(../../../assets/unicorn.jpg);
+.projets-image {
+  width: 100%;
 }
 
-.contact-title {
-  background-color: transparent;
-  position: absolute;
+.albums-image-title {
+  bottom: 50px;
+  left: 90px;
 }
 
 .large-album-format {
@@ -12,11 +12,7 @@
 }
 
 .small-album-format {
-  padding: 0 150px 0 100px;
-}
 
-.small-album-format {
-  margin: 20px auto 0 auto;
 }
 
 .small-album-container-title {
@@ -26,15 +22,15 @@
 .small-albums-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px 0 0 0;
+  margin: 5px 0 0 0;
 }
 
 .small-album-image-container {
   width: 150px;
   height: 180px;
-  margin: 0 20px 20px 0;
-  background-color: white;
-  border-radius: 5px;
+  margin: 0 3px 3px 0;
+  background-color: darkslategrey;
+
 }
 
 .small-album-image {
@@ -59,6 +55,8 @@
   border-style: solid;
   border-color: white;
   border-width: 1px 0 1px 0;
+  width: 100%;
+  margin: 0 70px 0 0;
 }
 
 .large-image-container {
@@ -76,4 +74,7 @@
 .label {
   font-size: 12px;
 }
+
+
+
 

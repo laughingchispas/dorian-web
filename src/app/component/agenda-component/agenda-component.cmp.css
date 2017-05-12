@@ -1,18 +1,13 @@
-* {
-
-}
-
-
-.contact-image {
-  background-image: url(../../../assets/agenda.jpg);
-
-}
-
 .contact-title {
   background-color: transparent;
   position: absolute;
 }
 
+
+.agenda-image-title {
+  top: 50px;
+  right: 30px;
+}
 
 .concert-container {
   width: 60%;

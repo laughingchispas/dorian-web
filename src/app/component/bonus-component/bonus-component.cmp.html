@@ -1,12 +1,14 @@
 
-<!--<a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-  <i class="fa fa-times"></i>
-</a>-->
 
-<div class="bonus-image-container">
-  <div class="bonus-image contact-image">
-    <div class="bonus-image-title">bonus?!</div>
+<div class="side-container">
+  <div class="left-side">
+    <div class="bonus-image-container">
+      <div class="contact-image bonus-image"><img class="musique-image-image" src="../../../assets/bonus.jpg">
+        <div class="bonus-image-title image-title">bonus?!</div>
+      </div>
+    </div>
   </div>
+  <div class="right-side"></div>
 </div>
 
 <div class="bonus-content">
@@ -17,28 +19,32 @@
       <i class="fa fa-plug"></i>
     </a>
       <div class="title">gallerie</div>
+      <div (click)="toggleHighlight(1)"><i id="gallerie" class="fa fa-plus"></i></div>
     </div>
-    <div class="content"></div>
+    <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 1 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+    </div>
   </div>
 
-<div class="">
-  <div class="{{content.bonus}}-title">
+<div class="chic">
+  <div class="chic-title">
     <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
       <i class="fa fa-space-shuttle"></i>
     </a>
     <div class="title"> LE CHIC CLIC DU MOIS SELON MOI</div>
+    <div (click)="toggleHighlight(2)"><i id="chic" class="fa fa-plus"></i></div>
   </div>
-  <div class="content"></div>
+  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 2 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+  </div>
 </div>
 
 <div class="jouez-moi">
   <div class="jouez-moi-title">
-    <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-      <i class="fa fa-bullhorn"></i>
-    </a>
+    <a><i class="fa fa-bullhorn"></i></a>
     <div class="title">jouez-moi</div>
+    <div (click)="toggleHighlight(3)"><i id="moi" class="fa fa-plus"></i></div>
   </div>
-  <div class="content"></div>
+  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 3 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+  </div>
 </div>
 
 <div class="jouez-lez">
@@ -47,8 +53,10 @@
       <i class="fa fa-diamond"></i>
     </a>
     <div class="title">jouez-les</div>
+    <div (click)="toggleHighlight(4)"><i id="les" class="fa fa-plus"></i></div>
   </div>
-<div class="content"></div>
+<div class="content invisible" [ngClass]="{'appear': highlightedDiv === 4 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+</div>
 </div>
 
 <div class="thanks">
@@ -57,8 +65,14 @@
     <i class="fa fa-dashboard"></i>
   </a>
     <div class="title">remerciements</div>
+    <div (click)="toggleHighlight(5)"><i id="thanks" class="fa fa-plus"></i></div>
   </div>
-  <div class="content"></div>
+  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 5 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+  </div>
+</div>
 </div>
 
-</div>
+
+
+
+

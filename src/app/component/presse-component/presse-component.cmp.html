@@ -1,12 +1,17 @@
-<div class="presse-image-container">
-  <div class="presse-image contact-image">
-    <div class="presse-image-title">presse</div>
+<div class="side-container">
+  <div class="left-side">
+    <div class="presse-image-container">
+      <div class="contact-image"><img class="presse-image" src="../../../assets/presse_color.jpg">
+        <div class="presse-image-title image-title">presse</div>
+      </div>
+    </div>
   </div>
+  <div class="right-side"></div>
 </div>
 
 <div class="presse-content">
   <div>{{content.construction_fr}}</div><br>
-  <div>Si t’es pas content voici un espace pour t’exprimer : ________________SUBMIT (en 13 caractères maximum)</div><br><br><br>
+  <div>{{content.presse_joke_fr}} <input placeholder="{{content.chars_fr}}"> <button>SUBMIT</button></div><br><br><br>
   <div *ngFor="let presse of content.presse_fr">
     <div>{{presse.presse_poke_fr}}</div><br><br>
     <div *ngFor="let presse_content of presse.content_fr">

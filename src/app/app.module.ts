@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }   from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import {ContentService} from './service';
@@ -18,7 +19,6 @@ import {
   LeftPanelComponent,
   MusiqueComponent,
   NameComponent,
-  NewsComponent,
   NavigationComponent,
   PresseComponent,
   ProjetsComponent,
@@ -35,7 +35,6 @@ const appRoutes: Routes = [
   { path: 'discographie', component: DiscographieComponent },
   { path: 'dorian', component: DorianComponent },
   { path: 'musique', component: MusiqueComponent },
-  { path: 'news', component: NewsComponent},
   { path: 'presse', component: PresseComponent},
   { path: 'projets', component: ProjetsComponent},
 ];
@@ -57,7 +56,6 @@ const appRoutes: Routes = [
     MusiqueComponent,
     NameComponent,
     NavigationComponent,
-    NewsComponent,
     ProjetsComponent,
     RightPanelComponent,
     ScrollComponent,
@@ -66,6 +64,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [

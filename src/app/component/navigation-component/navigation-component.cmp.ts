@@ -30,7 +30,7 @@ export class NavigationComponent implements OnDestroy {
   private contentSvcSub: Subscription;
 
   constructor(contentService: ContentService) {
-    contentService.dataSubject.subscribe(this.handleData.bind(this));
+    this.contentSvcSub = contentService.dataSubject.subscribe(this.handleData.bind(this));
   }
 
   private handleData(data: any) {

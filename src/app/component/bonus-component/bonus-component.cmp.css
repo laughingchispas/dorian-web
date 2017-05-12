@@ -1,11 +1,34 @@
 * {
   color: black;
   background-color: white;
-
 }
 
 body {
-  padding: 20px 0 0 0;
+  padding: 20px 0 10px 0;
+}
+
+.bonus-image-title {
+  bottom: 0;
+  left: 90px;
+}
+
+.invisible {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  padding: 0 0 0 20px;
+}
+
+.appear {
+  height: 100px;
+  width: 90%;
+  padding: 0 0 0 20px;
+  transition-property: height;
+  transition-duration: .5s;
+  -webkit-transition: width 0.1s, height, .5s; /* Safari */
+  transition: width 0.1s, height, .5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 
 
@@ -14,24 +37,16 @@ body {
   font-size: 40px;
 }
 
+#chic, #gallerie, #moi, #les, #thanks {
+  width: 20px;
+  height: 20px;
+  color: black;
+  font-size: 20px;
+
+}
+
 i:hover {
   color: #ffe700;
-}
-
-
-.bonus-image {
-  background-image: url(../../../assets/bonus.jpg);
-}
-
-
-.bonus-image-title {
-  position: absolute;
-  bottom: 0;
-  left: 90px;
-  background-color: transparent;
-  text-transform: uppercase;
-  color: #ffe700;
-  font-size: 30px;
 }
 
 .bonus-content {
@@ -44,6 +59,7 @@ i:hover {
   text-transform: uppercase;
   align-items: center;
   margin: 10px 0;
+  cursor:pointer;
 }
 
 .title {
@@ -54,13 +70,11 @@ i:hover {
 .chic-title {
   justify-content: flex-end;
   width: 99%;
-
 }
 
 .gallerie-title {
   justify-content: center;
   width: 90%;
-
 }
 
 .jouez-moi-title {
@@ -78,23 +92,12 @@ i:hover {
   width: 95%;
 }
 
-.gallerie {
-  padding: 30px 0;
+.gallerie, .chic, .jouez-moi, .jouez-lez, .thanks {
+  padding: 10px 0 5px 0;
 }
 
-.chic {
-  padding: 15px 0;
-}
-
-.jouez-moi {
-  padding: 15px 0;
-}
-
-.jouez-lez {
-  padding: 15px 0;
-}
-
-.thanks {
-  padding: 15px 0;
+.bonus-image-title {
+  background-color: transparent;
+  color: #ffe700;
 }
 

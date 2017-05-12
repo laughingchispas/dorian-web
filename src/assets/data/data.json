@@ -1,4 +1,16 @@
 {
+  "hero": [
+    { "id": 11, "name": "Mr. Nice"},
+    { "id": 12, "name": "Narco" },
+    { "id": 13, "name": "Bombasto"},
+    { "id": 14, "name": "Celeritas" },
+    { "id": 15, "name": "Magneta" },
+    { "id": 16, "name": "RubberMan"},
+    { "id": 17, "name": "Dynamn"},
+    { "id": 18, "name": "Dr IQ"},
+    { "id": 19, "name": "Magma" },
+    { "id": 20, "name": "Tornado"}
+  ],
   "navigation": [
     {"title_fr": "home", "router": ""},
     {"title_fr": "bio", "router": "/dorian"},
@@ -11,7 +23,7 @@
   ],
   "new_fresh_fr": "nouvelles fraîches",
   "new_fresh_content_fr": [
-    {"image": "",
+    {"image": "../../../assets/dubtapes.png",
       "new_content": [
         {"par": "28 avril 2017, 09h13,"},
         {"par": "En plein mixage pour l’album d’EASY PIECES"}
@@ -41,7 +53,7 @@
     }
   ],
   "voir_fr": "voir liste complète",
-  "a_propos_fr": "a propos",
+  "a_propos_fr": "à propos",
   "a_propos_content_fr": [
     {"par": "Dorian est un pianiste français basé à Bruxelles."},
     {"par": "Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers."},
@@ -51,9 +63,8 @@
   "left_comment_fr": "Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?",
   "audio_moment_fr": "L'audio du moment",
   "video_moment_fr": "La Vidéo du moment",
-  "bio_plus_fr": "SI VOUS VOULEZ EN SAVOIR +",
+  "bio_plus_fr": "SI VOUS VOULEZ EN SAVOIR",
   "bio_fr": [
-    {"par": "Sachez qu’après avoir lu tout ça vous ne saurez malheureusement pas tout sur Dorian Dumont (qui est un être complexe) mais vous en saurez tout de même plus que la plupart des gens. Ce qui est quand même pas mal, vous en conviendrez."},
     {"par": "Né le 08 juin 1988 à Montpellier, Dorian Dumont se passionne très tôt pour la musique, cet art de combiner les sons, en suivant certaines règles. Ou non..."},
     {"par":"Comme il faut quand même bien les apprendre quelque part ces règles, Dorian commence le piano classique à 7 ans au Conservatoire National de Région de Montpellier (France). Avec une sacré pédagogue : Mireille Michaud, une personne qui aime la musique et qui a compris qu’on obtient rien sans rien et surtout qui sait le faire comprendre aux autres. Pour suivre avec Susan Campbell qui se chargera de peaufiner finement tout ça. Ainsi que son prix de Solfège décrochant ainsi son Diplôme d’Études Musicales: D.E.M."},
     {"par": "À Montpellier, il y obtient en 2005 la Médaille d’Or en Piano: Mention très bien à l’unanimité avec les félicitations du jury et aussi en Musique de Chambre avec la même mention.Dorian sera même le soliste interprète du Concerto pour Piano en Ré Majeur de Haydn avec l’Orchestre Symphonique de la Faculté de Montpellier en 2005."},
@@ -109,19 +120,21 @@
     {"date": "02.05.17", "venue": "Sounds - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "Easy Pieces", "artistLink": "http://marillion.com"},
     {"date": "03.05.17", "venue": "Atelier Vert - Bruxelles","venueLink": "http://www.marillionweekend.com/MW2017UK/home.html", "artist": "CHARLOTTE HAESEN QUINTET", "artistLink": "http://marillion.com"}
   ],
+  "albums_plus_fr": "Clique, donc, sur une pochette si tu veux en savoir +",
   "discTitle_Fr": "disques",
-  "discAlbum": [
-    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png"},
-    {"title": "Jens Maurits Orchestra - They Do it For a Reason", "image": "../../../assets/doggy.png"},
-    {"title": "Philémon, le chien qui ne voulait pas grandir", "image": "../../../assets/phil.png"},
-    {"title": "Lift - 1st Floor", "image": "../../../assets/lift.png"},
-    {"title": "Blue Monday People - Empire of Matches", "image": "../../../assets/empire.png"},
-    {"title": "Jens Maurits Orchestra -The Dubtapes", "image": "../../../assets/dubtapes.png"}
+  "album": [
+    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandirsdfghj"},
+    {"title": "Jens Maurits Orchestra - They Do it For a Reason", "image": "../../../assets/doggy.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
+    {"title": "Philémon, le chien qui ne voulait pas grandir", "image": "../../../assets/phil.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"
+    },
+    {"title": "Lift - 1st Floor", "image": "../../../assets/lift.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandirsdfghjk"},
+    {"title": "Blue Monday People - Empire of Matches", "image": "../../../assets/empire.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
+    {"title": "Jens Maurits Orchestra -The Dubtapes", "image": "../../../assets/dubtapes.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"}
   ],
   "epTitle_Fr": "E.P.(s)",
-  "epAlbum": [
-    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png"},
-    {"title": "Blue Monday People - Love", "image": "../../../assets/love.png"}
+  "ep": [
+    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
+    {"title": "Blue Monday People - Love", "image": "../../../assets/love.png", "label": "suite 2016", "group": "dfghjk"}
   ],
   "largeAlbum": [
     {"image": "../../../assets/phil.png",
@@ -136,7 +149,87 @@
       ]
     }
   ],
-  "bonus": "chic",
+  "projects_plus_fr": "Clique, donc, sur une image si tu veux en savoir +",
+  "projets": [
+    {"title": "easy pieces", "image": "../../../assets/easy-pieces.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
+        {"name": "Hendrik Lasure", "instrument": "keyboards"},
+        {"name": "Dorian Dumont", "instrument": "piano"}
+      ]},
+    {"title": "echt", "image": "../../../assets/echt.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Florent Jeunieaux", "instrument": "guitare"},
+        {"name": "Martin Méreau", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Federico Pecoraro", "instrument": "basse"}
+      ]},
+    {"title": "JENS MAURITS ORCHESTRA", "image": "../../../assets/blog.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Jens Bouttery", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Lucas Kramer", "instrument": "'la bestia'"},
+        {"name": "Daan Milius", "instrument": "dramaturge"}
+      ]},
+    {"title": "philemon le chien qui ne voulait pas grandir", "image": "../../../assets/phil-group.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
+        {"name": "Mathieu Robert", "instrument": "sax soprano"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benoît Leseure", "instrument": "violin"},
+        {"name": "Nicole Miller", "instrument": "alto"},
+        {"name": "Annemie Osborne", "instrument": "violoncelle"}
+      ]},
+    {"title": "blue monday people", "image": "../../../assets/blue.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "François Vaiana", "instrument": "chant"},
+        {"name": "Wendlavim Zabsonre", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"}
+      ]},
+    {"title": "effdé", "image": "../../../assets/effde.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Fabrice Ducognon", "instrument": "chant"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Romain Castéra", "instrument": "batterie"}
+      ]},
+    {"title": "CHARLOTTE HAESEN 5TET", "image": "../../../assets/charlotte.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Charlotte Haesen", "instrument": "chant"},
+        {"name": "Philip Breidenbach ", "instrument": "guitare"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Fil Caporali", "instrument": "contrebasse"},
+        {"name": "Samuel Reisen", "instrument": "batterie"}
+      ]},
+    {"title": "KARIM GHARBI", "image": "../../../assets/karim.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Karim Gharbi", "instrument": "chant"},
+        {"name": "changement incessant", "instrument": "?"}
+      ]},
+    {"title": "9 +1", "image": "../../../assets/9.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Tom Bourgeois", "instrument": "saxophones"},
+        {"name": "Florent Jeunieaux", "instrument": "guitare"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Thomas Mayade", "instrument": "trompette"},
+        {"name": "Julien Delbrouck", "instrument": "sax baryton/clarinette basse"},
+        {"name": "Quinten de Craecker", "instrument": "trombone"},
+        {"name": "Thibault Dille", "instrument": "accordéon"},
+        {"name": "Esinam Dogbaste", "instrument": "flûte/cajón"},
+        {"name": "Victor Foulon", "instrument": "contrebasse"},
+        {"name": "Jelle van Giel", "instrument": "batterie"}
+      ]}
+  ],
+  "bonus": [
+    { "content": "Mr. Nice"},
+    { "content": "Narco" },
+    { "content": "Bombasto"},
+    { "content": "Celeritas" },
+    { "content": "Magneta" },
+    { "content": "RubberMan"},
+    { "content": "Dynamn"},
+    { "content": "Dr IQ"}
+  ],
   "contact_fr": "Contact Dorian Dumont : dorian.dumont@hotmail.fr",
   "footer_fr": "=SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.",
   "presse_fr": [
@@ -148,6 +241,8 @@
       ]
     }
   ],
+  "presse_joke_fr": "Si t’es pas content voici un espace pour t’exprimer :",
+  "chars_fr": "en 13 caractères maximum",
   "construction_fr": "Cette section est en construction...",
   "scroll_fr": "Clique ici si t’as la flemme de « scroller » jusqu’en haut pour voir le menu."
 }

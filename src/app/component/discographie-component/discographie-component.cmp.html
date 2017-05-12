@@ -1,17 +1,81 @@
-<div class="contact-image">
-  <div class="image-title-agenda contact-title">Albums</div>
-</div>
-
-<div class="small-album-format">
-  <div class="small-album-container-title">{{content.discTitle_Fr}}</div>
-  <div class="small-albums-container">
-    <div class="small-album-image-container" *ngFor="let album of content.discAlbum">
-      <img src="{{album.image}}" class="small-album-image">
-      <div class="small-album-title">{{album.title}}</div>
+<div class="side-container">
+  <div class="left-side">
+      <div class="contact-image"><img class="projets-image" src="../../../assets/projets.jpg">
+        <div class="albums-image-title image-title">Albums</div>
+      </div>
+    <div *ngIf="selectedAlbum" class="large-album-format">
+      <div class="large-image-container">
+        <img class="label" src="{{selectedAlbum.image}}">
+        <div class="label">{{selectedAlbum.label}}</div>
+      </div>
+      <div class="large-album-content">
+        <div class="title">{{selectedAlbum.title}}</div>
+        <div class="group">{{selectedAlbum.group}}</div>
+      </div>
+    </div>
+    <div *ngIf="selectedEepee" class="large-album-format">
+      <div class="large-image-container">
+        <img class="label" src="{{selectedEepee.image}}">
+        <div class="label">{{selectedEepee.label}}</div>
+      </div>
+      <div class="large-album-content">
+        <div class="title">{{selectedEepee.title}}</div>
+        <div class="group">{{selectedEepee.group}}</div>
+      </div>
     </div>
   </div>
+  <div class="right-side">
+    <div class="projets-info">{{content.albums_plus_fr}}</div>
+    <div class="small-album-format">
+      <div class="small-albums-container">
+        <div class="small-album-image-container">
+          <div class="small-album-container-title">{{content.discTitle_Fr}}</div>
+        </div>
+      </div>
+      <div class="small-albums-container">
+        <div class="small-album-image-container" *ngFor="let album of content.album" (click)="onSelected(album)">
+          <img src="{{album.image}}" class="small-album-image">
+          <div class="small-album-title">{{album.title}}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-album-format">
+      <div class="small-albums-container">
+        <div class="small-album-image-container">
+          <div class="small-album-container-title">{{content.epTitle_Fr}}</div>
+        </div>
+      </div>
+      <div class="small-albums-container">
+        <div class="small-album-image-container" *ngFor="let album of content.ep" (click)="onSelected(album)">
+          <img src="{{album.image}}" class="small-album-image">
+          <div class="small-album-title">{{album.title}}</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
 </div>
 
+
+
+
+<!--<ul class="heroes">
+  <li *ngFor="let hero of content.hero" (click)="onSelect(hero)">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedHero">
+  <h2>{{selectedHero.name}} details!</h2>
+  <div><label>id: </label>{{selectedHero.id}}</div>
+</div>-->
+
+
+<!--
 <div class="large-album-format" *ngFor="let album of content.largeAlbum">
   <div class="large-image-container">
     <img class="image" src="{{album.image}}">
@@ -22,16 +86,6 @@
     <div class="group">{{album.group}}</div>
     <div class="musicians" *ngFor="let musician of album.musicians">{{musician.name}}: {{musician.instrument}}</div>
   </div>
-</div>
-
-<div class="small-album-format">
-  <div class="small-album-container-title">{{content.epTitle_Fr}}</div>
-  <div class="small-albums-container">
-    <div class="small-album-image-container" *ngFor="let album of content.epAlbum">
-      <img src="{{album.image}}" class="small-album-image">
-      <div class="small-album-title">{{album.title}}</div>
-    </div>
-  </div>
-</div>
+</div>-->
 
 

@@ -1,13 +1,41 @@
-* {
-
+a:hover {
+  color: #ffe700;
+  cursor:pointer;
 }
-.contact-image {
-  background-image: url(../../../assets/dorian_dorian.jpg);
 
+.dorian-title {
+  bottom: 0;
+  right: 0;
 }
 
 
 .container-bio {
-    width: 70%;
+  width: 70%;
   margin: 0 auto;
 }
+
+.title {
+  padding: 10px 0 20px 0;
+}
+
+#plus {
+  padding: 0 3px 15px 5px;
+}
+.invisible {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.appear {
+  height: 100%;
+  width: 100%;
+  transition-property: height;
+  transition-duration: .5s;
+  -webkit-transition: width 0.1s, height, .5s; /* Safari */
+  transition: width 0.1s, height, .5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+
