@@ -1,26 +1,18 @@
 <div class="side-container">
   <div class="left-side">
-      <div class="contact-image"><img class="projets-image" src="../../../assets/projets.jpg">
+      <div class="contact-image"><img class="projets-image" src="../../../assets/albums.jpg">
         <div class="albums-image-title image-title">Albums</div>
       </div>
     <div *ngIf="selectedAlbum" class="large-album-format">
       <div class="large-image-container">
-        <img class="label" src="{{selectedAlbum.image}}">
+        <img class="large-image" src="{{selectedAlbum.image}}">
         <div class="label">{{selectedAlbum.label}}</div>
       </div>
       <div class="large-album-content">
         <div class="title">{{selectedAlbum.title}}</div>
         <div class="group">{{selectedAlbum.group}}</div>
-      </div>
-    </div>
-    <div *ngIf="selectedEepee" class="large-album-format">
-      <div class="large-image-container">
-        <img class="label" src="{{selectedEepee.image}}">
-        <div class="label">{{selectedEepee.label}}</div>
-      </div>
-      <div class="large-album-content">
-        <div class="title">{{selectedEepee.title}}</div>
-        <div class="group">{{selectedEepee.group}}</div>
+        <div class="membre">membres</div>
+        <div *ngFor="let musician of selectedAlbum.musicians"><b>{{musician.name}}</b>: <i>{{musician.instrument}}</i></div>
       </div>
     </div>
   </div>
@@ -28,38 +20,29 @@
     <div class="projets-info">{{content.albums_plus_fr}}</div>
     <div class="small-album-format">
       <div class="small-albums-container">
-        <div class="small-album-image-container">
-          <div class="small-album-container-title">{{content.discTitle_Fr}}</div>
-        </div>
+        <div class="small-album-container-title"><div>{{content.discTitle_Fr}}</div><div><i id="gallerie" class="fa fa-chevron-down"></i></div></div>
       </div>
       <div class="small-albums-container">
         <div class="small-album-image-container" *ngFor="let album of content.album" (click)="onSelected(album)">
           <img src="{{album.image}}" class="small-album-image">
-          <div class="small-album-title">{{album.title}}</div>
         </div>
       </div>
     </div>
 
     <div class="small-album-format">
       <div class="small-albums-container">
-        <div class="small-album-image-container">
-          <div class="small-album-container-title">{{content.epTitle_Fr}}</div>
-        </div>
+        <div class="small-album-container-title"><div>{{content.epTitle_Fr}}</div><div><i class="fa fa-chevron-down"></i></div></div>
       </div>
       <div class="small-albums-container">
         <div class="small-album-image-container" *ngFor="let album of content.ep" (click)="onSelected(album)">
           <img src="{{album.image}}" class="small-album-image">
-          <div class="small-album-title">{{album.title}}</div>
         </div>
       </div>
     </div>
 
   </div>
 
-
-
 </div>
-
 
 
 

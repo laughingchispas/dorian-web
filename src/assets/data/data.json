@@ -1,16 +1,4 @@
 {
-  "hero": [
-    { "id": 11, "name": "Mr. Nice"},
-    { "id": 12, "name": "Narco" },
-    { "id": 13, "name": "Bombasto"},
-    { "id": 14, "name": "Celeritas" },
-    { "id": 15, "name": "Magneta" },
-    { "id": 16, "name": "RubberMan"},
-    { "id": 17, "name": "Dynamn"},
-    { "id": 18, "name": "Dr IQ"},
-    { "id": 19, "name": "Magma" },
-    { "id": 20, "name": "Tornado"}
-  ],
   "navigation": [
     {"title_fr": "home", "router": ""},
     {"title_fr": "bio", "router": "/dorian"},
@@ -123,55 +111,21 @@
   "albums_plus_fr": "Clique, donc, sur une pochette si tu veux en savoir +",
   "discTitle_Fr": "disques",
   "album": [
-    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandirsdfghj"},
-    {"title": "Jens Maurits Orchestra - They Do it For a Reason", "image": "../../../assets/doggy.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
-    {"title": "Philémon, le chien qui ne voulait pas grandir", "image": "../../../assets/phil.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"
-    },
-    {"title": "Lift - 1st Floor", "image": "../../../assets/lift.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandirsdfghjk"},
-    {"title": "Blue Monday People - Empire of Matches", "image": "../../../assets/empire.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
-    {"title": "Jens Maurits Orchestra -The Dubtapes", "image": "../../../assets/dubtapes.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"}
-  ],
-  "epTitle_Fr": "E.P.(s)",
-  "ep": [
-    {"title": "Easy Pieces - Plays 13", "image": "../../../assets/ambum.png", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir"},
-    {"title": "Blue Monday People - Love", "image": "../../../assets/love.png", "label": "suite 2016", "group": "dfghjk"}
-  ],
-  "largeAlbum": [
-    {"image": "../../../assets/phil.png",
-      "label": "suite 2016", "title": "Philemon, le chien qui ne voulait pas grandir", "group": "Philemon, le chien qui ne voulait pas grandir",
+    {"title": "They Do it For a Reason", "image": "../../../assets/Album/reason.jpg", "label": "suite 2016", "group": "Jens Maurits Orchestra",
       "musicians": [
-        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
-        {"name": "Mathieu Robert", "instrument": "saxophone soprano"},
+        {"name": "Jens Bouttery", "instrument": "batterie, compo"},
+        {"name": "Daan Milius", "instrument": "texte"},
+        {"name": "Lisa Gambey", "instrument": "livre"},
         {"name": "Dorian Dumont", "instrument": "piano"},
-        {"name": "Benoît Leseure", "instrument": "violin"},
-        {"name": "Nicole Miller", "instrument": "alto"},
-        {"name": "Annemie Osborne", "instrument": "violoncelle"}
+        {"name": "Benjamin Sauzereau", "instrument": "guitarre"},
+        {"name": "Niels Van Heertum", "instrument": "euphonium"},
+        {"name": "Rik Sturtewagen", "instrument": "violon"},
+        {"name": "Lennart Heyndels", "instrument": "violoncelle, contrebasse"},
+        {"name": "Joris Lindemans", "instrument": "violoncelle"},
+        {"name": "Lucas Kramer", "instrument": "'la bestia'"}
       ]
-    }
-  ],
-  "projects_plus_fr": "Clique, donc, sur une image si tu veux en savoir +",
-  "projets": [
-    {"title": "easy pieces", "image": "../../../assets/easy-pieces.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
-      "musicians": [
-        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
-        {"name": "Hendrik Lasure", "instrument": "keyboards"},
-        {"name": "Dorian Dumont", "instrument": "piano"}
-      ]},
-    {"title": "echt", "image": "../../../assets/echt.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
-      "musicians": [
-        {"name": "Florent Jeunieaux", "instrument": "guitare"},
-        {"name": "Martin Méreau", "instrument": "batterie"},
-        {"name": "Dorian Dumont", "instrument": "piano"},
-        {"name": "Federico Pecoraro", "instrument": "basse"}
-      ]},
-    {"title": "JENS MAURITS ORCHESTRA", "image": "../../../assets/blog.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
-      "musicians": [
-        {"name": "Jens Bouttery", "instrument": "batterie"},
-        {"name": "Dorian Dumont", "instrument": "piano"},
-        {"name": "Lucas Kramer", "instrument": "'la bestia'"},
-        {"name": "Daan Milius", "instrument": "dramaturge"}
-      ]},
-    {"title": "philemon le chien qui ne voulait pas grandir", "image": "../../../assets/phil-group.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+    },
+    {"title": "Philémon, le chien qui ne voulait pas grandir", "image": "../../../assets/Album/phil.jpg", "label": "suite 2016", "group": "Philemon, le chien qui ne voulait pas grandir",
       "musicians": [
         {"name": "Benjamin Sauzereau", "instrument": "guitare"},
         {"name": "Mathieu Robert", "instrument": "sax soprano"},
@@ -179,34 +133,172 @@
         {"name": "Benoît Leseure", "instrument": "violin"},
         {"name": "Nicole Miller", "instrument": "alto"},
         {"name": "Annemie Osborne", "instrument": "violoncelle"}
-      ]},
-    {"title": "blue monday people", "image": "../../../assets/blue.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      ]
+    },
+    {"title": "Empire of Matches", "image": "../../../assets/Album/Empire.jpg", "label": "suite 2016", "group": "Blue Monday people",
       "musicians": [
         {"name": "François Vaiana", "instrument": "chant"},
-        {"name": "Wendlavim Zabsonre", "instrument": "batterie"},
+        {"name": "Jens Bouttery", "instrument": "batterie"},
         {"name": "Dorian Dumont", "instrument": "piano"},
         {"name": "Benjamin Sauzereau", "instrument": "guitare"}
-      ]},
-    {"title": "effdé", "image": "../../../assets/effde.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      ]
+    },
+    {"title": "1st Floor", "image": "../../../assets/Album/lift.jpg", "label": "suite 2016", "group": "Lift",
       "musicians": [
-        {"name": "Fabrice Ducognon", "instrument": "chant"},
+        {"name": "Emily Allison", "instrument": "voix"},
+        {"name": "Thomas Mayade", "instrument": "fuglehorn"},
+        {"name": "Jérôme Klein", "instrument": "batterie"},
         {"name": "Dorian Dumont", "instrument": "piano"},
-        {"name": "Romain Castéra", "instrument": "batterie"}
+        {"name": "Lennart Heyndels", "instrument": "contrebasse"}
       ]},
-    {"title": "CHARLOTTE HAESEN 5TET", "image": "../../../assets/charlotte.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+    {"title": "The Dubtapes", "image": "../../../assets/Album/dub.jpg", "label": "suite 2016", "group": "Jens Maurits Orchestra",
+      "musicians": [
+        {"name": "Jens Bouttery", "instrument": "batterie, compo"},
+        {"name": "Daan Milius", "instrument": "vidéo, sampler"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benjamin Sauzereau", "instrument": "guitarre"},
+        {"name": "Niels Van Heertum", "instrument": "euphonium"},
+        {"name": "Joris Lindemans", "instrument": "violoncelle"},
+        {"name": "Gregor Siedl", "instrument": "clarinette, sax"}
+      ]}
+  ],
+  "epTitle_Fr": "E.P.(s)",
+  "ep": [
+    {"title": "Hibernation", "image": "../../../assets/Album/Hibernation.jpg", "label": "suite 2016", "group": "Charlotte Haesen Quintet",
       "musicians": [
         {"name": "Charlotte Haesen", "instrument": "chant"},
         {"name": "Philip Breidenbach ", "instrument": "guitare"},
         {"name": "Dorian Dumont", "instrument": "piano"},
         {"name": "Fil Caporali", "instrument": "contrebasse"},
         {"name": "Samuel Reisen", "instrument": "batterie"}
-      ]},
-    {"title": "KARIM GHARBI", "image": "../../../assets/karim.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      ]
+    },
+    {"title": "fendillés", "image": "../../../assets/Album/effde.jpg", "label": "suite 2016", "group": "Effdé",
       "musicians": [
-        {"name": "Karim Gharbi", "instrument": "chant"},
-        {"name": "changement incessant", "instrument": "?"}
+        {"name": "Fabrice Ducognon", "instrument": "chant"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Romain Castéra", "instrument": "batterie"}
+      ]
+    },
+    {"title": "Love", "image": "../../../assets/Album/BM_EP.jpg", "label": "suite 2016", "group": "Blue Monday People",
+      "musicians": [
+        {"name": "François Vaiana", "instrument": "chant"},
+        {"name": "Jens Bouttery", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"}
+      ]
+    }
+  ],
+  "projects_plus_fr": "Clique, donc, sur une image si tu veux en savoir +",
+  "projets_general_par_fr" : "Ce groupe vous intrigue ? Tu veux désespérément en savoir plus et connaître les arcanes de cette formation ? L’alternance entre le tutoiement et le vouvoiement vous perturbe bien comme il faut et tu ne sais plus où tu en es ?  D’ailleurs : où en êtes-vous ?  Tu veux acheter un disque ? Tu n’en peux plus de toutes ces questions ?  Tout ça est très tourneboulant n’est-ce pas ? Ke-waaa? Tu veux des détails sur les concerts à venir? Va donc sur leur site internet: ",
+  "projects_eau_fr": "Mettez vous l’eau à la bouche:",
+  "projects_audio_fr": "un audio",
+  "projects_video_fr": "& une video",
+  "projets": [
+    {"title_small": "Easy Pieces", "title": "easy pieces", "site":"https://soundcloud.com/easypiecesmusic", "image": "../../../assets/Easy/side.jpg", "large_image": "../../../assets/Easy/body.jpg", "video":"", "audio": "https://soundcloud.com/easypiecesmusic/little-box-dumontsauzereaulasure-20-04-16-live-the-sounds",
+      "musicians": [
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
+        {"name": "Hendrik Lasure", "instrument": "fender rhodes"},
+        {"name": "Dorian Dumont", "instrument": "piano"}
+      ],
+      "paragraph": [
+        {"description": "Easy Pieces est un trio qui explore la rencontre de sons acoustiques et amplifiés, autour de morceaux originaux écris pour cette instrumentation inhabituelle. Le groupe travaille sur les unissons, alterne les ambiances, alliant des soundscapes vertigineux et des mélodies ciselées, une écriture épurée avec une dimension improvisée, toujours au service d'une collection de petits récits instrumentaux qui suggère des histoires mais laisse à l'auditeur le soin de les imaginer."},
+        {"description": "Ces trois jeunes musiciens ont su trouver chez chacun une profonde compréhension mutuelle au cours d'une série de concerts, et jouent avec les codes du trio où ces trois instruments harmonique se passent les fonctions, s'entremêlent et s'affrontent avec une énergie tantôt rock tantôt abstraite et toujours narrative."},
+        {"description": "Easy Pieces vient d’enregistrer son 1er album qui devrait sortir à l’automne 2017."}
+      ],
+      "additional": [
+        {"content": "Ce que j'aime avec EASY PIECES c'est que j'ai parfois l'impression d'être seulement un effet de l'un de des deux autres musiciens."},
+        {"content": "Comme si je me rétrécissais et que je devenais un tout petit rouage, comme l'enjoliveur d'une voiture."},
+        {"content": "Et que si j'ai envie je peux aussi prendre le volant et que c'est confortable. . "},
+        {"content": "Et d'un coup je conduit une Ferrari."},
+        {"content": "La 'lumière' de l'histoire musicale se projète sur tous les trois à la fois souvent, sur l'un de nous parfois, ou encore tel une ombre sur aucun d'entre nous et jouant seulement avec les reflets."},
+        {"content": "Tour à tour je prends le pouvoir, je me fonds dans une note, une idée, un son, j'accompagne, je bataille, je soutiens, je compose... "},
+        {"content": "Bref je joue tout simplement."}
+      ]
+    },
+    {"title_small": "SubChack", "title": "SubChack", "site":"", "image": "../../../assets/Sub/side.jpg", "large_image": "../../../assets/Sub/body.jpg", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "Florent Jeunieaux", "instrument": "guitare"},
+        {"name": "Martin Méreau", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Federico Pecoraro", "instrument": "basse"}
       ]},
-    {"title": "9 +1", "image": "../../../assets/9.png", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+    {"title_small": "The Blogpera", "title": "Jens Maurits Orchestra: The Blogpera", "site":"http://www.jensmauritsorchestra.com/projects.html#BLOGPERATITLE", "image": "../../../assets/Blogpera/side.jpg", "large_image": "../../../assets/Blogpera/body.jpg", "video": "https://www.youtube.com/watch?v=MK0clRHqmwk&t=6s", "audio": "https://soundcloud.com/jensbouttery/jens-maurits-orchestra-on-the-blogpera-by-leonie-reineke",
+      "musicians": [
+        {"name": "Jens Bouttery", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Lucas Kramer", "instrument": "'la bestia'"},
+        {"name": "Daan Milius", "instrument": "dramaturge"}
+      ],
+      "paragraph": [
+        {"description": "Pourquoi faisons nous de la musique? "},
+        {"description": "C’est la question qui a conduit le « Jens Maurits Orchestra » à interviewer des scientifiques, à enquêter sur des mythes tribaux, à construire une machine à mémoire : « la bestia » ainsi qu’à faire beaucoup de musique du coup."},
+        {"description": "Comme quoi il n’y a pas de secret."},
+        {"description": "Cette question infini, cette recherche sans fin, (tel « l’histoire ». Ah! Falkor!) vous ait maintenant présenté sous la forme du « BLOGPERA » : un super BLOG interactif dans lequel les spectateurs doivent choisir quel « aria » sera joué et quand et lesquels ne seront pas joués du tout."}
+      ],
+      "buy_fr": [
+        {"paragraph": "pour acheter les 2 albums "},
+        {"paragraph": "triggers & tresholds:"},
+        {"paragraph": "http://suitethelabel.com/suite01.html#discography"},
+        {"paragraph": "dub tapes:"},
+        {"paragraph": "http://www.jensmauritsorchestra.com/projects.html#DUBTAPESTITLE"}
+    ]
+    },
+    {"title_small": "Philemon", "title": "Philemon, le chien qui ne voulait pas grandir", "site":"https://philemonchien.wordpress.com/", "image": "../../../assets/Phil/side.jpg", "large_image": "../../../assets/Phil/body.jpg", "video":"https://www.youtube.com/watch?v=DXWoRPvPuzI", "audio": " https://soundcloud.com/philemonlechien/eb-phil",
+      "musicians": [
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"},
+        {"name": "Mathieu Robert", "instrument": "sax soprano"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benoît Leseure", "instrument": "violin"},
+        {"name": "Nicole Miller", "instrument": "alto"},
+        {"name": "Annemie Osborne", "instrument": "violoncelle"}
+      ],
+      "paragraph": [
+        {"description": "PHILÉMON est un sextet qui s’attache à une forme de chanson instrumentale, tout en exploitant certains codes du jazz et de la musique de chambre comme de la musique contemporaine."},
+        {"description": "Résolument acoustique et tourné vers la simplicité, le groupe joue uniquement de la musique originale, arrangée pour et par ses membres, qui surprend doucement par un univers poétique très particulier."}
+      ],
+      "additional": [
+        {"content": "Pour acheter l’album : https://philemonlechienquinevoulaitpasgrandir.bandcamp.com/releases."}
+      ]
+    },
+    {"title_small": "Blue Monday People","title": "Blue Monday People", "site":"http://www.bluemondaypeople.be/", "image": "../../../assets/bmp/side.jpg", "large_image": "../../../assets/bmp/body.jpg", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
+      "musicians": [
+        {"name": "François Vaiana", "instrument": "chant"},
+        {"name": "Wendlavim Zabsonre", "instrument": "batterie"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Benjamin Sauzereau", "instrument": "guitare"}
+      ]
+    },
+    {"title_small": "Effdé", "title": "effdé", "image": "../../../assets/Effde/side.jpg", "site":"http://xn--effd-epa.com/", "large_image": "../../../assets/Effde/body.jpg", "video": "https://www.youtube.com/watch?v=2MjXuOrHtlo", "audio": "http://xn--effd-epa.com/musique",
+      "musicians": [
+        {"name": "Fabrice Ducognon", "instrument": "chant"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Romain Castéra", "instrument": "batterie"}
+      ],
+      "paragraph": [
+        {"description": "Après 15 années de nomadisme musical, consacrées à étudier le langage du jazz et s’imprégner des musiques du monde , Effdé revient en 2016 à ses amours de jeunesse : la chanson , le folk, et la pop musique."},
+        {"description": "Dans « Fendillés », son premier Ep sous ce nom, percent ça et là les couleurs et les formes ramenées des ces différents voyages. Dans cet espace musical moderne s’harmonisent les échos d’un Bashung de « L’Imprudence », les progressions harmoniques d’un Esbjorn Svenson Trio ou l’existentialisme d’un Léonard Cohen."},
+        {"description": "L’écriture y tient le devant de la scène : elle interroge les mots, la langue, sa polysémie, sa musique. Elle raconte le vieillissement, l’engagement, l’utopie, un pied dans notre actualité, un autre dans ce qui fonde depuis toujours l’expérience envoûtante et déstabilisante d’être au monde. "},
+        {"description": "Entouré de compagnons de longue date, avec en premier chef Rom Castéra ( batterie ) qui réalise et produit ce premier opus, Dorian Dumont (piano) , Charlie Huck ( contrebasse ), le trio Zéphyr ( trio à cordes ), ainsi que la chanteuse Lola Baï, en featuring sur un titre, Effdé dévoile une vision de la chanson qui s’engage- à questionner nos vies, à rester alerte, à croire en l’homme, à croire, enfin, que la beauté est bien plus qu’un simple divertissement du réél."}
+      ]
+    },
+    {"title_small": "Charlotte Haesen","title": "Charlotte Haesen Quintet", "site":"https://www.charlottehaesen.be/bands/", "image": "../../../assets/charlie/side.jpg", "large_image": "../../../assets/charlie/body.jpg", "video": "https://www.youtube.com/watch?v=vIR-ORe7ujc", "audio": "https://soundcloud.com/charlottehaesen/you-against-me-charlotte",
+      "musicians": [
+        {"name": "Charlotte Haesen", "instrument": "chant"},
+        {"name": "Philip Breidenbach ", "instrument": "guitare"},
+        {"name": "Dorian Dumont", "instrument": "piano"},
+        {"name": "Fil Caporali", "instrument": "contrebasse"},
+        {"name": "Samuel Reisen", "instrument": "batterie"}
+      ],
+      "paragraph": [
+        {"description": "Les influences de la chanteuse hollando-franco-burundaise sont aussi éclectiques que ses origines. Ses oreilles se sont laissées séduire par des voix et des personnalités hors norme telles que Björk, Peggy Lee, Fay Claassen ou encore Joni Mitchell."},
+        {"description": "Six ans après la sortie de son premier album, la chanteuse Charlotte Haesen remonte un troisième projet rêveur et apaisant aux accents jazz et singer-songwriting. Sur Hibernation, le nouvel EP du quintet, la voix cristalline de Charlotte Haesen résonne avec plus de liberté que jamais tout en gardant l'empreinte de son univers très personnel."}
+      ],
+      "additional": [
+        {"content": "Le nouvel EP « Hibernation » est sortie en Avril 2017."}
+      ]
+    },
+    {"title_small": "9 +1", "title": "9 +1", "site":"http://www.tombourgeois.com/bands", "image": "../../../assets/nine_plus_one/five_three.jpg", "large_image": "../../../assets/nine_plus_one/nine.jpg", "video": "https://www.youtube.com/watch?v=TrS5phNt5OE", "audio": "https://soundcloud.com/tombourgeoismusic/05-soir-29-recital-mim-2015",
       "musicians": [
         {"name": "Tom Bourgeois", "instrument": "saxophones"},
         {"name": "Florent Jeunieaux", "instrument": "guitare"},
@@ -218,17 +310,12 @@
         {"name": "Esinam Dogbaste", "instrument": "flûte/cajón"},
         {"name": "Victor Foulon", "instrument": "contrebasse"},
         {"name": "Jelle van Giel", "instrument": "batterie"}
-      ]}
-  ],
-  "bonus": [
-    { "content": "Mr. Nice"},
-    { "content": "Narco" },
-    { "content": "Bombasto"},
-    { "content": "Celeritas" },
-    { "content": "Magneta" },
-    { "content": "RubberMan"},
-    { "content": "Dynamn"},
-    { "content": "Dr IQ"}
+      ],
+      "paragraph": [
+        {"description": "9+1 est le projet de Tom Bourgeois."},
+        {"description": "Et c’est beau."}
+      ]
+    }
   ],
   "contact_fr": "Contact Dorian Dumont : dorian.dumont@hotmail.fr",
   "footer_fr": "=SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.",

@@ -1,66 +1,64 @@
-.bottom-title {
-  display: block;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 10px 0;
+
+.left-panel {
+  display: none;
 }
 
-.left-block {
-  padding: 20px;
-  color: white;
-  width: 20%;
-  background-color: black; }
+@media only screen and (min-width: 720px) {
+  .left-panel {
+    display: block;
+  }
 
-.icon-box-home {
-  height: 100px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
+  .bottom-title {
+    padding: 4px 0 2px 0;
+    margin: 0;
+  }
 
-.fa {
-  font-size: 80px;
-  color: #ffe700;
-  text-align: center;
-  width:100%;
-}
+  .icon-box-home {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
 
-.left-block a {
-  text-decoration: none;
-  color: white;
-  text-transform: none;
-}
+  .fa {
+    font-size: 80px;
+    color: #ffe700;
+    text-align: center;
+    width: 100%;
+  }
 
-a:hover {
-  color: #ffe700;
-}
+  .left-block a {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+  }
 
-.left-concerts-a-venir {
-  display: block;
-  font-size: 20px; }
+  a:hover {
+    color: #ffe700;
+  }
 
-.left-concert {
-  display: block;
-  font-size: 12px;
-  color: white;
-}
+  .left-concerts-a-venir {
+    display: block;
+  }
 
-.a-propos {
-  padding: 20px 0;
-}
+  .left-concert {
+    display: block;
+    font-size: 12px;
+    color: white;
+  }
 
-#propos {
-  margin: 10px 0 0 0;
-}
+  #propos {
+    margin: 5px 0 0 0;
+  }
 
-.a-propos-content {
-  font-size: 12px;
-  text-align: justify;
-  text-transform: none;
-}
+  .a-propos-content {
+    font-size: 12px;
+    text-align: justify;
+    text-transform: none;
+  }
 
-.lire-plus {
-  text-decoration: none;
-  text-decoration: underline;
-  font-size: 14px;
+  .lire-plus {
+    text-decoration: underline;
+    font-size: 14px;
+  }
 }

@@ -1,7 +1,3 @@
-* {
-
-}
-
 
 .dorian-home {
   width: 100%;
@@ -11,13 +7,6 @@
 
 }
 
-.dorian-image {
-  background-image: url(../../../assets/home.jpg);
-  background-position: center center;
-  background-repeat: none;
-  height: 400px;
-  width: 700px;
-}
 
 .video-supra-container {
   width: 100%;

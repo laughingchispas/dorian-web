@@ -1,38 +1,53 @@
+.project-content {
+  display: flex;
+}
 
+
+/*clique-donc*/
+.projets-info {
+  padding: 10px 0 0 0;
+  font-family: 'Amatic SC', Arial, cursive;
+}
 
 .projets-image-title {
-  bottom: 50px;
-  left: 90px;
+  bottom: 90px;
+  left: 70px;
 }
 
 
 .projets-supra-container {
   width: 100%;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
 .projets-container {
-  text-transform: uppercase;
-  width: 100%;
+  width: 32%;
+  position: relative;
+  padding: 2px 0;
 }
 
 .projets-image {
   width: 100%;
 }
 
+
 .projet {
   width: 100%;
-  margin: 1px 0;
   font-size: 15px;
+  position: absolute;
+  text-align: center;
+  bottom: 22%;
+  left: 0;
+  color: #ffe700;
+
 }
 
 .projet-image {
-  width: 90%;
-  height: 100px;
-  border-style: solid;
-  border-width: 6px;
-  color: #ffe700;
+  width: 100%;
+  cursor: pointer;
 }
 
 .title {
@@ -40,19 +55,58 @@
   text-align: center;
   text-transform: uppercase;
   padding: 10px 0;
-}
-
-.project-content {
-  display: flex;
-  height: 200px;
+  font-size: 40px;
 }
 
 .project-image {
-  padding: 0 15px 0 0;
+  height: 170px;
+  padding: 0 20px 0 0;
+}
+
+.group-description {
+  font-size: 13px;
 }
 
 .membre {
   text-transform: uppercase;
   padding: 0 0 5px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 30px;
 }
+
+.projet-site {
+  text-decoration: underline;
+}
+
+.additional {
+  font-size: 11px;
+}
+
+.audio-video-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0 10px 0;
+}
+
+.audio, .video {
+  width: 35%;
+  background-color: salmon;
+}
+.eau {
+  padding: 10px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.convincing-text {
+  font-size: 13px;
+}
+
+.buy {
+  padding: 0 0 10px 0;
+  font-size: 13px;
+}
+
+
 

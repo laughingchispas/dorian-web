@@ -1,5 +1,31 @@
-<div class="bottom-banner">
-  <div class="container-bottom-nav">
-    <a routerLink="{{nav.router}}" class="nav-element" *ngFor="let nav of content.navigation"> {{nav.title_fr}} </a>
+<header id="site-navigation">
+  <input type="checkbox" id="toggle"/>
+  <label for="toggle" onclick>Menu</label>
+<nav class="bottom-banner" >
+  <div class="container-bottom-nav" >
+    <a routerLink="{{nav.router}}" class="nav-element" id="navSplash" *ngFor="let nav of content.navigation"> {{nav.title_fr}} </a>
   </div>
-</div>
+</nav>
+</header>
+
+
+<!--
+  <nav>
+    <div>
+      <a href="index.html">home</a>
+    </div>
+    <div>
+      <a href="about.html">about</a>
+    </div>
+    <div>
+      <a href="calendar.html">concerts</a>
+    </div>
+    <div>
+      <a href="media.html">media</a>
+    </div>
+    <div>
+      <a href="contact.html">contact</a>
+    </div>
+  </nav>
+-->
+

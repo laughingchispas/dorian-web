@@ -2,12 +2,23 @@
   font-family: 'Arsenal', Arial, cursive;
 }
 
+h2 {
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 30px;
+  padding: 0;
+}
+
+p {
+  font-size: 11px;
+  text-align: justify;
+}
+
 body {
-  padding: 10px 0 0 0 0;
+  padding: 10px 0 0 0;
   margin: 0 auto;
   background-color: black;
   color: white;
-  width: 70%;
+  width: 75%;
 }
 
 a {
@@ -31,18 +42,21 @@ a:hover {
   text-transform: uppercase;
   color: #ffe700;
   font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.10em;
 }
 
 .side-container {
   display: flex;
 }
 
-.left-side {
-  width: 75%;
-  padding: 0 20px 0 0;
-}
+    .left-side {
+      width: 65%;
+      padding: 0 20px 0 0;
+    }
 
-.right-side {
-  width: 25%;
-}
+    .right-side {
+      width: 35%;
+    }
+
 
