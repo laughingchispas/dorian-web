@@ -51,6 +51,7 @@
   "left_comment_fr": "Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?",
   "audio_moment_fr": "L'audio du moment",
   "video_moment_fr": "La Vidéo du moment",
+  "video_moment_id": "lItN6iaVqk4",
   "bio_plus_fr": "SI VOUS VOULEZ EN SAVOIR",
   "bio_fr": [
     {"par": "Né le 08 juin 1988 à Montpellier, Dorian Dumont se passionne très tôt pour la musique, cet art de combiner les sons, en suivant certaines règles. Ou non..."},
@@ -222,7 +223,21 @@
         {"name": "Martin Méreau", "instrument": "batterie"},
         {"name": "Dorian Dumont", "instrument": "piano"},
         {"name": "Federico Pecoraro", "instrument": "basse"}
-      ]},
+      ],
+      "paragraph": [
+        {"description": "SubChak est un groupe composé de 4 Zinneke Bruxellois."},
+        {"description": "Leur style (parce qu’ils en ont) est très clair : c’est du pur Groove-Electro-Trip-Hop mélangeant le brut, le vilain, le libre, l’audacieux et le transcendant."},
+        {"description": "Tel une oeuvre de Georges Braque (j’ai googlé ce nom et c’est un pote à Picasso) ils utilisent des collages musicaux et leur set s’enchaîne à la manière d’un DJ entre leurs 8 mains habiles."},
+        {"description": "Le tout est une très bonne occasion de venir bouger ta tête et de te sentir en joie, « enjaillé » comme dirait l’autre, et de faire la fête avec tes pieds."},
+        {"description": "Avec Martin Méreau à la batterie et à la mèche, Dorian Dumont aux claviers et au rebond, Florent Jeunieaux à la guitare et aux couleurs et Federico Pecoraro à la basse et à l’accent."}
+      ],
+      "pas_de_site": [
+        {"description": "Et bien ils ne possèdent malheureusement pas encore de site donc tu vas devoir être patient."},
+        {"description": "C’est comme ça mais c’est en préparation."},
+        {"description": "Relax et prends une tisane."}
+      ]
+
+    },
     {"title_small": "The Blogpera", "title": "Jens Maurits Orchestra: The Blogpera", "site":"http://www.jensmauritsorchestra.com/projects.html#BLOGPERATITLE", "image": "../../../assets/Blogpera/side.jpg", "large_image": "../../../assets/Blogpera/body.jpg", "video": "https://www.youtube.com/watch?v=MK0clRHqmwk&t=6s", "audio": "https://soundcloud.com/jensbouttery/jens-maurits-orchestra-on-the-blogpera-by-leonie-reineke",
       "musicians": [
         {"name": "Jens Bouttery", "instrument": "batterie"},
@@ -236,13 +251,11 @@
         {"description": "Comme quoi il n’y a pas de secret."},
         {"description": "Cette question infini, cette recherche sans fin, (tel « l’histoire ». Ah! Falkor!) vous ait maintenant présenté sous la forme du « BLOGPERA » : un super BLOG interactif dans lequel les spectateurs doivent choisir quel « aria » sera joué et quand et lesquels ne seront pas joués du tout."}
       ],
-      "buy_fr": [
-        {"paragraph": "pour acheter les 2 albums "},
-        {"paragraph": "triggers & tresholds:"},
-        {"paragraph": "http://suitethelabel.com/suite01.html#discography"},
-        {"paragraph": "dub tapes:"},
-        {"paragraph": "http://www.jensmauritsorchestra.com/projects.html#DUBTAPESTITLE"}
-    ]
+      "album": "2 albums existants:",
+      "album_nom": [
+        {"name": "The Dubtapes", "year": "2013"},
+        {"name": "They do it for a reason", "year": "2016"}
+      ]
     },
     {"title_small": "Philemon", "title": "Philemon, le chien qui ne voulait pas grandir", "site":"https://philemonchien.wordpress.com/", "image": "../../../assets/Phil/side.jpg", "large_image": "../../../assets/Phil/body.jpg", "video":"https://www.youtube.com/watch?v=DXWoRPvPuzI", "audio": " https://soundcloud.com/philemonlechien/eb-phil",
       "musicians": [
@@ -257,8 +270,9 @@
         {"description": "PHILÉMON est un sextet qui s’attache à une forme de chanson instrumentale, tout en exploitant certains codes du jazz et de la musique de chambre comme de la musique contemporaine."},
         {"description": "Résolument acoustique et tourné vers la simplicité, le groupe joue uniquement de la musique originale, arrangée pour et par ses membres, qui surprend doucement par un univers poétique très particulier."}
       ],
-      "additional": [
-        {"content": "Pour acheter l’album : https://philemonlechienquinevoulaitpasgrandir.bandcamp.com/releases."}
+      "album": "1 album existant:",
+      "album_nom": [
+        {"name": "Philémon, le chien qui ne voulait pas grandir", "year": "2015" }
       ]
     },
     {"title_small": "Blue Monday People","title": "Blue Monday People", "site":"http://www.bluemondaypeople.be/", "image": "../../../assets/bmp/side.jpg", "large_image": "../../../assets/bmp/body.jpg", "explanation": "asdfkjh sdfkjhdfa adfkhadfkjhsfa adsfds",
@@ -267,6 +281,14 @@
         {"name": "Wendlavim Zabsonre", "instrument": "batterie"},
         {"name": "Dorian Dumont", "instrument": "piano"},
         {"name": "Benjamin Sauzereau", "instrument": "guitare"}
+      ],
+      "paragraph": [
+        {"description": "Blue Monday people est un groupe de Soul progressive de Bruxelles fondé par le chanteur François Vaiana. Leur musique hybride est teinté de spleen Européen et imprégné de blues d’Amérique. Les compositions de François sont des contes urbains profondément influencé par le bon, le vilain, le sauvage et l’ordinaire."}
+      ],
+      "album": "1 album & 1 EP existants:",
+      "album_nom": [
+        {"name": "Empire of Matches", "year": "2016"},
+        {"name": "Love", "year": "2014"}
       ]
     },
     {"title_small": "Effdé", "title": "effdé", "image": "../../../assets/Effde/side.jpg", "site":"http://xn--effd-epa.com/", "large_image": "../../../assets/Effde/body.jpg", "video": "https://www.youtube.com/watch?v=2MjXuOrHtlo", "audio": "http://xn--effd-epa.com/musique",
@@ -280,6 +302,10 @@
         {"description": "Dans « Fendillés », son premier Ep sous ce nom, percent ça et là les couleurs et les formes ramenées des ces différents voyages. Dans cet espace musical moderne s’harmonisent les échos d’un Bashung de « L’Imprudence », les progressions harmoniques d’un Esbjorn Svenson Trio ou l’existentialisme d’un Léonard Cohen."},
         {"description": "L’écriture y tient le devant de la scène : elle interroge les mots, la langue, sa polysémie, sa musique. Elle raconte le vieillissement, l’engagement, l’utopie, un pied dans notre actualité, un autre dans ce qui fonde depuis toujours l’expérience envoûtante et déstabilisante d’être au monde. "},
         {"description": "Entouré de compagnons de longue date, avec en premier chef Rom Castéra ( batterie ) qui réalise et produit ce premier opus, Dorian Dumont (piano) , Charlie Huck ( contrebasse ), le trio Zéphyr ( trio à cordes ), ainsi que la chanteuse Lola Baï, en featuring sur un titre, Effdé dévoile une vision de la chanson qui s’engage- à questionner nos vies, à rester alerte, à croire en l’homme, à croire, enfin, que la beauté est bien plus qu’un simple divertissement du réél."}
+      ],
+      "album": "1 EP existant:",
+      "album_nom": [
+        {"name": "Fendillés", "year": "2017" }
       ]
     },
     {"title_small": "Charlotte Haesen","title": "Charlotte Haesen Quintet", "site":"https://www.charlottehaesen.be/bands/", "image": "../../../assets/charlie/side.jpg", "large_image": "../../../assets/charlie/body.jpg", "video": "https://www.youtube.com/watch?v=vIR-ORe7ujc", "audio": "https://soundcloud.com/charlottehaesen/you-against-me-charlotte",
@@ -296,9 +322,13 @@
       ],
       "additional": [
         {"content": "Le nouvel EP « Hibernation » est sortie en Avril 2017."}
+      ],
+      "album": "1 album existant:",
+      "album_nom": [
+        {"name": "Hibernation", "year": "2017"}
       ]
     },
-    {"title_small": "9 +1", "title": "9 +1", "site":"http://www.tombourgeois.com/bands", "image": "../../../assets/nine_plus_one/five_three.jpg", "large_image": "../../../assets/nine_plus_one/nine.jpg", "video": "https://www.youtube.com/watch?v=TrS5phNt5OE", "audio": "https://soundcloud.com/tombourgeoismusic/05-soir-29-recital-mim-2015",
+    {"title_small": "9 +1", "title": "9 +1", "site":"http://www.tombourgeois.com/bands", "image": "../../../assets/nine_plus_one/side.jpg", "large_image": "../../../assets/nine_plus_one/body.jpg", "video": "https://www.youtube.com/watch?v=TrS5phNt5OE", "audio": "https://soundcloud.com/tombourgeoismusic/05-soir-29-recital-mim-2015",
       "musicians": [
         {"name": "Tom Bourgeois", "instrument": "saxophones"},
         {"name": "Florent Jeunieaux", "instrument": "guitare"},
@@ -331,5 +361,106 @@
   "presse_joke_fr": "Si t’es pas content voici un espace pour t’exprimer :",
   "chars_fr": "en 13 caractères maximum",
   "construction_fr": "Cette section est en construction...",
-  "scroll_fr": "Clique ici si t’as la flemme de « scroller » jusqu’en haut pour voir le menu."
+  "scroll_fr": "Clique ici si t’as la flemme de « scroller » jusqu’en haut pour voir le menu.",
+  "jouez_les_fr": "jouez-les",
+  "jouez_les_pdf": [
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"},
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"},
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"}
+    ],
+    "jouez_moi_fr": "jouez-moi",
+  "jouez_moi_pdf": [
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"},
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"},
+    {"pdf": "../../../assets/pdf/ayer_te_vi.pdf", "img": "../../../assets/pdf/ayer_te_vi.jpg", "title": "titles"}
+  ],
+  "chic_fr": "LE CHIC CLIC DU MOIS SELON MOI",
+  "gallery_fr": "gallerie",
+  "thanks_title_fr": "remerciements",
+  "thanks_fr": [
+    {"section_one": [
+      {"par": "J’ai beaucoup de gens auxquels je tiens à dédier ces quelques lignes sur ce site. C’est plutôt une chouette occasion de le faire. "},
+      {"par": "Et ça me fait plaisir."},
+      {"par": "Je pense à eux car ils me « portent » et en grande partie, ils m’ont « fait » tel que je suis aujourd’hui."},
+      {"par": "Et parfois, grâce à eux je dors mieux, et je parviens même à perdre l’habitude de mettre des « guillemets » à tout va."},
+      {"par": "Et ça me fait plaisir."},
+      {"par": "Merci pour ça déjà."}
+      ]
+    },
+    {"section_two": [
+      {"par": "Séquence émotion."},
+      {"par": "Préparez les kleenex (et hop placement de produit) :"}
+    ]
+    },
+    {"section_three": [
+      {"par": "Je tiens à remercier mes parents pour leur amour, leur soutien et leur écoute. Ils m’ont porté et poussé dans les moments où j’en avais besoin."},
+      {"par": "Décisif."},
+      {"par": "Une pensée pour Célia qui est la personne que j’écoute le plus et avec qui je partage tout: la vie, les joies, les peines, nos passions et aussi notre fils.."},
+      {"par": "Un énorme merci à Nicole Miller, sa jovialité et son enthousiasme et sans qui ce site n’aurait pas vu le jour (au moins pas avant quelques années et sûrement pas aussi beau). "},
+      {"par": "Je tiens aussi à remercier Roger Vantilt pour ses photos et son regard."}
+    ]
+    },
+    {"section_four": [
+      {"par": "Et puis, tant qu’on y est, je tiens à remercier Solal d’être là et pour son sourire."},
+      {"par": "J’adresse aussi un grand salut à Diederik Wissels, un grand professeur et une grande personne tout simplement. (et je ne parle ni de taille -alors qu’il est plutôt grand- ni de l’âge -alors qu’il est plus vieux que moi- ici)."}
+    ]
+    },
+    {"section_five": [
+      {"par": "Et aussi une immense pensée pour ses amis qui font du bien:"}
+      ]
+    },
+    {"section_six": [
+      {"par": "José pour son bouc."},
+      {"par": "Alex parce que c’est le même sang et puis Tournemine."},
+      {"par": "Ben pour l’inspiration qu’il me donne et pour sa justesse (excepté sur sa guitare. Et big le tacle! Sinon c’est trop bisounours)"},
+      {"par": "J-B pour la patience et l’impatience, les wiches lorraines et ce parfum de garrigue."},
+      {"par": "Xavier parce que le monde aime bien les surfeurs."},
+      {"par": "Jens pour la stimulation et une belle intransigeance. Jésus! Et puis les « tricks » et les bruits."},
+      {"par": "Julia pour ses pulls."},
+      {"par": "Marion « Coco » pour ses cheveux."},
+      {"par": "François/Frizzle parce qu’il sont deux (non je n’ai pas oublié le « s »)."},
+      {"par": "Aloyse pour les poukak (je me comprends et c’est le principal) et puis Rocky."},
+      {"par": "Brazùk pour son contresens, son talent et ses jeux de mots pas si foireux. "},
+      {"par": "Matthias pour les yams ainsi qu’une belle mauvaise foi de sudiste comme on les aime. Et puis il est là quand il faut."},
+      {"par": "Julie et les plus beaux « ben quoi? » de wallonie (sans conteste). Une « echt ». "},
+      {"par": "Patou « Alfie » Pat, parce que dans la vie il y a des cactus. Et puis le Pérou…"},
+      {"par": "le Druide pour son sens des mots."},
+      {"par": "Lois pour sa folie. Et les réveils douloureux."},
+      {"par": "Bao-Ahn pour son sens de la ponctuation."},
+      {"par": "Daan pour ses idées foisonnantes."},
+      {"par": "Joany parce qu’il faut des warrior."},
+      {"par": "Jérôme pour son instinct, ses jeux de mots foireux et tous ces services rendus. Tululu."},
+      {"par": "Martin parce que Ricky et Aston et Lobos et puis le belge c’est bon M’chou (M Majuscule)."},
+      {"par": "Margaux pour son énergie et parce qu’il n’y en a qu’une."},
+      {"par": "Emily pour le 370 et tous les numéros qui suivront."},
+      {"par": "Thomas, numéro bis (comme dans Astérix) et pour ses jeux de mots très foireux (comme quoi il y a des trucs qui reviennent)."},
+      {"par": "Rom parce que les gitans c’est bon."},
+      {"par": "Kelzang parce que le Porto aussi."},
+      {"par": "Marion C pour son rire et ses coups de crayons (sur mon mur ils resteront)."},
+      {"par": "Florent pour sa finesse."},
+      {"par": "Maayan pour son accent."},
+      {"par": "Gregor pour sa clarinette."},
+      {"par": "Annemie pour son sourire."},
+      {"par": "Mathieu et Hendrik pour leur tranquillité unique (COMBO! avec points bonus pour l’anachronisme)."},
+      {"par": "Benoit pour les chemins tracés."},
+      {"par": "Niels pour les histoires."},
+      {"par": "Et Jérémy pour sa frénésie."},
+      {"par": "(Toujours finir par une rime. Jean-Michel Parprincipe pour moi. Il est pote avec Pascal Disgression. Ils habitent dans ma tête. Ça se passe bien)"}
+    ]},
+    {"section_seven": [
+      {"par": "Et à tous ceux que je n’ai pas citer (parce que ceci est une liste non exhaustive. Les vrais ne sont pas là.)"}
+    ]
+    },
+    {"section_eight": [
+      {"par": "Et enfin merci à toi, lecteur de ces lignes. Ta patience est d’or. Ta curiosité est un gouffre sans fin (pour preuve tu lis ces lignes de remerciements jusqu’au bout. Fou que tu es). Ou alors ta souris est cassé, ou tu as atterris ici par hasard, tu cherchais à acheter un frigo en ligne et tu t’es perdue dans le cyber-espace."},
+      {"par": "Ou tu es simplement un aficionados de la parenthèse."}
+    ]
+    },
+    {"section_nine": [
+      {"par": "Quoiqu’il en soit ton intérêt pour ma musique me donne le courage de m’entêter dans la poursuite de mes aspirations artistiques. "},
+      {"par": "Et je tiens publiquement à te témoigner mon admiration pour ta vivacité d’esprit et ton bon goût."},
+      {"par": "Grand bien vous fasse"}
+    ]
+    }
+  ]
 }

@@ -1,44 +1,73 @@
 .top-home {
   width: 100%;
   position: relative;
-  display: block; }
-
-nav {
-  background-color: black;
-  display: flex;
-  color: white;
-  justify-content: space-between;
+  display: block;
 }
 
-.fa {
-  color: white;
-  font-size: 18px;
-  padding: 15px;
+nav {
+
 }
 
 .nav-icons {
   display: flex;
-
- }
+  justify-content: center;
+  height: 30px;
+  padding: 180px 0 0 0;
+}
 
 .newsletter-signup {
-  padding: 6px 30px 0 0;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.fa {
+  color: white;
+  font-size: 25px;
+  padding: 5px 20px;
 }
 
 .fa:hover {
-  color: #ffe700;
+  color: #ffd624;
 }
 
-button {
-  background-color: white;
-  border-style: solid;
-  border-color: white;
-  height: 18px;
-  margin: 0 0 0 10px;
-  display: inline-flex;
-  align-items: center;
-  line-height: 11px;
+@media only screen and (min-width: 720px) {
+
+  nav {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fa {
+    color: white;
+    font-size: 18px;
+    padding: 0 30px 0 0;
+  }
+
+  .nav-icons {
+      padding: 0;
+
+  }
+
+  .newsletter-signup {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  button {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    height: 18px;
+    margin: 0 0 0 10px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 11px;
+  }
 }
 

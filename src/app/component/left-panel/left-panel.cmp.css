@@ -1,12 +1,5 @@
 
-.left-panel {
-  display: none;
-}
 
-@media only screen and (min-width: 720px) {
-  .left-panel {
-    display: block;
-  }
 
   .bottom-title {
     padding: 4px 0 2px 0;
@@ -22,7 +15,7 @@
 
   .fa {
     font-size: 80px;
-    color: #ffe700;
+    color: #ffd624;
     text-align: center;
     width: 100%;
   }
@@ -34,7 +27,7 @@
   }
 
   a:hover {
-    color: #ffe700;
+    color: #ffd624;
   }
 
   .left-concerts-a-venir {
@@ -61,4 +54,4 @@
     text-decoration: underline;
     font-size: 14px;
   }
-}
+

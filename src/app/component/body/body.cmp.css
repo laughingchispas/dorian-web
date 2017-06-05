@@ -4,16 +4,16 @@
 
 
 .left-panel {
-  width: 0;
+  width: 0%;
   padding: 0;
 }
 
 .right-panel {
-  width: 95%;
+  width: 100%;
 }
 
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 820px) {
   .left-panel {
     width: 25%;
     padding: 0 20px 0 0;

@@ -28,6 +28,7 @@ export class Bonus {
   templateUrl: './bonus-component.cmp.html',
   styleUrls: ['./bonus-component.cmp.css'],
 })
+
 export class BonusComponent implements OnDestroy {
   content: any = {};
 
@@ -52,6 +53,7 @@ export class BonusComponent implements OnDestroy {
   private handleData(data: any) {
     this.content = data;
   }
+
   ngOnDestroy() {
     this.contentSvcSub.unsubscribe();
   }

@@ -64,7 +64,7 @@
 }
 
 .group-description {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .membre {
@@ -79,7 +79,8 @@
 }
 
 .additional {
-  font-size: 11px;
+  font-size: 12px;
+  text-align: justify;
 }
 
 .audio-video-container {
@@ -100,12 +101,17 @@
 }
 
 .convincing-text {
-  font-size: 13px;
+  font-size: 12px;
+  text-algin: justify;
 }
 
 .buy {
   padding: 0 0 10px 0;
-  font-size: 13px;
+  font-size: 12px;
+}
+
+.album-name {
+  text-decoration: underline;
 }
 
 

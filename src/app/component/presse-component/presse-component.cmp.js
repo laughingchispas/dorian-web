@@ -1,22 +1,49 @@
-"use strict";
+/*
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'presse-component',
+  templateUrl: './presse-component.cmp.html',
+  styleUrls: ['./presse-component.cmp.css']
+})
+export class PresseComponent {
+
+
+  constructor() { }
+
+}
+*/
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-var core_1 = require("@angular/core");
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+import { Component } from '@angular/core';
+import { ContentService } from "../../service";
 var PresseComponent = (function () {
-    function PresseComponent() {
+    function PresseComponent(contentService) {
+        this.content = {};
+        this.contentSvcSub = contentService.dataSubject.subscribe(this.handleData.bind(this));
     }
+    PresseComponent.prototype.handleData = function (data) {
+        this.content = data;
+    };
+    PresseComponent.prototype.ngOnDestroy = function () {
+        this.contentSvcSub.unsubscribe();
+    };
     return PresseComponent;
 }());
 PresseComponent = __decorate([
-    core_1.Component({
+    Component({
         selector: 'presse-component',
         templateUrl: './presse-component.cmp.html',
-        styleUrls: ['./presse-component.cmp.css']
-    })
+        styleUrls: ['./presse-component.cmp.css'],
+    }),
+    __metadata("design:paramtypes", [ContentService])
 ], PresseComponent);
-exports.PresseComponent = PresseComponent;
+export { PresseComponent };
+//# sourceMappingURL=presse-component.cmp.js.map

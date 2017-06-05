@@ -18,7 +18,7 @@ body {
   margin: 0 auto;
   background-color: black;
   color: white;
-  width: 75%;
+  width: 90%;
 }
 
 a {
@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  color: #ffe700;
+  color: #ffd624;
 }
 
 
@@ -40,9 +40,9 @@ a:hover {
   position: absolute;
   background-color: transparent;
   text-transform: uppercase;
-  color: #ffe700;
+  color: #ffd624;
   font-size: 30px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Arial Black, arial, sans-serif;
   letter-spacing: 0.10em;
 }
 
@@ -59,4 +59,22 @@ a:hover {
       width: 35%;
     }
 
+.left-panel {
+  display: none;
+}
 
+
+@media only screen and (min-width: 820px) {
+  .left-panel {
+    display: block;
+  }
+
+  body {
+    padding: 10px 0 0 0;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    width: 75%;
+  }
+
+}

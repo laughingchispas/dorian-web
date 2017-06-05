@@ -15,7 +15,7 @@
 .container-bottom-nav a:hover {
   border-style: solid;
   border-width: 0 0 2px 0;
-  border-color: #ffe700;
+  border-color: #ffbe14;
 }
 
 .nav-element {
@@ -47,8 +47,8 @@
 #site-navigation label {
   display: block;
   position: absolute;
-  left: 20px;
-  top: 20px;
+  right: 20px;
+  top: 18.5px;
   height: 22px;
   background: url("../../../assets/icon-menu.png") no-repeat center;
   background-color: white;

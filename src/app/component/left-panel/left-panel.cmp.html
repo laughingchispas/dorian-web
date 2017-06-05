@@ -2,9 +2,9 @@
 <div class="icon-box-home"><i class="fa fa-cloud"></i></div>
 <div class="left-concerts-a-venir">
   <h2 class="bottom-title">Concerts à venir</h2>
-  <a href="#" class="left-concert" target="_blank">{{content?.concertDates? content.concertDates[0].date : null | json}}</a>
-  <a href="#" class="left-concert" target="_blank">{{content?.concertDates? content.concertDates[1].date : null | json}}</a>
-  <a href="#" class="left-concert" target="_blank">{{content?.concertDates? content.concertDates[2].date : null | json}}</a>
+  <div class="left-concert" >{{content?.concertDates? content.concertDates[0].date : null | json}}</div>
+  <div class="left-concert">{{content?.concertDates? content.concertDates[1].date : null | json}}</div>
+  <div class="left-concert">{{content?.concertDates? content.concertDates[2].date : null | json}}</div>
   <a routerLink="/agenda" id="voire-list" class="lire-plus">{{content.voir_fr}}</a>
 </div>
 <div class="a-propos">
@@ -34,7 +34,7 @@
 </div>
 <div>
   <h2 class="bottom-title">{{content.video_moment_fr}}</h2>
-  <iframe width="100%"  frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" src="https://www.youtube.com/embed/lItN6iaVqk4" frameborder="0" allowfullscreen></iframe>
 </div>
 <div>
   <h2 class="bottom-title">{{content.audio_moment_fr}}</h2>

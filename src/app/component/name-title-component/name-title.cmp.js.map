@@ -1,0 +1,1 @@
+{"version":3,"sources":["name-title.cmp.ts"],"names":[],"mappings":";;;;;;;;;AAAA,OAAO,EAAE,SAAA,EAAU,MAAO,eAAA,CAAgB;AAO1C,IAAa,aAAa;IAGxB;IAAgB,CAAC;IAEnB,oBAAC;AAAD,CALA,AAKC,IAAA;AALY,aAAa;IALzB,SAAS,CAAC;QACT,QAAQ,EAAE,gBAAgB;QAC1B,WAAW,EAAE,uBAAuB;QACpC,SAAS,EAAE,CAAC,sBAAsB,CAAC;KACpC,CAAC;;GACW,aAAa,CAKzB;SALY,aAAa","file":"name-title.cmp.js","sourceRoot":""}

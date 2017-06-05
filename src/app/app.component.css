@@ -1,0 +1,17 @@
+#top {
+  display: none;
+}
+
+#bottom {
+  display: block;
+}
+
+@media only screen and (min-width: 720px) {
+  #top {
+    display: block;
+  }
+
+  #bottom {
+    display: none;
+  }
+}

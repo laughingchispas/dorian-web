@@ -16,9 +16,9 @@
   <div class="gallerie">
     <div class="gallerie-title">
     <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-      <i class="fa fa-plug"></i>
+      <i class="fa fa-wpexplorer"></i>
     </a>
-      <div class="title">gallerie</div>
+      <div class="title">{{content.gallery_fr}}</div>
       <div (click)="toggleHighlight(1)"><i id="gallerie" class="fa fa-plus"></i></div>
     </div>
     <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 1 }">Under Construction :(</div>
@@ -27,9 +27,9 @@
 <div class="chic">
   <div class="chic-title">
     <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-      <i class="fa fa-space-shuttle"></i>
+      <i class="fa fa-grav"></i>
     </a>
-    <div class="title"> LE CHIC CLIC DU MOIS SELON MOI</div>
+    <div class="title"> {{content.chic_fr}}</div>
     <div (click)="toggleHighlight(2)"><i id="chic" class="fa fa-plus"></i></div>
   </div>
   <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 2 }">Under Construction :(</div>
@@ -37,36 +37,58 @@
 
 <div class="jouez-moi">
   <div class="jouez-moi-title">
-    <a><i class="fa fa-bullhorn"></i></a>
-    <div class="title">jouez-moi</div>
+    <a><i class="fa fa-cubes"></i></a>
+    <div class="title">{{content.jouez_moi_fr}}</div>
     <div (click)="toggleHighlight(3)"><i id="moi" class="fa fa-plus"></i></div>
   </div>
-  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 3 }">Under Construction :(</div>
+  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 3 }">
+    <div class="pdf-block">
+      <a class="pdf" href="{{les.pdf}}" target="_blank" *ngFor="let les of content.jouez_moi_pdf"><div>{{les.title}}</div><img class="pdf-image" src="{{les.img}}"></a>
+      </div>
+  </div>
 </div>
 
 <div class="jouez-lez">
   <div class="jouez-lez-title">
     <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-      <i class="fa fa-diamond"></i>
+      <i class="fa fa-barcode"></i>
     </a>
-    <div class="title">jouez-les</div>
+    <div class="title">{{content.jouez_les_fr}}</div>
     <div (click)="toggleHighlight(4)"><i id="les" class="fa fa-plus"></i></div>
   </div>
-<div class="content invisible" [ngClass]="{'appear': highlightedDiv === 4 }">Under Construction :(</div>
+<div class="content invisible" [ngClass]="{'appear': highlightedDiv === 4 }">
+  <div class="pdf-block">
+    <a class="pdf" href="{{les.pdf}}" target="_blank" *ngFor="let les of content.jouez_les_pdf"><div>{{les.title}}</div><img class="pdf-image" src="{{les.img}}"></a>
+  </div>
+</div>
 </div>
 
 <div class="thanks">
   <div class="thanks-title">
   <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-    <i class="fa fa-dashboard"></i>
+    <i class="fa fa-hand-peace-o"></i>
   </a>
-    <div class="title">remerciements</div>
-    <div (click)="toggleHighlight(5)"><i id="thanks" class="fa fa-plus"></i></div>
+    <div class="title">{{content.thanks_title_fr}}</div>
+    <div (click)="toggleHighlight(5)"></div>
   </div>
-  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 5 }">Reflecting on the nature of human understanding, the authors of the book The Artistic Turn state that both the modes of understanding and its articulation exclude much from an original experience. “Does not every kind of human comprehension cut into the abundance of the world, retrieving only partial truths and changing what was to be comprehended by the very act of its being understood?” – they ask rhetorically. (K. Coessens, D. Crispin, A. Douglas, The artistic turn; A manifesto).
+  <div class="content invisible" [ngClass]="{'appear': highlightedDiv === 5 }">
+
   </div>
 </div>
 </div>
+
+<div *ngFor="let thank of content.thanks_fr">
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_one">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_two">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_three">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_four">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_five">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_six">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_seven">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_eight">{{paragraph.par}}</div></div>
+  <div class="thanks-par"> <div *ngFor="let paragraph of thank.section_nine">{{paragraph.par}}</div></div>
+</div>
+
 
 
 

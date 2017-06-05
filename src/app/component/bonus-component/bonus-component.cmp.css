@@ -3,6 +3,11 @@
   background-color: white;
 }
 
+.thanks-par {
+  padding: .5px 15px;
+  font-size: 12px;
+}
+
 .bonus-image-title {
   bottom: 0;
   left: 90px;
@@ -16,7 +21,7 @@
 }
 
 .appear {
-  height: 100px;
+  height: 200px;
   width: 90%;
   padding: 0 0 0 20px;
   transition-property: height;
@@ -40,7 +45,7 @@
 }
 
 i:hover {
-  color: #ffe700;
+  color: #ffd624;
 }
 
 .bonus-content {
@@ -88,4 +93,23 @@ i:hover {
 
 .gallerie, .chic, .jouez-moi, .jouez-lez, .thanks {
   padding: 10px 0 5px 0;
+}
+
+.pdf-block {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pdf {
+  height: 350px;
+  width: 25%;
+}
+
+.pdf-image {
+  width: 100%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
 }

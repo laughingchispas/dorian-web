@@ -29,17 +29,20 @@
       <div class="group-description" *ngFor="let musician of selectedProject.musicians"><b>{{musician.name}}</b>: <i>{{musician.instrument}}</i></div>
     </div>
   </div>
-  <p *ngFor="let par of selectedProject.paragraph">{{par.description}}</p>
-  <div class="additional" *ngFor="let par of selectedProject.additional">{{par.content}}</div>
+  <p class="additional" *ngFor="let par of selectedProject.paragraph"><i>{{par.description}}</i></p>
+  <div class="additional" *ngFor="let par of selectedProject.additional"><i>{{par.content}}</i></div>
+  <div >{{selectedProject.album}}</div>
+  <div class="additional" *ngFor="let album of selectedProject.album_nom"><a routerLink="/discographie" class="album-name"><b>{{album.name}}</b></a> ({{album.year}})</div>
   <div class="eau">{{content.projects_eau_fr}}</div>
   <div class="audio-video-container">
     <div class="audio">{{content.projects_audio_fr}}: {{selectedProject.audio}}</div>
     <div class="video">{{content.projects_video_fr}}: {{selectedProject.video}}</div>
   </div>
-  <div class="buy">
+  <!--<div class="buy">
     <div *ngFor="let buy of selectedProject.buy_fr"><b>{{buy.paragraph}}</b></div>
-  </div>
-  <div class="convincing-text">{{content.projets_general_par_fr}}<a class="projet-site" target="_blank" href="#">{{selectedProject.site}}</a></div>
+  </div>-->
+  <div class="convincing-text"><b><i>{{content.projets_general_par_fr}}</i></b><a class="projet-site" target="_blank" href="#">{{selectedProject.site}}</a></div>
+  <br><div class="convincing-text" *ngFor="let site of selectedProject.pas_de_site">{{site.description}}</div>
 </div>
 
 

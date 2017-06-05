@@ -1,24 +1,19 @@
-"use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-Object.defineProperty(exports, "__esModule", { value: true });
-__export(require("./agenda-component/agenda-component.cmp"));
-__export(require("./body/body.cmp"));
-__export(require("./contact-component/contact-component.cmp"));
-__export(require("./bonus-component/bonus-component.cmp"));
-__export(require("./dorian-component/dorian-component.cmp"));
-__export(require("./discographie-component/discographie-component.cmp"));
-__export(require("./footer-component/footer-component.cmp"));
-__export(require("./home-component/home-component.cmp"));
-__export(require("./language-component/language-panel.cmp"));
-__export(require("./left-panel/left-panel.cmp"));
-__export(require("./musique-component/musique-component.cmp"));
-__export(require("./name-title-component/name-title.cmp"));
-__export(require("./navigation-component/navigation-component.cmp"));
-__export(require("./news-component/news-component.cmp"));
-__export(require("./presse-component/presse-component.cmp"));
-__export(require("./projets-component/projets-component.cmp"));
-__export(require("./right-panel/right-panel.cmp"));
-__export(require("./scroll-component/scroll-component.cmp"));
-__export(require("./top-header/top-header.cmp"));
+export * from './agenda-component/agenda-component.cmp';
+export * from './body/body.cmp';
+export * from './contact-component/contact-component.cmp';
+export * from './bonus-component/bonus-component.cmp';
+export * from './dorian-component/dorian-component.cmp';
+export * from './discographie-component/discographie-component.cmp';
+export * from './footer-component/footer-component.cmp';
+export * from './home-component/home-component.cmp';
+export * from './language-component/language-panel.cmp';
+export * from './left-panel/left-panel.cmp';
+export * from './musique-component/musique-component.cmp';
+export * from './name-title-component/name-title.cmp';
+export * from './navigation-component/navigation-component.cmp';
+export * from './presse-component/presse-component.cmp';
+export * from './projets-component/projets-component.cmp';
+export * from './right-panel/right-panel.cmp';
+export * from './scroll-component/scroll-component.cmp';
+export * from './top-header/top-header.cmp';
+//# sourceMappingURL=index.js.map
