@@ -108,41 +108,39 @@
             <h2 class="bottom-title">à propos</h2>
             <div class="a-propos-content">
                 <div>
-                    <div>Dorian est un pianiste français basé à Bruxelles.</div>
+                    <div>Dorian est un pianiste de jazz français basé à Bruxelles.</div>
                     <div>Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers.</div>
                     <div>Et le tout à divers moments.</div>
                     <div>Il part et repart (tel un mars) vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit glouton de découverte jamais rassasié.</div>
                 </div>
                 <div id="propos">
-                    <a href="/dorian" class="lire-plus">lire +</a>
+                    <a href="dorian.html" class="lire-plus">lire +</a>
                 </div>
             </div>
         </div>
 
         <div class="press left-title">
             <h2 class="bottom-title">presse</h2>
-            <a routerLink="/presse" class="lire-plus">lire toutes les dernières nouvelles</a>
+            <a href="presse.html" class="lire-plus">voir tous les articles</a>
         </div>
 
         <div class="left-title">
             <h2 class="bottom-title">news</h2>
-            <a routerLink="/presse" class="lire-plus">lire toutes les dernières nouvelles</a>
+            <a href="index.html" class="lire-plus">lire toutes les dernières nouvelles</a>
         </div>
         <div class="new-album-container">
-            <p>Disque du moment</p>
-            <p>jens maurits orchestra</p>
-            <p>they do it for a reason</p>
-
-            PUT IMAGE HERE!!!!!!!!!!!!
-
+            <h2 class="bottom-title">Disque du moment</h2>
+            <div class="a-propos-content">Jens Maurits Orchestra</div>
+            <div class="a-propos-content"><i>They Do it For a Reason</i></div>
+            <img class="new-album-left" src="assets/tdif.jpg">
         </div>
         <div class="left-title">
             <h2 class="bottom-title">La Vidéo du moment</h2>
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/wAVaBSlthrU" frameborder="0" allowfullscreen></iframe>
+            <iframe class="left-video" width="100%" src="https://www.youtube.com/embed/wAVaBSlthrU" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="left-title">
             <h2 class="bottom-title">L'audio du moment</h2>
-            <iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            <iframe width="100%"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
         </div>
         <div>
             <h2 class="bottom-title">Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?</h2>
@@ -189,74 +187,201 @@
                 <div class="contact-image"><img class="disc-image" src="assets-opt/albums.jpg">
                     <div class="albums-image-title image-title">Albums</div>
                 </div>
-                <div *ngIf="selectedAlbum" class="large-album-format">
+
+                <!---------------they do it for a reason -------------->
+                <div class="large-album-format">
                     <div class="large-image-container">
-                        <img class="large-image" src="{{selectedAlbum.image}}">
-                        <div class="label">{{selectedAlbum.label}}</div>
+                        <img class="large-image" src="assets/tdif.jpg">
+                        <div class="label">suite 2016</div>
                     </div>
                     <div class="large-album-content">
-                        <div class="title">{{selectedAlbum.title}}</div>
-                        <div class="group">{{selectedAlbum.group}}</div>
+                        <div class="title">They Do it For a Reason</div>
+                        <div class="group">Jens Maurits Orchestra</div>
                         <div class="membre">membres</div>
-                        <div *ngFor="let musician of selectedAlbum.musicians"><b>{{musician.name}}</b>: <i>{{musician.instrument}}</i></div>
+                        <div><b>Jens Bouttery</b>: <i>batterie, compo</i></div>
+                        <div><b>Daan Milius</b>: <i>texte</i></div>
+                        <div><b>Lisa Gambey</b>: <i>livre</i></div>
+                        <div><b>Benjamin Sauzereau</b>: <i>guitarre</i></div>
+                        <div><b>Niels Van Heertum</b>: <i>euphonium</i></div>
+                        <div><b>Rik Sturtewagen</b>: <i>violon</i></div>
+                        <div><b>Lennart Heyndels</b>: <i>violoncelle, contrebasse</i></div>
+                        <div><b>Joris Lindemans</b>: <i>violoncelle</i></div>
+                        <div><b>Lucas Kramer</b>: <i>la bestia</i></div>
+                    </div>
+                </div>
+
+                <!--------------- phil --------------------------->
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/phil_poche.jpg">
+                        <div class="label">suite 2016</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">Philémon, le chien qui ne voulait pas grandir</div>
+                        <div class="group">Philémon, le chien qui ne voulait pas grandir</div>
+                        <div class="membre">membres</div>
+                        <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
+                        <div><b>Mathieu Robert</b>: <i>sax soprano</i></div>
+                        <div><b>Doorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Benoît Leseure</b>: <i>violon</i></div>
+                        <div><b>Nicole Miller</b>: <i>algo</i></div>
+                        <div><b>Annemie Osborne</b>: <i>violoncelle</i></div>
+                    </div>
+                </div>
+
+                <!------------- empire of matches -------------------->
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/empire.jpg">
+                        <div class="label">suite 2016</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">Empire of Matches</div>
+                        <div class="group">Blue Monday People</div>
+                        <div class="membre">membres</div>
+                        <div><b>François Vaiana</b>: <i>chant</i></div>
+                        <div><b>Jens Bouttery</b>: <i>batterie</i></div>
+                        <div ><b>Dorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
+                    </div>
+                </div>
+
+                <!--------------- lift 1st floor --------------------------->
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/lift.jpg">
+                        <div class="label">label</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">1st floor</div>
+                        <div class="group">Lift</div>
+                        <div class="membre">membres</div>
+                        <div><b>Emily Allison</b>: <i>voix</i></div>
+                        <div><b>Thomas Mayade</b>: <i>fuglehorn</i></div>
+                        <div><b>Jérôme Klein</b>: <i>batterie</i></div>
+                        <div><b>Dorian Dumont</b>: <i>Piano</i></div>
+                        <div><b>Lennart Heyndels</b>: <i>contrebasse</i></div>
+                    </div>
+                </div>
+
+
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/dub.jpg">
+                        <div class="label"></div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">The Dubtapes</div>
+                        <div class="group">Jens Maurits Orchestra</div>
+                        <div class="membre">membres</div>
+                        <div><b>Jens Bouttery</b>: <i>batterie, compo</i></div>
+                        <div><b>Daan Milius</b>: <i>vidéo, sampler</i></div>
+                        <div><b>Dorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
+                        <div><b>Niels Van Heertum</b>: <i>euphonium</i></div>
+                        <div><b>Joris Lindemans</b>: <i>violoncelle</i></div>
+                        <div><b>Gregor Siedl</b>: <i>clarinette, sax</i></div>
+                    </div>
+                </div>
+
+
+            <!----------- EPS------------------------->
+                <!------------ hibernation ------------------>
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/hibernation.jpg">
+                        <div class="label">label?</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">Hibernation</div>
+                        <div class="group">Charlotte Haesen Quintet</div>
+                        <div class="membre">membres</div>
+                        <div><b>Charlotte Haesen</b>: <i>chant</i></div>
+                        <div><b>Philip Breidenbach</b>: <i>guitare</i></div>
+                        <div><b>Dorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Fil Caporali</b>: <i>contrebasse</i></div>
+                        <div><b>Samuel Reisen</b>: <i>batterie</i></div>
+                    </div>
+                </div>
+
+                <!------------------- effde ------------------->
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/effde_pochette.jpg">
+                        <div class="label">label?</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">fendillés</div>
+                        <div class="group">Effdé</div>
+                        <div class="membre">membres</div>
+                        <div><b>Fabrice Ducognon</b>: <i>chant</i></div>
+                        <div><b>Dorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Romain Castéra</b>: <i>batterie</i></div>
+                    </div>
+                </div>
+
+
+                <!---------------- love ------------------>
+                <div class="large-album-format">
+                    <div class="large-image-container">
+                        <img class="large-image" src="assets/love.jpg">
+                        <div class="label">suite 2016</div>
+                    </div>
+                    <div class="large-album-content">
+                        <div class="title">Empire of Matches</div>
+                        <div class="group">Blue Monday People</div>
+                        <div class="membre">membres</div>
+                        <div><b>François Vaiana</b>: <i>chant</i></div>
+                        <div><b>Jens Bouttery</b>: <i>batterie</i></div>
+                        <div ><b>Dorian Dumont</b>: <i>piano</i></div>
+                        <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
                     </div>
                 </div>
             </div>
             <div class="right-side">
-                <div class="projets-info">{{content.albums_plus_fr}}</div>
+                <div class="projets-info">Clique, donc, sur une pochette si tu veux en savoir +</div>
                 <div class="small-album-format">
                     <div class="small-albums-container">
-                        <div class="small-album-container-title"><div>{{content.discTitle_Fr}}</div><div><i id="gallerie" class="fa fa-chevron-down"></i></div></div>
+                        <div class="small-album-container-title"><div>disques</div><div><i id="gallerie" class="fa fa-chevron-down"></i></div></div>
                     </div>
                     <div class="small-albums-container">
-                        <div class="small-album-image-container" *ngFor="let album of content.album" (click)="onSelected(album)">
-                            <img src="{{album.image}}" class="small-album-image">
+                        <div class="small-album-image-container">
+                            <img src="assets/tdif.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/phil_poche.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/empire.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/lift.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/dub.jpg" class="small-album-image">
                         </div>
                     </div>
                 </div>
 
                 <div class="small-album-format">
                     <div class="small-albums-container">
-                        <div class="small-album-container-title"><div>{{content.epTitle_Fr}}</div><div><i class="fa fa-chevron-down"></i></div></div>
+                        <div class="small-album-container-title"><div>E.P.(s)</div><div><i class="fa fa-chevron-down"></i></div></div>
                     </div>
                     <div class="small-albums-container">
-                        <div class="small-album-image-container" *ngFor="let album of content.ep" (click)="onSelected(album)">
-                            <img src="{{album.image}}" class="small-album-image">
+                        <div class="small-album-image-container">
+                            <img src="assets/hibernation.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/effde_pochette.jpg" class="small-album-image">
+                        </div>
+                        <div class="small-album-image-container">
+                            <img src="assets/love.jpg" class="small-album-image">
                         </div>
                     </div>
                 </div>
 
             </div>
-
         </div>
-
-
-
-        <!--<ul class="heroes">
-          <li *ngFor="let hero of content.hero" (click)="onSelect(hero)">
-            <span class="badge">{{hero.id}}</span> {{hero.name}}
-          </li>
-        </ul>
-
-        <div *ngIf="selectedHero">
-          <h2>{{selectedHero.name}} details!</h2>
-          <div><label>id: </label>{{selectedHero.id}}</div>
-        </div>-->
-
-
-        <!--
-        <div class="large-album-format" *ngFor="let album of content.largeAlbum">
-          <div class="large-image-container">
-            <img class="image" src="{{album.image}}">
-            <div class="label">{{album.label}}</div>
-          </div>
-          <div class="large-album-content">
-            <div class="title">{{album.title}}</div>
-            <div class="group">{{album.group}}</div>
-            <div class="musicians" *ngFor="let musician of album.musicians">{{musician.name}}: {{musician.instrument}}</div>
-          </div>
-        </div>-->
-
 
 
 

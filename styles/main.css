@@ -248,6 +248,11 @@ a:hover {
   width: 100%;
 }
 
+.side-disc-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .discs-info {
   padding: 70px 0 30px 0;
   text-align: justify;
