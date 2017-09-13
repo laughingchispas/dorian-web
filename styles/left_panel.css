@@ -1,0 +1,55 @@
+
+  .icon-box-home {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .fa {
+    font-size: 80px;
+    color: #ffd624;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-block a {
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+  }
+
+  a:hover {
+    color: #ffd624;
+  }
+
+  .left-concerts-a-venir {
+    display: block;
+  }
+
+  .left-concert {
+    display: block;
+    font-size: 13px;
+    color: white;
+  }
+
+  .a-propos-content {
+    font-size: 13px;
+    text-align: justify;
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .lire-plus {
+    text-decoration: underline;
+    font-size: 14px;
+  }
+
+  .new-album-container img {
+    width: 50%;
+  }
+
+
+
+

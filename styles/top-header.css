@@ -1,0 +1,77 @@
+
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  padding: 180px 0 0 0;
+}
+
+.newsletter-signup {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+#nav-icons .fa {
+  color: white;
+  font-size: 25px;
+  padding: 5px 20px;
+}
+
+.fa:hover {
+  color: #ffd624;
+}
+
+#top-header #nav-icons a:hover {
+  text-decoration: none;
+  border-bottom: none;
+  color: #ffd624;
+}
+
+@media only screen and (min-width: 720px) {
+
+  #top-header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 70px 0;
+  }
+
+  #nav-icons .fa {
+    color: white;
+    font-size: 18px;
+    padding: 0 30px 0 0;
+  }
+
+  .nav-icons {
+      padding: 0;
+  }
+
+  .newsletter-signup {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+  button {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    height: 18px;
+    margin: 0 0 0 10px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 11px;
+  }
+
+  #nav-icons .fa:hover {
+    color: #ffd624;
+  }
+
+}
+

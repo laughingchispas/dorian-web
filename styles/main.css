@@ -1,0 +1,781 @@
+
+
+* {
+  font-family: 'Arsenal', Arial, cursive;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 30px;
+  padding: 0;
+}
+
+p {
+  font-size: 11px;
+  text-align: justify;
+}
+
+body {
+  padding: 10px 0 0 0;
+  margin: 0 auto;
+  color: white;
+  width: 90%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ffd624;
+}
+
+
+.contact-image {
+  width: 100%;
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffd624;
+  font-size: 30px;
+  font-family: Arial Black, arial, sans-serif;
+  letter-spacing: 0.10em;
+}
+
+.side-container {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+
+
+/********************** division for albums and projects ******************/
+.left-side {
+  width: 65%;
+}
+
+.right-side {
+  width: 35%;
+}
+
+
+.left-title {
+  padding-bottom: 20px;
+}
+
+.bottom-title {
+  margin: 0;
+}
+
+
+.button {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  position: absolute;
+}
+.button:hover {
+   fill: white;
+ }
+
+
+.defs {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+.buttons {
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  position: absolute;
+  z-index: 3000;
+  top: 5px;
+  text-align: center;
+}
+
+
+#play-button {
+  background-color: #F2CC45;
+  left: 50px;
+  height: 30px;
+  width: 100px;
+  font-family: 'Arsenal', Arial, cursive;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+#pause-button {
+  background-color: #F2CC45;
+  right: 50px;
+  height: 30px;
+  width: 100px;
+  font-family: 'Arsenal', Arial, cursive;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 22px;
+  padding-top: 3px;
+}
+
+.home-image img {
+  width: 100%;
+  padding: 20px 0 0 0;
+}
+
+                                                            /*video ************/
+.container {
+  position: relative;
+  width: 99%;
+  height: 0;
+  padding-bottom: 56.25%;
+  border-width: .5px;
+  border-style: solid;
+  border-color: #F2CC45;
+  margin-top: 75px;
+}
+
+.video-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/**************************** home styles *******************************/
+
+.dorian-home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+
+}
+
+
+.video-supra-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+}
+
+
+.bottom-home-main-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.bottom-home-title {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 50px;
+  padding: 0 0 15px 0;
+}
+
+.nouvelle-fraiche {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 0 1px 0;
+  padding: 10px 0 15px 0;
+  margin: 0 auto;
+  width: 500px;
+  text-align: justify;
+}
+
+.image-home-bottom-nouvelles {
+  width: 100px;
+}
+
+/********************************* about styles *****************************************/
+
+
+.dorian-title {
+  bottom: 40px;
+  left: 85px;
+}
+
+
+.dorian-right-title {
+  padding: 10px 0 20px 0;
+  font-size: 12px;
+  text-align: justify;
+}
+
+#plus {
+  padding: 0 3px 15px 5px;
+}
+
+.container-bio {
+  text-align: justify;
+  padding: 15px 0 0 0;
+}
+
+#bio-title-phrase {
+  padding: 15px 0 40px 0;
+}
+
+#bio-title {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 40px;
+}
+
+/************************************** discographie styles **************************/
+
+.disc-image {
+  width: 100%;
+}
+
+.discs-info {
+  padding: 70px 0 30px 0;
+  text-align: justify;
+}
+
+.albums-image-title {
+  top: 5%;
+  left: 2%;
+}
+
+.right-side {
+  width: 27%;
+}
+
+.right-side-general {
+  width: 40%;
+  margin: 170px 0 0 30px;
+  font-size: 20px;
+}
+
+.side-container {
+  justify-content: space-between;
+}
+
+.small-album-container-title {
+  text-transform: uppercase;
+  width: 100%;
+  background-color: #ffd624;
+  margin: 0 0 10px 0;
+  color: black;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  text-align: center;
+}
+
+.fa {
+  color: black;
+  padding: 0 0 0 4px;
+
+}
+
+.small-album-image {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+}
+
+
+.large-album-format {
+  padding: 10px 0;
+  display: flex;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px 0 1px 0;
+  width: 100%;
+  margin: 30px 70px 0 0;
+}
+
+.large-image-container {
+  margin: 0 15px 0 0;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.group {
+  padding: 0 0 30px 0;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.large-image {
+  width: 300px;
+}
+
+.small-album-image-container {
+  cursor: pointer;
+  padding: 0 0 6px 0;
+}
+
+.membre {
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 30px;
+}
+
+
+/********************************** projets styles ************************************/
+.project-content {
+  display: flex;
+}
+
+
+/*clique-donc*/
+.projets-info {
+  padding: 10px 0 0 0;
+  font-family: 'Amatic SC', Arial, cursive;
+}
+
+.projets-image-title {
+  bottom: 90px;
+  left: 70px;
+}
+
+
+.projets-supra-container {
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.projets-container {
+  width: 100%;
+  position: relative;
+  padding: 2px 0;
+}
+
+.projets-image {
+  width: 100%;
+}
+
+
+.projet {
+  width: 100%;
+  font-size: 15px;
+  position: absolute;
+  text-align: center;
+  bottom: 22%;
+  left: 0;
+  color: #ffd624;
+
+}
+
+.projet-image-small {
+  width: 100%;
+  cursor: pointer;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 40px;
+}
+
+.projet-image {
+  height: 170px;
+  padding: 0 20px 0 0;
+}
+
+.group-description {
+  font-size: 12px;
+}
+
+.membre {
+  text-transform: uppercase;
+  padding: 0 0 5px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 30px;
+}
+
+.projet-site {
+  text-decoration: underline;
+}
+
+.additional {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.audio, .video {
+  width: 50%;
+  padding: 5px 0;
+  position: relative;
+  background-color: purple;
+}
+
+.audio-video-container {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.eau {
+  padding: 10px 0;
+  font-family: 'Amatic SC', Arial, cursive;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.convincing-text {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.buy {
+  padding: 0 0 10px 0;
+  font-size: 12px;
+}
+
+.album-name {
+  text-decoration: underline;
+}
+
+
+/****************************----------------------- projcts click styling  ************************************/
+
+#divWrap div{
+  opacity:0;
+  display: none;
+  background-color: red;
+}
+
+#divWrap .Active {
+  opacity:1;
+  display: inline;
+  -webkit-animation:fadeIn ease-in-out 0.5s;
+  animation:fadeIn ease-in-out 0.5s;
+  background-color: pink;
+}
+
+
+#divWrap {
+  background-color: green;
+}
+
+#divWrap .Active {
+  background-color: pink;
+}
+
+#rightProjectContainer {
+  background-color: green;
+}
+@-webkit-keyframes fadeIn{
+  from{opacity:0;}
+  to  {opacity:1;}
+}
+@keyframes fadeIn{
+  from{opacity:0;}
+  to  {opacity:1;}
+}
+
+
+
+/*********************************** agenda styles **********************************/
+
+
+.agenda-image-title {
+  top: 42%;
+  left: 32%;
+}
+
+.concert-container {
+  width: 100%;
+  margin: 20px 0 0 50px;
+}
+
+.concert-container-title {
+  text-transform: uppercase;
+  padding: 15px 0 3px 0;
+  font-size: 30px;
+}
+
+.agenda-sub-pic-text {
+  width: 65%;
+  text-align: justify;
+}
+
+.table-heading {
+  display: flex;
+  border-style: solid;
+  border-color: white;
+  border-width: 0 0 1px 0;
+  margin: 10px 0 10px 0;
+  text-transform: uppercase;
+}
+
+.table-row {
+  display: flex;
+  padding: 2px 0;
+}
+
+.date {
+  width: 20%;
+}
+
+.place {
+  width: 50%;
+}
+
+.projet-agenda {
+  width: 30%;
+}
+
+#date {
+ font-size: 20px;
+}
+
+#place {
+  font-size: 20px;
+}
+
+#projet-agenda {
+  font-size: 20px;
+}
+
+
+/********************************* bonus styles **********************************/
+
+/** {
+  color: black;
+  background-color: white;
+}*/
+
+.thanks-par {
+  padding: .5px 15px;
+  font-size: 12px;
+}
+
+.bonus-image-title {
+  bottom: 0;
+  left: 90px;
+}
+
+.invisible {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  padding: 0 0 0 20px;
+}
+
+.appear {
+  height: 200px;
+  width: 90%;
+  padding: 0 0 0 20px;
+  transition-property: height;
+  transition-duration: .5s;
+  -webkit-transition: width 0.1s, height, .5s; /* Safari */
+  transition: width 0.1s, height, .5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.fa {
+  color: black;
+  font-size: 40px;
+}
+
+#chic, #gallerie, #moi, #les, #thanks {
+  width: 20px;
+  height: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+i:hover {
+  color: #ffd624;
+}
+
+.bonus-content {
+  display: block;
+}
+
+.thanks-title, .gallerie-title, .jouez-lez-title, .jouez-moi-title, .chic-title {
+  width: 100%;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.title {
+  padding: 0 10px;
+
+}
+
+.chic-title {
+  justify-content: flex-end;
+  width: 99%;
+}
+
+.gallerie-title {
+  justify-content: center;
+  width: 90%;
+}
+
+.jouez-moi-title {
+  justify-content: flex-end;
+  width: 65%;
+}
+
+.jouez-lez-title {
+  justify-content: center;
+  width: 30%;
+}
+
+.thanks-title {
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.gallerie, .chic, .jouez-moi, .jouez-lez, .thanks {
+  padding: 10px 0 5px 0;
+}
+
+.pdf-block {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pdf {
+  height: 350px;
+  width: 25%;
+}
+
+.pdf-image {
+  width: 100%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/********************************** press styles ********************************/
+.presse-image-title {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #ffe700;
+  font-size: 30px;
+}
+
+.presse-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+input  {
+  width: 200px;
+}
+
+button {
+  background-color: white;
+  border-style: solid;
+  border-color: white;
+  height: 18px;
+  margin: 0 0 0 10px;
+  display: inline-flex;
+  align-items: center;
+  line-height: 11px;
+}
+
+
+
+/********************************** contact styles ***********************************/
+
+.contact-image {
+  position: relative;
+}
+
+.contact-title {
+  top: 73%;
+  right: 33%;
+}
+
+.contact-info-container {
+  height: 90px;
+  width: 400px;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0;
+  border-color: white;
+  font-size: 15px;
+
+}
+
+.contact-info {
+  padding: 15px 0 0 0;
+}
+
+.icon-container {
+  display: flex;
+  height: 20px;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.contact-icon.fa {
+  font-size: 25px;
+
+}
+
+body {
+  padding: 1rem;
+}
+
+
+@media only screen and (min-width: 820px) {
+
+  .left-panel {
+    display: block;
+    margin: 0 40px 0 0;
+  }
+
+  body {
+    padding: 10px 30px;
+    margin: 0 auto;
+    color: white;
+    width: 75%;
+  }
+
+  .right-side {
+    width: 17%;}
+
+
+
+}

@@ -22,7 +22,7 @@ import {ContentService} from "../../service";
 @Component({
   selector: 'footer-component',
   templateUrl: './footer-component.cmp.html',
-  styleUrls: ['./footer-component.cmp.css'],
+  styleUrls: ['./footer.css'],
 })
 export class FooterComponent implements OnDestroy {
   content: any = {};

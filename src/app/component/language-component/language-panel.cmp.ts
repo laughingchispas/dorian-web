@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'language-component',
   templateUrl: './language-panel.cmp.html',
-  styleUrls: ['./language-panel.cmp.css']
+  styleUrls: ['./language_choice.css']
 })
 export class LanguageComponent {
 

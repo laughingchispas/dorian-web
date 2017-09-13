@@ -22,7 +22,7 @@ import {ContentService} from "../../service";
 @Component({
   selector: 'scroll-component',
   templateUrl: './scroll-component.cmp.html',
-  styleUrls: ['./scroll-component.cmp.css'],
+  styleUrls: ['./scroll.css'],
 })
 export class ScrollComponent implements OnDestroy {
   content: any = {};

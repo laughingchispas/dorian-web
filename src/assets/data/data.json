@@ -41,13 +41,6 @@
     }
   ],
   "voir_fr": "voir liste complète",
-  "a_propos_fr": "à propos",
-  "a_propos_content_fr": [
-    {"par": "Dorian est un pianiste français basé à Bruxelles."},
-    {"par": "Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers."},
-    {"par": "Et le tout à divers moments."},
-    {"par": "Il part et repart (tel un mars) vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit glouton de découverte jamais rassasié."}
-  ],
   "left_comment_fr": "Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?",
   "audio_moment_fr": "L'audio du moment",
   "video_moment_fr": "La Vidéo du moment",
@@ -85,7 +78,6 @@
     {"par": "Gabriel Fauré"},
     {"par": "Toi même tu sais. Plussoie si tu l’oses"}
   ],
-  "presse_left_fr": "presse",
   "lire_plus_fr": "lire +",
   "news": "news",
   "lire_nouvelles_fr": "lire toutes les dernières nouvelles",

@@ -19,7 +19,7 @@ import {DomSanitizer} from '@angular/platform-browser';
 @Component({
   selector: 'left-panel',
   templateUrl: './left-panel.cmp.html',
-  styleUrls: ['./left-panel.cmp.css'],
+  styleUrls: ['./left_panel.css'],
 })
 export class LeftPanelComponent implements OnDestroy {
   content: any = {};

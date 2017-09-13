@@ -1,0 +1,14 @@
+
+.footer-content {
+  width: 100%;
+  padding: 60px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-subliminal {
+  width: 50%;
+  text-align: justify;
+  font-size: 13px;
+}
+

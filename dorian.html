@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dorian Dumont</title>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Allerta+Stencil|Amatic+SC|Arapey|Arsenal|Averia+Sans+Libre|Averia+Serif+Libre|Barrio|Bungee+Hairline|Crimson+Text|Droid+Serif|Knewave|Libre+Baskerville|Londrina+Sketch|Megrim|Nixie+One|Old+Standard+TT|Open+Sans+Condensed:300|Playfair+Display|Raleway|Reenie+Beanie|Slabo+27px|Special+Elite|Sue+Ellen+Francisco|Yrsa" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Arsenal:400,400i,700,700i" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/name.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/language_choice.css">
+    <link rel="stylesheet" href="styles/left_panel.css">
+    <link rel="stylesheet" href="styles/right_panel.css">
+    <link rel="stylesheet" href="styles/scroll.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/top-header.css">
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/transitions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="top">
+
+
+<div id="top-header">
+    <div class="icon-container">
+        <div class="nav-icons" id="nav-icons">
+            <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://soundcloud.com/dorian-dumont" target="_blank">
+                <i class="fa fa-soundcloud"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCQEGIwUjPFRUMo1_3W5ABmQ" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+            </a>
+            <a href="http://www.twitter.com/dodumont" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+    <div class="newsletter-signup">
+        SIGN UP : __________________ <button>SUBMIT</button>
+    </div>
+</div>
+
+
+<!--<div class="language">
+    <div class="language-element-container">
+        <div class="language-elements">
+            <a class="language-element">Français</a>
+            <div class="language-element">/</div>
+            <a class="language-element">English</a>
+        </div>
+    </div>
+</div>-->
+
+<!-- smnall navigation!!! -->
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript: void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">home</a>
+    <a href="dorian.html">dorian</a>
+    <a href="agenda.html">agenda</a>
+    <a href="albums.html">album</a>
+    <a href="projets.html">projets</a>
+    <a href="bonus.html">media</a>
+    <a href="contact.html">contact</a>
+</div>
+
+<span id="open-box" onclick="openNav()">&#8801</span>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+
+<!--end of nav ----->
+
+
+
+<div class="panel-container">
+
+    <div class="left-panel">
+        <div class="icon-box-home"></div>
+        <div class="left-concerts-a-venir left-title">
+            <h2 class="bottom-title">Concerts à venir</h2>
+            <div class="left-concert" >24.09.17</div>
+            <div class="left-concert">15.10.17</div>
+            <div class="left-concert">18.10.17</div>
+            <a href="agenda.html" id="voire-list" class="lire-plus">voir liste complète</a>
+        </div>
+        <div class="a-propos left-title">
+            <h2 class="bottom-title">à propos</h2>
+            <div class="a-propos-content">
+                <div>
+                    <div>Dorian est un pianiste français basé à Bruxelles.</div>
+                    <div>Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers.</div>
+                    <div>Et le tout à divers moments.</div>
+                    <div>Il part et repart (tel un mars) vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit glouton de découverte jamais rassasié.</div>
+                </div>
+                <div id="propos">
+                    <a href="/dorian" class="lire-plus">lire +</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="press left-title">
+            <h2 class="bottom-title">presse</h2>
+            <a href="presse.html" class="lire-plus">voir tous les articles</a>
+        </div>
+
+        <div class="left-title">
+            <h2 class="bottom-title">news</h2>
+            <a routerLink="/presse" class="lire-plus">lire toutes les dernières nouvelles</a>
+        </div>
+        <div class="new-album-container">
+            <p>Disque du moment</p>
+            <p>jens maurits orchestra</p>
+            <p>they do it for a reason</p>
+
+            PUT IMAGE HERE!!!!!!!!!!!!
+
+        </div>
+        <div class="left-title">
+            <h2 class="bottom-title">La Vidéo du moment</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/wAVaBSlthrU" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="left-title">
+            <h2 class="bottom-title">L'audio du moment</h2>
+            <iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+        <div>
+            <h2 class="bottom-title">Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?</h2>
+        </div>
+    </div>
+
+
+    <div class="right-panel">
+
+        <div class="name-banner">
+            dorian dumont
+        </div>
+
+        <!-------------------- big navigation! ----------------------->
+        <header id="site-navigation-main">
+            <nav>
+                <div class="nav_item">
+                    <a href="index.html">home</a>
+                </div>
+                <div class="nav_item">
+                    <a href="dorian.html">dorian</a>
+                </div>
+                <div class="nav_item">
+                    <a href="agenda.html">agenda</a>
+                </div>
+                <div class="nav_item">
+                    <a href="albums.html">albums</a>
+                </div>
+                <div class="nav_item">
+                    <a href="projets.html">projets</a>
+                </div>
+                <div class="nav_item">
+                    <a href="bonus.html">bonus</a>
+                </div>
+                <div class="nav_item">
+                    <a href="contact.html">contact</a>
+                </div>
+            </nav>
+        </header>
+        <!---------------- home content ---------------------------->
+
+        <div class="side-container">
+            <div class="left-side">
+                <div class="contact-image">
+                    <img class="projets-image contact-image" src="assets-opt/dorian.jpg">
+                    <div class="image-title dorian-title">dorian</div>
+                </div>
+            </div>
+            <div class="right-side-general">Si tu veux connaître la petite histoire</div>
+
+        </div>
+        <div class="container-bio" id="bio-title-phrase">Sachez qu’après avoir lu tout ça vous ne saurez malheureusement pas tout sur Dorian Dumont (qui est un être complexe) mais vous en saurez tout de même plus que la plupart des gens. Ce qui est quand même pas mal, vous en conviendrez.</div>
+
+        <div id="bio-title">bio</div>
+
+        <div class="container-bio">
+            <div>Né le 08 juin 1988 à Montpellier, Dorian Dumont se passionne très tôt pour la musique, cet art de combiner les sons, en suivant certaines règles. Ou non...</div>
+            </br>
+            <div>Comme il faut quand même bien les apprendre quelque part ces règles, Dorian commence le piano classique à 7 ans au Conservatoire National de Région de Montpellier (France). Avec une sacré pédagogue : Mireille Michaud, une personne qui aime la musique et qui a compris qu’on obtient rien sans rien et surtout qui sait le faire comprendre aux autres.</div>
+            <div>Pour suivre avec Susan Campbell qui se chargera de peaufiner finement tout ça. Ainsi que son prix de Solfège décrochant ainsi son Diplôme d’Études Musicales: D.E.M.</div>
+            </br>
+            <div>À Montpellier, il obtient en 2005 la Médaille d’Or en Piano: Mention très bien à l’unanimité avec les félicitations du jury et aussi en Musique de Chambre avec la même mention.Dorian sera même le soliste interprète du Concerto pour Piano en Ré Majeur de Haydn avec l’Orchestre Symphonique de la Faculté de Montpellier en 2005.</div>
+            </br>
+            <div>Ce n’est qu’en 2006, à l’âge de 18 ans que, tout en continuant son perfectionnement au classique, Dorian commence à s’intéresser au Jazz et à la musique improvisé.</div>
+            <div>Il intègre l’atelier jazz de Montpellier qui a lieu une fois par mois et où Pierre de Bethmann, François Théberge, Stéphane Foucher et Peter Giron sont les intervenants.</div>
+            </br>
+            </br>
+            <div>Après s’être férocement (tel un lion) nourris de musique classique, il s’oriente définitivement vers le jazz en quittant Montpellier, ses cigales et sa garrigue pour la capitale du plat pays: Bruxelles, son ciel bas et sa bonhomie contagieuse.</div>
+            <div>Là il entre au Conservatoire Royal de Musique en 2007 avec Éric Legnini comme professeur.</div>
+            </br>
+            <div>Il y restera 2 ans avant de passer au Conservatoire Flamand, au Koninklijk Conservatorium of Brussels où il étudie avec Diederik Wissels, Kris Defoort, David Linx, Natalie Loriers, John Ruocco... Pour en sortir diplôme en poche en 2012.</div>
+            </br>
+            </br>
+            <div>Bruxelles, ville accueillante, cité cosmopolite et carrefour européen (s’il en est) sera la plateforme de la plupart des formations futures de Dorian.</div>
+            <div>Ainsi que son lieu de vie.</div>
+            <div>Ce qui rend la chose très pratique.</div>
+            </br>
+            <div>Cultivant sa curiosité musicale, il participe à de nombreux projets aux styles divers:</div>
+            </br>
+            </br>
+            <div>Jazz avec « Easy Pieces » un trio à la formation inhabituel avec 2 piano et 1 guitare avec Hendrik Lasure et Ben Sauzereau. Ils prévoient de sortir leur 1er Album en avril 2017.</div>
+            </br>
+            <div>Jazz aussi mais avec une approche plus débridé et pas mal d’improvisation libre sur des concepts de jeu différents et originaux avec « Jens Maurits Orchestra » et ses différents projets:</div>
+            <div>-« Jens Maurits Orchestra : The Dubtapes » avec Jens Bouttery aux compositions et qui a pensé le concept avec Daan Milius qui s’occupe aussi de la vidéo sur le projet.</div>
+            <div>Ensemble, ils réalisent une tournée « JazzLab Series » en 2013. L’album ainsi que le DVD « the Dubtapes » est paru en septembre 2013. Enregistré lors d’un live à De Werf, à Bruges.</div>
+            <div>Dorian est également accompagné sur scène de: Niels Van Heertum, Gregor Siedl, Ben Sauzereau et Joris Lindemans.</div>
+            </br>
+            <div>-« Jens Maurits Orchestra : Triggers & Thresholds » ce projet pose la question « d’où vient la musique? » et de ce qui l’a « déclenché » avec Jens Bouttery à la baguette et aux compositions toujours, accompagné une nouvelle fois de Daan Milius le vidéaste dans une formule élargie avec Rik Sturtewagen, Lennart Heyndels, et Lucas Kramer qui se rajoutent à l’équipe.</div>
+            <div>Ils ont sortis un CD-Book: « They do it for a reason » paru en septembre 2016. Ils se sont produits au « Rataplan » notamment ainsi que dans de nombreux festivals comme « Follow the Sound » ou encore « Balzaal Vooruit ».</div>
+            </br>
+            <div>-« Jens Maurits Orchestra : The Blogpera » qui est une extension du précédent projet mais dans une formule plus compact et ludique. Il forme un trio sur scène avec Jens Bouttery à la batterie et Lucas Kramer qui les accompagnent sur sa machine « la Bestia ». Avec « The Blogpera », Dorian a joué aussi bien en Hollande qu’en Allemagne et ils ont notamment été sélectionnés comme lauréat de la masterclass au festival la Ruhrtriennale.</div>
+            </br>
+            <div>Jazz encore avec « Lift » dont l’album « 1rst Floor » est sortie en janvier 2014 avec Thomas Mayade, Emily Allison, Jérôme Klein, Lennart Heyndels et David Linx et Christophe Panzani. Groupe avec lequel il se produit à « Jazz à Vienne » et aussi où il remporte le concours « Jazz à Ixelles » en 2012 et avec lequel il sera également lauréat du concours à « Crest Jazz Vocal » en 2013.</div>
+            </br>
+            <div>Parmi ses premiers groupes on retrouve également:</div>
+            <div>« Paradigm Junction » avec Pat Cleaver et Jérôme Klein.</div>
+            </br>
+            <div>Ou « Blindsight » avec Maayan Smith, Lionel Beuvens et Hendrik Vanattenhoven.</div>
+            </br>
+            </br>
+            <div>Ou encore avec « Philémon, le chien qui ne voulait pas grandir » dans un style plus proche de la musique de chambre avec Ben Sauzereau, Mathieu Robert, Benoît Leseure, Nicolle Miller et Annemie Osborne. Le 1er album est parue en avril 2016 sur le label suite.</div>
+            </br>
+            <div>Ainsi qu’avec « Charlotte Haesen Quintet » avec Charlotte Haesen, Fil Caporali, Phillip Breidenbach et Samuel Reisen. Dans une esthétique plus « pop » et « world music ». Ensemble ils prévoient d’enregistrer leur 1er album au printemps 2017.</div>
+            </br>
+            <div>Mais aussi Chanson-Française avec « Brazùk » avec lequel il sera Lauréat de la Biennale de la Chanson Française à Bruxelles en 2008 ainsi que «Coup de Coeur» des Trois Baudets 2009 à Paris. Et dans le même style, Dorian se produit de temps en temps avec l’inimitable « Karim Gharbi ».Et il fais partis du goupe « Effdé » du chanteur Fabrice Ducognon, avec Romain Castéra. Formation avec laquelle Dorian a enregistré un EP « Fendillés » paru en novembre 2016.</div>
+            </br>
+            <div>Également un projet plutôt Progressive Soul/Pop/Rock/Groove (c’est dur de mettre des étiquettes sur la musique qui est faîtes parfois) avec « Blue Monday People » le projet de François Vaiana avec Wendlavim Zabsonre et Ben Sauzereau. Après un EP « Love », ils ont sortis un album « Empire of Matches » en janvier 2016 au CC Jacques Franq.</div>
+            </br>
+            </br>
+            <div>Dorian n’a donc pas peur de l’éclectisme. Bien au contraire. Ni des grands écarts.</div>
+            </br>
+            </br>
+            <div>Il part et repart (tel un mars), vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit (glouton) de découverte jamais rassasié. Et, tout en préparant l’élaboration de son propre projet (à venir...), il se produit à divers moments et en diverses occasions avec ces diverses personnes sus-nommées ou d’autres divers personnages encore, qu’ils soient dix ou moins ou vert ou autre, en hiver ou non, tous très divers en tout cas, envers et contre tout, et d’horizons lointains ou même parfois proche, vers là, on verra dit-il, pour jouer dans divers styles toutes ces musiques très diverses.</div>
+            </br>
+            <div>Allant vers et allant droit.</div>
+            </br>
+            <div>Et le tout en divers endroits.</div>
+            </br>
+            <div>« dit: vert. M’ont-ils dit. » dit-il. Alors il le fit.</div>
+            </br>
+            <div>En vers et sans verre (sans rire).</div>
+            </br>
+            </br>
+            </br>
+            <div>Et finissons par une citation qui claque, comme dans les plus beaux devoirs de philo ou les films avec Bruce Willis dedans:</div>
+            <div>« Pour moi, l’art, la musique surtout, consiste à nous élever le plus loin possible au-dessus de ce qui est. »</div>
+            <div>Gabriel Fauré</div>
+            </br>
+            <div>Toi même tu sais. </div>
+            </br>
+            </br>
+            <div>Plussoie si tu l’oses</div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+<div class="scroller ">
+    <a href="#top" class="scrollTop navbar"> Clique ici si t’as la flemme de « scroller » jusqu’en haut pour voir le menu.</a>
+</div>
+
+<div class=footer-content>
+    <div class="message-subliminal">
+        =SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.
+    </div>
+    <div class="nicole">
+        website designed by nicole
+    </div>
+
+</div>
+
+<script src="js/transitions.js"></script>
+
+</body>
+</html>
