@@ -366,7 +366,7 @@ a:hover {
 
 
 .projets-container {
-  width: 100%;
+  width: 30%;
   position: relative;
   padding: 2px 0;
 }
@@ -429,7 +429,6 @@ a:hover {
   width: 50%;
   padding: 5px 0;
   position: relative;
-  background-color: purple;
 }
 
 .audio-video-container {
