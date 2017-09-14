@@ -465,45 +465,6 @@ a:hover {
 }
 
 
-/****************************----------------------- projcts click styling  ************************************/
-
-#divWrap div{
-  opacity:0;
-  display: none;
-  background-color: red;
-}
-
-#divWrap .Active {
-  opacity:1;
-  display: inline;
-  -webkit-animation:fadeIn ease-in-out 0.5s;
-  animation:fadeIn ease-in-out 0.5s;
-  background-color: pink;
-}
-
-
-#divWrap {
-  background-color: green;
-}
-
-#divWrap .Active {
-  background-color: pink;
-}
-
-#rightProjectContainer {
-  background-color: green;
-}
-@-webkit-keyframes fadeIn{
-  from{opacity:0;}
-  to  {opacity:1;}
-}
-@keyframes fadeIn{
-  from{opacity:0;}
-  to  {opacity:1;}
-}
-
-
-
 /*********************************** agenda styles **********************************/
 
 
@@ -568,15 +529,27 @@ a:hover {
 
 
 /********************************* bonus styles **********************************/
-
-/** {
+#left-bonus a {
   color: black;
   background-color: white;
-}*/
+}
+
+.name-banner.bonus {
+  color: black;
+}
+
+.nav-bonus a{
+  color: black;
+}
+
+.nav-bonus a:hover {
+  color: black;
+}
 
 .thanks-par {
   padding: .5px 15px;
   font-size: 12px;
+  color: black;
 }
 
 .bonus-image-title {
@@ -592,7 +565,6 @@ a:hover {
 }
 
 .appear {
-  height: 200px;
   width: 90%;
   padding: 0 0 0 20px;
   transition-property: height;
@@ -603,10 +575,6 @@ a:hover {
   transition-delay: 0s;
 }
 
-.fa {
-  color: black;
-  font-size: 40px;
-}
 
 #chic, #gallerie, #moi, #les, #thanks {
   width: 20px;
@@ -621,6 +589,10 @@ i:hover {
 
 .bonus-content {
   display: block;
+}
+
+.content {
+  color: black;
 }
 
 .thanks-title, .gallerie-title, .jouez-lez-title, .jouez-moi-title, .chic-title {
@@ -674,7 +646,6 @@ i:hover {
 }
 
 .pdf {
-  height: 350px;
   width: 25%;
 }
 
@@ -683,6 +654,14 @@ i:hover {
   border-color: black;
   border-width: 1px;
   border-style: solid;
+}
+
+#top-header.bonus-header {
+  color: black;
+}
+
+#nav-icons fa.fa-bonus.fa-soundcloud {
+  color: black;
 }
 
 /********************************** press styles ********************************/
@@ -773,7 +752,6 @@ body {
   body {
     padding: 10px 30px;
     margin: 0 auto;
-    color: white;
     width: 75%;
   }
 
