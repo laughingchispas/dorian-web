@@ -187,23 +187,54 @@
         <!---------------- presse content ---------------------------->
         <div class="side-container">
             <div class="left-side">
-                <div class="presse-image-container">
-                    <div class="contact-image"><img class="presse-image contact-image" src="assets-opt/presse.jpg">
+                    <div class="contact-image"><img class="projets-image contact-image" src="assets/pages/presse.jpg">
                         <div class="presse-image-title image-title">presse</div>
                     </div>
-                </div>
+
             </div>
-            <div class="right-side"></div>
+            <div class="right-side-general"></div>
         </div>
 
+        <?php
+        //if "email" variable is filled out, send email
+          if (isset($_REQUEST['email']))  {
+
+          //Email information
+          $admin_email = "info@doriandumont.com";
+          $email = $_REQUEST['email'];
+          $subject = "new email"
+
+
+          //send email
+          mail($admin_email, "$subject", "From:" . $email);
+
+
+          //if "email" variable is not filled out, display the form
+          else  {
+        ?>
+
         <div class="presse-content">
-            <div>{{content.construction_fr}}</div><br>
-            <div>{{content.presse_joke_fr}} <input placeholder="{{content.chars_fr}}"> <button>SUBMIT</button></div><br><br><br>
-            <div *ngFor="let presse of content.presse_fr">
-                <div>{{presse.presse_poke_fr}}</div><br><br>
-                <div *ngFor="let presse_content of presse.content_fr">
-                    {{presse_content.par}}
+            <div>Cette section est en construction...</div><br>
+
+            <form method="post">
+                Si t’es pas content voici un espace pour t’exprimer : <input name="email" type="text" />
+                <input type="submit" value="Submit" placeholder="en 13 caractères maximum" />
+            </form>
+
+            <?php
+  }
+?>
+            <br>
+            <div>
+                <div>Par contre j’espère que tu es conscient que c’est envoyer l’équivalent d’un « poke » au cyber-espace</div><br>
+                <div>
+                    <div>C’est à dire que personne ne te lira.</div>
+                    <div>C’est entre toi et ton clavier...</div>
+                    <div>Donc régale toi bien et fais toi plaisir, c’est le moment de se lâcher (en 13 caractères).</div>
                 </div>
+
+
+
             </div>
         </div>
 
