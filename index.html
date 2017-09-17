@@ -57,6 +57,33 @@
     </div>
 </div>
 
+<?php
+//if "email" variable is filled out, send email
+  if (isset($_REQUEST['email']))  {
+
+  //Email information
+  $admin_email = "info@doriandumont.com";
+  $email = $_REQUEST['email'];
+  $subject = "new email"
+
+
+  //send email
+  mail($admin_email, "$subject", "From:" . $email);
+
+
+  //if "email" variable is not filled out, display the form
+  else  {
+?>
+
+<form method="post">
+    Email: <input name="email" type="text" /><br />
+    <input type="submit" value="Submit" />
+</form>
+
+<?php
+  }
+?>
+
 
 <!--<div class="language">
     <div class="language-element-container">
@@ -158,30 +185,33 @@
 
     <!-------------------- big navigation! ----------------------->
         <header id="site-navigation-main">
-                        <nav>
-                            <div class="nav_item">
-                                <a href="index.html">home</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="dorian.html">dorian</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="agenda.html">agenda</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="albums.html">albums</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="projets.html">projets</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="bonus.html">bonus</a>
-                            </div>
-                            <div class="nav_item">
-                                <a href="contact.html">contact</a>
-                            </div>
-                        </nav>
-                    </header>
+            <nav>
+                <div class="nav_item">
+                    <a href="index.html">home</a>
+                </div>
+                <div class="nav_item">
+                    <a href="dorian.html">dorian</a>
+                </div>
+                <div class="nav_item">
+                    <a href="agenda.html">agenda</a>
+                </div>
+                <div class="nav_item">
+                    <a href="albums.html">albums</a>
+                </div>
+                <div class="nav_item">
+                    <a href="projets.html">projets</a>
+                </div>
+                <div class="nav_item">
+                    <a href="musique.html">musique</a>
+                </div>
+                <div class="nav_item">
+                    <a href="bonus.html">bonus</a>
+                </div>
+                <div class="nav_item">
+                    <a href="contact.html">contact</a>
+                </div>
+            </nav>
+        </header>
 
     <!---------------- home content ---------------------------->
 

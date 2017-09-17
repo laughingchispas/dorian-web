@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #ffd624;
+  color: #F2CC45;
 }
 
 
@@ -45,7 +45,7 @@ a:hover {
   position: absolute;
   background-color: transparent;
   text-transform: uppercase;
-  color: #ffd624;
+  color: #F2CC45;
   font-size: 30px;
   font-family: Arial Black, arial, sans-serif;
   letter-spacing: 0.10em;
@@ -56,6 +56,9 @@ a:hover {
   padding: 20px 0 0 0;
 }
 
+.new-album-left {
+  margin: 10px 0 20px 0;
+}
 
 
 /********************** division for albums and projects ******************/
@@ -280,19 +283,18 @@ a:hover {
 .small-album-container-title {
   text-transform: uppercase;
   width: 100%;
-  background-color: #ffd624;
-  margin: 0 0 10px 0;
   color: black;
-  padding-top: 35%;
-  padding-bottom: 35%;
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.fa {
+.small-album-container-title i {
   color: black;
-  padding: 0 0 0 4px;
-
 }
+
+
 
 .small-album-image {
   position: relative;
@@ -334,7 +336,16 @@ a:hover {
 .small-album-image-container {
   cursor: pointer;
   padding: 0 0 6px 0;
+  position: relative;
 }
+
+.small-album-image-container-title {
+  cursor: pointer;
+  padding: 0 0 6px 0;
+  position: absolute;
+  top: o
+}
+
 
 .membre {
   text-transform: uppercase;
@@ -388,7 +399,7 @@ a:hover {
   text-align: center;
   bottom: 22%;
   left: 0;
-  color: #ffd624;
+  color: #F2CC45;
 
 }
 
@@ -584,7 +595,7 @@ a:hover {
 }
 
 i:hover {
-  color: #ffd624;
+  color: #F2CC45;
 }
 
 .bonus-content {

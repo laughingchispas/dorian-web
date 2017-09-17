@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>Dorian Dumont</title>
 
+
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700" rel="stylesheet">
@@ -24,10 +26,11 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/top-header.css">
 
-
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/transitions.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
 </head>
 <body id="top">
 
@@ -53,6 +56,7 @@
         SIGN UP : __________________ <button>SUBMIT</button>
     </div>
 </div>
+
 
 
 <!--<div class="language">
@@ -149,7 +153,6 @@
 
 
     <div class="right-panel">
-
         <div class="name-banner">
             dorian dumont
         </div>
@@ -184,31 +187,64 @@
             </nav>
         </header>
 
-        <!---------------- presse content ---------------------------->
         <div class="side-container">
             <div class="left-side">
-                <div class="presse-image-container">
-                    <div class="contact-image"><img class="presse-image contact-image" src="assets-opt/presse.jpg">
-                        <div class="presse-image-title image-title">presse</div>
-                    </div>
+                <div class="contact-image">
+                    <img class="contact-image" src="assets-opt/agenda.jpg">
+                    <div class="agenda-image-title image-title">Musique</div>
                 </div>
             </div>
-            <div class="right-side"></div>
+            <div class="right-side-general">Petite sélection auditive et visuel.</div>
         </div>
 
-        <div class="presse-content">
-            <div>{{content.construction_fr}}</div><br>
-            <div>{{content.presse_joke_fr}} <input placeholder="{{content.chars_fr}}"> <button>SUBMIT</button></div><br><br><br>
-            <div *ngFor="let presse of content.presse_fr">
-                <div>{{presse.presse_poke_fr}}</div><br><br>
-                <div *ngFor="let presse_content of presse.content_fr">
-                    {{presse_content.par}}
-                </div>
-            </div>
-        </div>
+        <div class="music-audio-title">Vidéo</div>
+        <div class="music-video-box">
+            <div class="music-video-subtitle">Easy Pieces algèbre</div>
+            https://www.youtube.com/watch?v=wAVaBSlthrU
 
+            <div class="music-video-subtitle">Philémon</div>
+            https://www.youtube.com/watch?v=DXWoRPvPuzI
+
+            <div class="music-video-subtitle"> Blue monday @ Bravo</div>
+            https://www.youtube.com/watch?v=2wuam6mD3sU
+
+            <div class="music-video-subtitle">Blue monday you got me</div>
+            https://www.youtube.com/watch?v=tUaYV9do9DQ
+
+            <div class="music-video-subtitle"> Blue monday fireworks</div>
+            https://www.youtube.com/watch?v=IVqxv4chdCk
+
+            <div class="music-video-subtitle">Blue monday Sweat</div>
+
+            https://www.youtube.com/watch?v=g28q5l-BZEY
+
+            <div class="music-video-subtitle"> JMO album they do it</div>
+            https://www.youtube.com/watch?v=hhW5S5l1xs8&t=26s
+
+            <div class="music-video-subtitle"> Brazùk Bain moussant clip </div>
+            https://www.youtube.com/watch?v=2YDr0VDe6O4
+        </div>
+        <div class="music-audio-title">AUDIO</div>
+        <div class="music-audio-box">
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279536274&amp;color=f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/270881044&amp;color=f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243974863&amp;color=%23f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243960364&amp;color=%23f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+            <iframe width="100%" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/235838702&amp;color=%23f2cc45&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+        </div>
 
     </div>
+</div>
+
+
+
 </div>
 
 
@@ -219,9 +255,6 @@
 <div class=footer-content>
     <div class="message-subliminal">
         =SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.
-    </div>
-    <div class="nicole">
-        website designed by nicole
     </div>
 
 </div>
