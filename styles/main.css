@@ -35,6 +35,10 @@ a:hover {
   color: #F2CC45;
 }
 
+.amatic {
+  font-family: 'Amatic SC', Arial, cursive;
+}
+
 
 .contact-image {
   width: 100%;
@@ -664,7 +668,7 @@ a:hover {
 }
 
 
-#chic, #gallerie, #moi, #les, #thanks {
+#chic, #hideshow-gallery, #hideshow-moi, #hideshow-les, #hideshow-thanks {
   width: 20px;
   height: 20px;
   color: black;
@@ -683,6 +687,10 @@ i:hover {
   color: black;
 }
 
+#bonus-anchor a {
+  color: black;
+}
+
 .thanks-title, .gallerie-title, .jouez-lez-title, .jouez-moi-title, .chic-title {
   width: 100%;
   display: flex;
@@ -695,6 +703,14 @@ i:hover {
 .title {
   padding: 0 10px;
 
+}
+
+.myclass {
+  display: none;
+}
+
+.showhidenew {
+  display: block;
 }
 
 .chic-title {
@@ -712,7 +728,7 @@ i:hover {
   width: 65%;
 }
 
-.jouez-lez-title {
+.jouez-les-title {
   justify-content: center;
   width: 30%;
 }
