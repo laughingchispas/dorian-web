@@ -183,9 +183,6 @@
             </nav>
         </header>
 
-        <div id='content'>Hello World</div>
-        <div id='hideshow'>hide</div>
-
         <!---------------- bonus content ---------------------------->
         <div class="side-container">
             <div class="left-side">
@@ -207,31 +204,21 @@
                         <i class="fa fa-wpexplorer"></i>
                     </a>
                     <div class="title">gallerie</div>
-                    <div><i id="hideshow-gallery" class="fa fa-plus"></i></div>
+                    <div><i id="gallerie" class="fa fa-plus"></i></div>
                 </div>
-                <div class="content content-gallery" style="display: none">On dois parler de ce qu'on va mettre ici et comment :)</div>
+                <div class="content invisible">Under Construction :(</div>
             </div>
 
-            <!--------------------------- chique --------------->
-
+            <!--------------------------- jouez-moi --------------->
             <div class="chic">
                 <div class="chic-title">
-                    <a><i class="fa fa-grav"></i></a>
+                    <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                        <i class="fa fa-grav"></i>
+                    </a>
                     <div class="title">LE CHIC CLIC DU MOIS SELON MOI</div>
-                    <a id="hideshow-chique"><i id="chic" class="fa fa-plus"></i></a>
+                    <div><i id="chic" class="fa fa-plus"></i></div>
                 </div>
-
-                <div class="content">Chaque mois, je vous ferais partager l’un de mes coups de coeur musical du moment avec, en prime, un lien vers leur site internet. C’est pas beautiful, ça?</div>
-                <br>
-                <div class="content-chique" style="display: none;"><div class="amatic">OCTOBRE 2017</div>
-                    <div>On peut être jeune et aimer la musique classique. </div>
-                    <div>Dans le cas de ces 4 filles dans le vent (oui je sais, elle est facile celle-là mais parfois il faut accepter l’évidence tout simplement) elles ont toutes fait un parcours classique et continue chacune de porter cette musique en elle.</div>
-                    <div>Néanmoins ce quatuor se veut « Trans-genre » et elles ont bien l’intention de collaborer dans le plus de directions possible et avec le plus de gens différents possible, pourvu qu’elles soient emballés.</div>
-                    <div>Emballant.</div>
-                    <br>
-                    <div class="amatic" id="bonus-anchor">LEUR SITE :</div>
-                    <a style="color: black">http://inpraiseoffolly.co/index.html</a>
-                </div>
+                <div class="content">Under Construction :(</div>
             </div>
 
             <!------------------- jouez-moi ------------->
@@ -239,13 +226,11 @@
                 <div class="jouez-moi-title">
                     <a><i class="fa fa-cubes"></i></a>
                     <div class="title">jouez-moi</div>
-                    <div><i id="hideshow-moi" class="fa fa-plus"></i></div>
+                    <div><i id="moi" class="fa fa-plus"></i></div>
                 </div>
-                <div class="content content-moi" style="display: none">
-                    <div class="pdf-block" style="color: black">
-                        <a class="pdf" href="assets/pdf/moi/mad.pdf" target="_blank" style="color: black; text-decoration: underline;">Mad pdf</a>
-                        <a class="pdf" href="assets/pdf/moi/mad.wav" target="_blank" style="color: black; text-decoration: underline;">Mad audio</a>
-
+                <div class="content">
+                    <div class="pdf-block">
+                        <a class="pdf" target="_blank"><div>jouez-moi</div><img class="pdf-image" src=""></a>
                     </div>
                 </div>
             </div>
@@ -253,15 +238,15 @@
             <!------------------- jouez-les ----------------------------->
             <div class="jouez-lez">
                 <div class="jouez-lez-title">
-                    <a><i class="fa fa-barcode"></i></a>
+                    <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                        <i class="fa fa-barcode"></i>
+                    </a>
                     <div class="title">jouez-les</div>
-                    <div><i id="hideshow-les" class="fa fa-plus"></i></div>
+                    <div><i id="les" class="fa fa-plus"></i></div>
                 </div>
-                <div class="content content-les" style="display: none">
+                <div class="content">
                     <div class="pdf-block">
-                        <a class="pdf" href="assets/pdf/les/1612_Vulfpeck.pdf" target="_blank" style="color: black; text-decoration: underline;">Vulfpeck 1612</a>
-                        <a class="pdf" href="assets/pdf/les/April_14.pdf" target="_blank" style="color: black; text-decoration: underline;">April 14th</a>
-                        <a class="pdf" href="assets/pdf/les/desbemols.pdf" target="_blank" style="color: black; text-decoration: underline;">Des bémols et des dieses</a>
+                        <a class="pdf" href="{{les.pdf}}" target="_blank"><div>chaque titre</div><img class="pdf-image" src="{{les.img}}"></a>
                     </div>
                 </div>
             </div>
@@ -269,12 +254,13 @@
             <!--------------- thanks ---------------------------->
             <div class="thanks">
                 <div class="thanks-title">
-                    <a><i class="fa fa-hand-peace-o"></i></a>
+                    <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                        <i class="fa fa-hand-peace-o"></i>
+                    </a>
                     <div class="title">remerciements</div>
-                    <a><i id="hideshow-thanks" class="fa fa-plus"></i></a>
                     <div></div>
                 </div>
-                <div class="content content-thanks" style="display: none;">
+                <div class="content">
                     <div>
                         <div class="thanks-par">J’ai beaucoup de gens auxquels je tiens à dédier ces quelques lignes sur ce site. C’est plutôt une chouette occasion de le faire.</div>
                         <div class="thanks-par">Et ça me fait plaisir.</div>
@@ -372,43 +358,6 @@
 </div>
 
 <script src="js/transitions.js"></script>
-
-<script>
-
-$(document).ready(function() {
-    $('#hideshow-gallery').click(function() {
-        $('.content-gallery').toggle("slide");
-    });
-});
-
-$(document).ready(function() {
-    $('#hideshow-chique').click(function() {
-        $('.content-chique').toggle("slide");
-    });
-});
-
-$(document).ready(function() {
-    $('#hideshow-les').click(function() {
-        $('.content-les').toggle("slide");
-    });
-});
-
-$(document).ready(function() {
-    $('#hideshow-moi').click(function() {
-        $('.content-moi').toggle("slide");
-    });
-});
-
-
-$(document).ready(function() {
-    $('#hideshow-thanks').click(function() {
-        $('.content-thanks').toggle("slide");
-    });
-});
-
-
-
-</script>
 
 </body>
 </html>

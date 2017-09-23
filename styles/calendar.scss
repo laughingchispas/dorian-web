@@ -1,0 +1,59 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Daniel';
+  -webkit-animation: bugfix infinite 1s;
+  height: calc(100% - 10px);
+
+  height: 100%;
+}
+
+
+h1 {
+  color: pink;
+  background-color: yellow;
+}
+
+nav {
+  display: flex;
+  background-color: indianred;
+}
+
+.concert_container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: deeppink;
+  display: flex;
+}
+
+.footer {
+  height: 100px;
+  background-color: hotpink;
+  color: white;
+  font-family: 'Daniel';
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0 0 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+
+  .footer-icons {
+    padding: 10px 0 0 0;
+
+    .icon {
+      background-color: #EE205B;
+      border-radius: 30px;
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .footer-info {
+    font-size: 15px;
+    padding: 2px 0;
+  }
+
+}
