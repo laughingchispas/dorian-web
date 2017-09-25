@@ -19,10 +19,6 @@
     text-transform: none;
   }
 
-  a:hover {
-    color: #ffd624;
-  }
-
   .left-concerts-a-venir {
     display: block;
   }
@@ -43,6 +39,17 @@
   .lire-plus {
     text-decoration: underline;
     font-size: 14px;
+  }
+
+
+  .left-panel a {
+    text-decoration: underline;
+    font-size: 14px;
+    color: white;
+  }
+
+  .left-panel a:hover {
+    color: #F2CC45;
   }
 
   .new-album-container img {

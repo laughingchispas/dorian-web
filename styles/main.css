@@ -27,13 +27,9 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
   cursor: pointer;
 }
 
-a:hover {
-  color: #F2CC45;
-}
 
 .amatic {
   font-family: 'Amatic SC', Arial, cursive;
@@ -63,6 +59,16 @@ a:hover {
 .new-album-left {
   margin: 10px 0 20px 0;
 }
+
+.scroller a {
+    text-decoration: none;
+    color: white;
+}
+
+.scroller a:hover {
+  color: #F2CC45;
+}
+
 
 
 /********************** division for albums and projects ******************/
@@ -371,6 +377,14 @@ a:hover {
   padding: 15px 0;
 }
 
+.album-audio-link a, .album-video-link a{
+  color: white;
+}
+
+.album-audio-link a:hover, .album-video-link a:hover{
+  color: #F2CC45;
+}
+
 .review {
   font-style: italic;
   text-align: justify;
@@ -492,6 +506,19 @@ a:hover {
   text-align: justify;
 }
 
+.additional a, .audio a, .video a, .projet-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.additional a:hover, .audio a:hover, .video a:hover, .projet-main a:hover {
+  color: #F2CC45;
+}
+
+.projet-main p {
+  font-style: italic;
+}
+
 .audio, .video {
   width: 50%;
   padding: 5px 0;
@@ -539,6 +566,15 @@ a:hover {
   width: 100%;
   margin: 20px 0 0 50px;
 }
+
+.concert-container a{
+  color: white;
+}
+
+.concert-container a:hover{
+  color: #F2CC45;
+}
+
 
 .concert-container-title {
   text-transform: uppercase;
@@ -626,6 +662,10 @@ a:hover {
   background-color: white;
 }
 
+#left-bonus a:hover {
+  color: #F2CC45;
+}
+
 .name-banner.bonus {
   color: black;
 }
@@ -668,7 +708,7 @@ a:hover {
 }
 
 
-#chic, #hideshow-gallery, #hideshow-moi, #hideshow-les, #hideshow-thanks {
+#chic, #gallery, #hideshow-moi, #hideshow-les, #hideshow-thanks {
   width: 20px;
   height: 20px;
   color: black;
