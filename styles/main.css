@@ -69,6 +69,21 @@ a {
   color: #F2CC45;
 }
 
+.panel-container {
+  display: flex;
+}
+
+.left-panel {
+  width: 0%;
+  padding: 0;
+  display: none;
+}
+
+.right-panel {
+  width: 100%;
+}
+
+
 
 
 /********************** division for albums and projects ******************/
@@ -655,6 +670,14 @@ a {
   padding: 20px 0 0 0;
 }
 
+.music-video-box a, .music-audio-box a {
+  color: white;
+}
+
+.music-video-box a:hover, .music-audio-box a:hover {
+  color: #F2CC45;
+}
+
 
 /********************************* bonus styles **********************************/
 #left-bonus a {
@@ -804,9 +827,17 @@ i:hover {
   color: black;
 }
 
-#nav-icons fa.fa-bonus.fa-soundcloud {
+
+
+#bonus-scroller a {
   color: black;
 }
+
+#bonus-scroller a:hover {
+  color: #F2CC45;
+}
+
+#bonus-icon-header a
 
 /********************************** press styles ********************************/
 .presse-image-title {
@@ -815,7 +846,7 @@ i:hover {
   right: 20px;
   background-color: transparent;
   text-transform: uppercase;
-  color: #ffe700;
+  color:  #F2CC45;
   font-size: 30px;
 }
 
@@ -877,6 +908,14 @@ button {
   padding: 12px 0 0 0;
 }
 
+#contact-icon-container .contact-icon .fa {
+  color: white;
+}
+
+#contact-icon-container .contact-icon .fa:hover {
+  color: #F2CC45;
+}
+
 .contact-icon.fa {
   font-size: 25px;
 
@@ -887,11 +926,54 @@ body {
 }
 
 
-@media only screen and (min-width: 820px) {
+
+@media only screen and (min-width: 480px) {
+
+  .left-panel {
+    display: none;
+  }
+
+  .right-panel {
+    width: 100%;
+  }
+
+  body {
+    padding: 10px 30px;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .left-panel {
+    width: 20%;
+    display: block;
+    margin: 0 25px 0 0;
+  }
+
+  .right-panel {
+    width: 80%;
+  }
+
+  body {
+    padding: 10px 30px;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
 
   .left-panel {
     display: block;
     margin: 0 40px 0 0;
+  }
+
+  .right-panel {
   }
 
   body {
@@ -899,10 +981,4 @@ body {
     margin: 0 auto;
     width: 75%;
   }
-
-  .right-side {
-    width: 17%;}
-
-
-
 }
