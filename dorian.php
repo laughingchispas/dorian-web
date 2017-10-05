@@ -1,59 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Dorian Dumont</title>
-
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Allerta+Stencil|Amatic+SC|Arapey|Arsenal|Averia+Sans+Libre|Averia+Serif+Libre|Barrio|Bungee+Hairline|Crimson+Text|Droid+Serif|Knewave|Libre+Baskerville|Londrina+Sketch|Megrim|Nixie+One|Old+Standard+TT|Open+Sans+Condensed:300|Playfair+Display|Raleway|Reenie+Beanie|Slabo+27px|Special+Elite|Sue+Ellen+Francisco|Yrsa" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Arsenal:400,400i,700,700i" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/name.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/language_choice.css">
-    <link rel="stylesheet" href="styles/left_panel.css">
-    <link rel="stylesheet" href="styles/right_panel.css">
-    <link rel="stylesheet" href="styles/scroll.css">
-    <link rel="stylesheet" href="styles/body.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/top-header.css">
-
-
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/transitions.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
+<?php
+include 'partials/site-head.php';
+?>
 <body id="top">
 
-
-<div id="top-header">
-    <div class="icon-container">
-        <div class="nav-icons" id="nav-icons">
-            <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a href="https://soundcloud.com/dorian-dumont" target="_blank">
-                <i class="fa fa-soundcloud"></i>
-            </a>
-            <a href="https://www.youtube.com/channel/UCQEGIwUjPFRUMo1_3W5ABmQ" target="_blank">
-                <i class="fa fa-youtube-play"></i>
-            </a>
-            <a href="http://www.twitter.com/dodumont" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        </div>
-    </div>
-    <div class="newsletter-signup">
-        SIGN UP : __________________ <button>SUBMIT</button>
-    </div>
-</div>
-
+<?php
+include 'partials/header.php';
+?>
 
 <!--<div class="language">
     <div class="language-element-container">
@@ -69,13 +23,13 @@
 
 <div id="mySidenav" class="sidenav">
     <a href="javascript: void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="index.html">home</a>
-    <a href="dorian.html">dorian</a>
-    <a href="agenda.html">agenda</a>
-    <a href="albums.html">album</a>
-    <a href="projets.html">projets</a>
-    <a href="bonus.html">media</a>
-    <a href="contact.html">contact</a>
+    <a href="index.php">home</a>
+    <a href="dorian.php">dorian</a>
+    <a href="agenda.php">agenda</a>
+    <a href="albums.php">album</a>
+    <a href="projets.php">projets</a>
+    <a href="bonus.php">media</a>
+    <a href="contact.php">contact</a>
 </div>
 
 <span id="open-box" onclick="openNav()">&#8801</span>
@@ -94,96 +48,14 @@
 
 
 <div class="panel-container">
-
-    <div class="left-panel">
-        <div class="icon-box-home"></div>
-        <div class="left-concerts-a-venir left-title">
-            <h2 class="bottom-title">Concerts à venir</h2>
-            <div class="left-concert" >24.09.17</div>
-            <div class="left-concert">15.10.17</div>
-            <div class="left-concert">18.10.17</div>
-            <a href="agenda.html" id="voire-list" class="lire-plus">voir liste complète</a>
-        </div>
-        <div class="a-propos left-title">
-            <h2 class="bottom-title">à propos</h2>
-            <div class="a-propos-content">
-                <div>
-                    <div>Dorian est un pianiste de jazz français basé à Bruxelles.</div>
-                    <div>Amoureux de styles musicaux polymorphes, il se produit dans divers projets aux styles très divers avec diverses personnes, dans des endroits divers.</div>
-                    <div>Et le tout à divers moments.</div>
-                    <div>Il part et repart (tel un mars) vers de nouvelles perspectives d’expérimentation musicale armé d’un appétit glouton de découverte jamais rassasié.</div>
-                </div>
-                <div id="propos">
-                    <a href="dorian.html" class="lire-plus">lire +</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="press left-title">
-            <h2 class="bottom-title">presse</h2>
-            <a href="presse.html" class="lire-plus">voir tous les articles</a>
-        </div>
-
-        <div class="left-title">
-            <h2 class="bottom-title">news</h2>
-            <a href="index.html" class="lire-plus">lire toutes les dernières nouvelles</a>
-        </div>
-        <div class="new-album-container">
-            <h2 class="bottom-title">Disque du moment</h2>
-            <div class="a-propos-content">Jens Maurits Orchestra</div>
-            <div class="a-propos-content"><i>They Do it For a Reason</i></div>
-            <img class="new-album-left" src="assets/tdif.jpg">
-        </div>
-        <div class="left-title">
-            <h2 class="bottom-title">La Vidéo du moment</h2>
-            <iframe class="left-video" width="100%" src="https://www.youtube.com/embed/wAVaBSlthrU" frameborder="0" allowfullscreen></iframe>
-        </div>
-        <div class="left-title">
-            <h2 class="bottom-title">L'audio du moment</h2>
-            <iframe width="100%"  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-        </div>
-        <div>
-            <h2 class="bottom-title">Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?</h2>
-        </div>
-    </div>
-
+    <?php
+    include 'partials/left-panel.php';
+    ?>
 
     <div class="right-panel">
-
-        <div class="name-banner">
-            dorian dumont
-        </div>
-
-        <!-------------------- big navigation! ----------------------->
-        <header id="site-navigation-main">
-            <nav>
-                <div class="nav_item">
-                    <a href="index.html">home</a>
-                </div>
-                <div class="nav_item">
-                    <a href="dorian.html">dorian</a>
-                </div>
-                <div class="nav_item">
-                    <a href="agenda.html">agenda</a>
-                </div>
-                <div class="nav_item">
-                    <a href="albums.html">albums</a>
-                </div>
-                <div class="nav_item">
-                    <a href="projets.html">projets</a>
-                </div>
-                <div class="nav_item">
-                    <a href="musique.html">musique</a>
-                </div>
-                <div class="nav_item">
-                    <a href="bonus.html">bonus</a>
-                </div>
-                <div class="nav_item">
-                    <a href="contact.html">contact</a>
-                </div>
-            </nav>
-        </header>
-
+        <?php
+        include 'partials/main-nav.php';
+        ?>
 
         <!---------------- dorian content ---------------------------->
         <div class="side-container">

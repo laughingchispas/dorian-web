@@ -41,6 +41,9 @@
     font-size: 14px;
   }
 
+  .left-panel {
+      margin-top: 150px;
+  }
 
   .left-panel a {
     text-decoration: underline;

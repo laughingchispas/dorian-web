@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.switcher-content > div {
+    display: none;
+}
+
+[data-switcher-target].active {
+    border: 1px solid #F2CC45;
+}
