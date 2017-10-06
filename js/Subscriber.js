@@ -11,7 +11,6 @@
 var Subscriber = function (el) {
     this.el = el;
     this.mobileToggle = el.find('.mobile-only.toggle');
-    this.mobileClose = el.find('.mobile-only.close');
     this.form = el.find('form');
     this.form.on('submit', this.onSubmit.bind(this));
     this.mobileToggle.on('click', this.onMobileToggleClick.bind(this));
@@ -27,8 +26,9 @@ Subscriber.prototype = {
         }
         this.submitting = true;
         //You should VALIDATE the email as well, ideally - good exercise in regex.
+        console.log(this.form.find('input[id="subscriber-email"]').val());
         $.post('api/v1/subscribe.php',
-            {email: 'test email'},
+            {email: this.form.find('input[id="subscriber-email"]').val()},
             function() {
                 that.submitting = false;
                 that.onResponse(arguments);

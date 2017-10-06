@@ -57,7 +57,7 @@ include 'partials/header.php';
         <!---------------- home content ---------------------------->
 
         <div class="home-image">
-            <img src="assets/home.jpg">
+            <img src="assets/pages/home.jpg">
         </div>
 
         <div class="bottom-home-main-container">
