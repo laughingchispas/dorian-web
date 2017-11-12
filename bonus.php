@@ -5,9 +5,40 @@ include 'partials/site-head.php';
 ?>
 <body id="top" class="page-bonus">
 
-<?php
-include 'partials/header.php';
-?>
+<div id="top-header">
+    <div class="icon-container">
+        <div class="nav-icons" id="nav-icons-bonus">
+            <a href="https://www.facebook.com/dorian.dumont.96" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://soundcloud.com/dorian-dumont" target="_blank">
+                <i class="fa fa-soundcloud"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCQEGIwUjPFRUMo1_3W5ABmQ" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+            </a>
+            <a href="http://www.twitter.com/dodumont" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/doriandumont_zik/" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="subscriber">
+        <button class="mobile-only toggle">
+            <span class="if-inactive">Subscribe</span>
+            <span class="if-active">Close</span>
+        </button>
+        <form method="post">
+            <label for="subscriber-email" class="mobile-only mobile-title">Inscris toi à la newsletter:</label>
+            <label for="subscriber-email" class="desktop-only desktop-title">Inscris toi à la newsletter:</label>
+            <input id="subscriber-email" name="email" type="text" placeholder="adresse email"/>
+            <button type="submit">SUBSCRIBE</button>
+        </form>
+    </div>
+</div>
+
 
 <!--<div class="language">
     <div class="language-element-container">
@@ -26,9 +57,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 
@@ -77,7 +109,7 @@ include 'partials/header.php';
                     <div class="title">gallerie</div>
                     <div id="hideshow-gallery"><i id="gallery" class="fa fa-plus"></i></div>
                 </div>
-                <div class="content content-gallery" style="display: none">On dois parler de ce qu'on va mettre ici et comment :)</div>
+                <div class="content content-gallery" style="display: none">Under construction...coming soon :)</div>
             </div>
 
             <!--------------------------- chique --------------->
@@ -89,9 +121,10 @@ include 'partials/header.php';
                     <a id="hideshow-chique"><i id="chic" class="fa fa-plus"></i></a>
                 </div>
 
-                <div class="content">Chaque mois, je vous ferais partager l’un de mes coups de coeur musical du moment avec, en prime, un lien vers leur site internet. C’est pas beautiful, ça?</div>
-                <br>
-                <div class="content-chique" style="display: none;"><div class="amatic">OCTOBRE 2017</div>
+                <div class="content-chique" style="display: none;">
+                    <div>Chaque mois, je vous ferais partager l’un de mes coups de coeur musical du moment avec, en prime, un lien vers leur site internet. C’est pas beautiful, ça?</div>
+                    <br>
+                    <div class="amatic">OCTOBRE 2017</div>
                     <div>On peut être jeune et aimer la musique classique. </div>
                     <div>Dans le cas de ces 4 filles dans le vent (oui je sais, elle est facile celle-là mais parfois il faut accepter l’évidence tout simplement) elles ont toutes fait un parcours classique et continue chacune de porter cette musique en elle.</div>
                     <div>Néanmoins ce quatuor se veut « Trans-genre » et elles ont bien l’intention de collaborer dans le plus de directions possible et avec le plus de gens différents possible, pourvu qu’elles soient emballés.</div>
@@ -128,7 +161,7 @@ include 'partials/header.php';
                     <div class="pdf-block">
                         <a class="pdf" href="assets/pdf/les/1612_Vulfpeck.pdf" target="_blank" style="color: black; text-decoration: underline;">Vulfpeck 1612</a>
                         <a class="pdf" href="assets/pdf/les/April_14.pdf" target="_blank" style="color: black; text-decoration: underline;">April 14th</a>
-                        <a class="pdf" href="assets/pdf/les/desbemols.pdf" target="_blank" style="color: black; text-decoration: underline;">Des bémols et des dieses</a>
+                        <a class="pdf" href="assets/pdf/les/desbemols.pdf" target="_blank" style="color: black; text-decoration: underline;">De bémols et de dièses</a>
                     </div>
                 </div>
             </div>

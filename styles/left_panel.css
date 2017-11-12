@@ -36,6 +36,10 @@
     padding: 0;
   }
 
+  .disc-title {
+    font-style: italic;
+  }
+
   .lire-plus {
     text-decoration: underline;
     font-size: 14px;
@@ -57,6 +61,10 @@
 
   .new-album-container img {
     width: 50%;
+  }
+
+  .disc-link {
+    padding-bottom: 10px;
   }
 
 

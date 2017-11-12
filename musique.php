@@ -26,9 +26,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 

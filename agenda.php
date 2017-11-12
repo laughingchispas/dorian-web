@@ -26,9 +26,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 
@@ -78,14 +79,13 @@ include 'partials/header.php';
             </div>
             <div  class="table-contents table">
 
-
                 <div class="table-row">
                     <div class="date">24.09.17</div>
                     <div class="place">Bonnefooi</div>
-                    <div class="more">+ d'infos</div>
+                    <div id="hideshow-date-1" class="more">+ d'infos</div>
                     <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">ECHT !</div>
                 </div>
-                <div class="more-agenda">
+                <div class="more-agenda new-date-1" style="display: none">
                     <div class="table-row">
                         <div class="date"></div>
                         <div>ça commence à 20h45 et voici l’adresse : <span class="address"><i>8, rue des pierres, Bruxelles</i></span></div>
@@ -102,10 +102,10 @@ include 'partials/header.php';
                 <div class="table-row">
                     <div class="date">15.10.17</div>
                     <div class="place">Atelier rue Verte</div>
-                    <div class="more">+ d'infos</div>
+                    <div id="hideshow-date-2" class="more">+ d'infos</div>
                     <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">BLUE MONDAY PEOPLE</div>
                 </div>
-                <div class="more-agenda">
+                <div class="more-agenda new-date-2" style="display: none">
                     <div class="table-row">
                         <div class="date"></div>
                         <div>ça commence à 20h45 et voici l’adresse : <span class="address"><i>8, rue des pierres, Bruxelles</i></span></div>
@@ -122,10 +122,10 @@ include 'partials/header.php';
                 <div class="table-row">
                     <div class="date">18.10.17</div>
                     <div class="place">Sounds</div>
-                    <div class="more">+ d'infos</div>
+                    <div id="hideshow-date-3" class="more">+ d'infos</div>
                     <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">EASY PIECES</div>
                 </div>
-                <div class="more-agenda">
+                <div class="more-agenda new-date-3" style="display: none">
                     <div class="table-row">
                         <div class="date"></div>
                         <div>ça commence à 20h45 et voici l’adresse : <span class="address"><i>8, rue des pierres, Bruxelles</i></span></div>
@@ -142,10 +142,10 @@ include 'partials/header.php';
                 <div class="table-row">
                     <div class="date">06.02.18</div>
                     <div class="place">Zinnema</div>
-                    <div class="more">+ d'infos</div>
+                    <div id="hideshow-date-4" class="more">+ d'infos</div>
                     <div class="project" target="_blank">BLUE MONDAY PEOPLE</div>
                 </div>
-                <div class="more-agenda">
+                <div class="more-agenda new-date-4" style="display: none">
                     <div class="table-row">
                         <div class="date"></div>
                         <div>ça commence à 20h45 et voici l’adresse : <span class="address"><i>8, rue des pierres, Bruxelles</i></span></div>
@@ -162,10 +162,10 @@ include 'partials/header.php';
                 <div class="table-row">
                     <div class="date">07.02.18</div>
                     <div class="place">Zinnema</div>
-                    <div class="more">+ d'infos</div>
+                    <div id="hideshow-date-5" class="more">+ d'infos</div>
                     <div class="project" target="_blank">BLUE MONDAY PEOPLE</div>
                 </div>
-                <div class="more-agenda">
+                <div class="more-agenda new-date-5" style="display: none">
                     <div class="table-row">
                         <div class="date"></div>
                         <div>ça commence à 20h45 et voici l’adresse : <span class="address"><i>8, rue des pierres, Bruxelles</i></span></div>
@@ -232,13 +232,48 @@ include 'partials/header.php';
     <div class="message-subliminal">
         =SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.
     </div>
-    <div class="nicole">
-        website designed by nicole
-    </div>
 
 </div>
 
 <script src="js/transitions.js"></script>
 
+<script>
+
+$(document).ready(function() {
+    $('#hideshow-date-1').click(function() {
+        $('.new-date-1').toggle("slide");
+    });
+});
+
+$(document).ready(function() {
+    $('#hideshow-date-2').click(function() {
+        $('.new-date-2').toggle("slide");
+    });
+});
+
+$(document).ready(function() {
+    $('#hideshow-date-3').click(function() {
+        $('.new-date-3').toggle("slide");
+    });
+});
+
+$(document).ready(function() {
+    $('#hideshow-date-4').click(function() {
+        $('.new-date-4').toggle("slide");
+    });
+});
+
+
+$(document).ready(function() {
+    $('#hideshow-date-5').click(function() {
+        $('.new-date-5').toggle("slide");
+    });
+});
+
+
+
+</script>
+
 </body>
+
 </html>

@@ -26,9 +26,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 
@@ -83,6 +84,9 @@ include 'partials/header.php';
                 </a>
                 <a class="contact-icon" href="http://www.twitter.com/dodumont" target="_blank">
                     <i class="fa fa-twitter contact-icon"></i>
+                </a>
+                <a class="contact-icon" href="https://www.instagram.com/doriandumont_zik/" target="_blank">
+                    <i class="fa fa-instagram contact-icon"></i>
                 </a>
             </div>
         </div>

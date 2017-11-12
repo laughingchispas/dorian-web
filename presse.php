@@ -26,9 +26,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 
@@ -90,9 +91,9 @@ include 'partials/header.php';
         <div class="presse-content">
             <div>Cette section est en construction...</div><br>
 
-            <form method="post">
-                Si t’es pas content voici un espace pour t’exprimer : <input name="email" type="text" />
-                <input type="submit" value="Submit" placeholder="en 13 caractères maximum" />
+            <form>
+                Si t’es pas content voici un espace pour t’exprimer : <input name="email" maxlength="13" placeholder="en 13 caractères maximum"/>
+                <input type="submit" value="Submit" placeholder="en 13 caractères maximum" maxlength="13" />
             </form>
 
             <?php
@@ -125,10 +126,6 @@ include 'partials/header.php';
     <div class="message-subliminal">
         =SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous. L’équilibre cosmique est à ce prix.
     </div>
-    <div class="nicole">
-        website designed by nicole
-    </div>
-
 </div>
 
 <script src="js/transitions.js"></script>

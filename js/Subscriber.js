@@ -52,7 +52,7 @@ Subscriber.prototype = {
         //You should actually check status to fork logic if something goes wrong but hey, fuck it,
         //lets assume that it'll NEVER FAIL EVER! :) :) :) :) :) :)
         var replaceEl = $('<p></p>');
-        replaceEl.text('Successfully subscribed! Thanks and whatever, and you should receive a confirmation email soon and stuff.');
+        replaceEl.text('Merci! Ton inscription a bien été prise en compte.');
         this.form.html(replaceEl);
         this.el.addClass('submitted');
     },

@@ -54,7 +54,7 @@ a {
 }
 
 .new-album-left {
-    margin: 10px 0 20px 0;
+    margin: 10px 0 1px 0;
 }
 
 .scroller a {
@@ -83,6 +83,15 @@ a {
 /********************** division for albums and projects ******************/
 .left-side {
     width: 65%;
+}
+
+i.fa.fa-chevron-down {
+    font-size: 14px;
+}
+
+.small-album-container-title .album-box-title {
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .right-side {
@@ -216,6 +225,7 @@ a {
     margin: 0 auto;
     max-width: 500px;
     text-align: justify;
+    font-size: 13px
 }
 
 .image-home-bottom-nouvelles {
@@ -282,7 +292,7 @@ a {
 
 .right-side-general {
     width: 40%;
-    margin: 170px 0 0 30px;
+    margin: 20px 0 0 30px;
     font-size: 20px;
 }
 
@@ -291,7 +301,7 @@ a {
 }
 
 .small-albums-container {
-    width: 50%;
+    width: 85%;
 }
 
 .small-albums-container:hover i {
@@ -341,9 +351,9 @@ a {
 }
 
 .group {
-    padding: 50px 0 10px 0;
+    padding: 0 0 10px 0;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .label {
@@ -352,7 +362,11 @@ a {
 }
 
 .large-image {
-    width: 300px;
+    width: 140px;
+}
+
+.instrument-album {
+    font-style: italic;
 }
 
 .small-album-image-container {
@@ -440,7 +454,7 @@ a {
 /*clique-donc*/
 .projets-info {
     padding: 10px 0 0 0;
-    font-family: 'Amatic SC', Arial, cursive;
+    font-family: 'Arsenal', Arial, cursive;
 }
 
 .projets-image-title {
@@ -622,6 +636,8 @@ a {
 
 .more {
     width: 20%;
+    cursor: pointer;
+
 }
 
 .projet-agenda {
@@ -720,8 +736,24 @@ i:hover {
     color: #F2CC45;
 }
 
+.bonus-content i:hover {
+    color: black;
+}
+
 .bonus-content {
     display: block;
+}
+
+.bonus-content .fa{
+    color: black;
+}
+
+.bonus-content a.lire-plus:hover{
+    color: white;
+}
+
+body.page-bonus .left-panel a:hover {
+    color: white;
 }
 
 .content {
@@ -810,10 +842,9 @@ i:hover {
 }
 
 #bonus-scroller a:hover {
-    color: #F2CC45;
+    color: white;
 }
 
-#bonus-icon-header a
     /********************************** press styles ********************************/
 .presse-image-title {
     position: absolute;
@@ -827,7 +858,7 @@ i:hover {
 
 .presse-content {
     width: 80%;
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     padding: 20px 0 0 0;
 }
 
@@ -904,7 +935,7 @@ body {
 
 /*Bonus page styles (should be moved to their own file!!)*/
 body.page-bonus {
-    background: #FFF;
+    background-color: #F2CC45;
     color: #000;
 }
 
@@ -915,14 +946,27 @@ body.page-bonus .name-banner {
 
 body.page-bonus .left-panel a {
     color: black;
-    background-color: white;
 }
 
 body.page-bonus .left-panel a:hover {
-    color: #F2CC45;
+    color: white;
+}
+
+body.page-bonus .left-panel a:hover {
+    color: white;
 }
 
 @media only screen and (min-width: 480px) {
+
+    .small-albums-container {
+        width: 75%;
+    }
+
+    .right-side-general {
+        width: 40%;
+        margin: 50px 0 0 30px;
+        font-size: 20px;
+    }
 
     .left-panel {
         display: none;
@@ -941,6 +985,22 @@ body.page-bonus .left-panel a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+
+    .large-image {
+        width: 200px;
+    }
+
+
+    .right-side-general {
+        width: 40%;
+        margin: 100px 0 0 30px;
+        font-size: 20px;
+    }
+
+    .group {
+        padding: 15px 0 10px 0;
+        font-size: 20px;
+    }
 
     .left-panel {
         width: 20%;
@@ -966,6 +1026,14 @@ body.page-bonus .left-panel a:hover {
         display: block;
     }
 
+    .small-album-container-title .album-box-title {
+        font-size: 30px;
+    }
+
+    .small-albums-container {
+        width: 75%;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -975,7 +1043,10 @@ body.page-bonus .left-panel a:hover {
         margin: 0 40px 0 0;
     }
 
-    .right-panel {
+    .right-side-general {
+        width: 40%;
+        margin: 170px 0 0 30px;
+        font-size: 20px;
     }
 
     body {
@@ -983,4 +1054,14 @@ body.page-bonus .left-panel a:hover {
         margin: 0 auto;
         width: 75%;
     }
+
+    .large-image {
+        width: 290px;
+    }
+
+    .group {
+        padding: 50px 0 10px 0;
+        font-size: 20px;
+    }
+
 }

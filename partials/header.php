@@ -13,6 +13,9 @@
             <a href="http://www.twitter.com/dodumont" target="_blank">
                 <i class="fa fa-twitter"></i>
             </a>
+            <a href="https://www.instagram.com/doriandumont_zik/" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
         </div>
     </div>
     <div class="subscriber">
@@ -21,10 +24,10 @@
             <span class="if-active">Close</span>
         </button>
         <form method="post">
-            <label for="subscriber-email" class="mobile-only mobile-title">Give us your email to join the mailing list:</label>
-            <label for="subscriber-email" class="desktop-only desktop-title">Email:</label>
-            <input id="subscriber-email" name="email" type="text" placeholder="E-mail address..."/>
-            <button type="submit">Subscribe</button>
+            <label for="subscriber-email" class="mobile-only mobile-title">Inscris toi à la newsletter:</label>
+            <label for="subscriber-email" class="desktop-only desktop-title">Inscris toi à la newsletter:</label>
+            <input id="subscriber-email" name="email" type="text" placeholder="adresse email"/>
+            <button type="submit">SUBSCRIBE</button>
         </form>
     </div>
 </div>

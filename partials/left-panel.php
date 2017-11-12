@@ -35,13 +35,14 @@
         <a href="index.php" class="lire-plus">lire toutes les dernières nouvelles</a>
     </div>
     <div class="new-album-container">
-        <h2 class="bottom-title">Disque du moment</h2>
+        <h2 class="bottom-title">Le disque du moment</h2>
         <div class="a-propos-content">Jens Maurits Orchestra</div>
-        <div class="a-propos-content"><i>They Do it For a Reason</i></div>
+        <div class="a-propos-content"><span class="disc-title">They Do it For a Reason</span></div>
         <img class="new-album-left" src="assets/tdif.jpg">
+        <div class="disc-link"><a href="albums.php" class="lire-plus">+ d'infos sur ce bijou</a></div>
     </div>
     <div class="left-title">
-        <h2 class="bottom-title">La Vidéo du moment</h2>
+        <h2 class="bottom-title">La vidéo du moment</h2>
         <iframe class="left-video" width="100%" src="https://www.youtube.com/embed/wAVaBSlthrU" frameborder="0"
                 allowfullscreen></iframe>
     </div>
@@ -51,6 +52,6 @@
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243979083&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
     </div>
     <div>
-        <h2 class="bottom-title">Prenons donc un moment pour réfléchir à 'qu'est-ce qu'un moment?</h2>
+        <h2 class="bottom-title">Prenons donc un moment pour réfléchir à "qu'est-ce qu'un moment?"</h2>
     </div>
 </div>

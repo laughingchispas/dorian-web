@@ -26,9 +26,10 @@ include 'partials/header.php';
     <a href="index.php">home</a>
     <a href="dorian.php">dorian</a>
     <a href="agenda.php">agenda</a>
-    <a href="albums.php">album</a>
+    <a href="albums.php">albums</a>
     <a href="projets.php">projets</a>
-    <a href="bonus.php">media</a>
+    <a href="musique.php">musique</a>
+    <a href="bonus.php">bonus</a>
     <a href="contact.php">contact</a>
 </div>
 
@@ -88,15 +89,15 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Jens Bouttery</b>: <i>batterie, compo</i></div>
-                            <div><b>Daan Milius</b>: <i>texte</i></div>
-                            <div><b>Lisa Gambey</b>: <i>livre</i></div>
-                            <div><b>Benjamin Sauzereau</b>: <i>guitarre</i></div>
-                            <div><b>Niels Van Heertum</b>: <i>euphonium</i></div>
-                            <div><b>Rik Sturtewagen</b>: <i>violon</i></div>
-                            <div><b>Lennart Heyndels</b>: <i>violoncelle, contrebasse</i></div>
-                            <div><b>Joris Lindemans</b>: <i>violoncelle</i></div>
-                            <div><b>Lucas Kramer</b>: <i>la bestia</i></div>
+                            <div><b>Jens Bouttery</b>: <span class="instrument-album">batterie, compo</span></div>
+                            <div><b>Daan Milius</b>: <span class="instrument-album">texte</span></div>
+                            <div><b>Lisa Gambey</b>: <span class="instrument-album">livre</span></div>
+                            <div><b>Benjamin Sauzereau</b>: <span class="instrument-album">guitarre</span></div>
+                            <div><b>Niels Van Heertum</b>: <span class="instrument-album">euphonium</span></div>
+                            <div><b>Rik Sturtewagen</b>: <span class="instrument-album">violon</span></div>
+                            <div><b>Lennart Heyndels</b>: <span class="instrument-album">violoncelle, contrebasse</span></div>
+                            <div><b>Joris Lindemans</b>: <span class="instrument-album">violoncelle</span></div>
+                            <div><b>Lucas Kramer</b>: <span class="instrument-album">la bestia</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -198,18 +199,18 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
-                            <div><b>Mathieu Robert</b>: <i>sax soprano</i></div>
-                            <div><b>Doorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Benoît Leseure</b>: <i>violon</i></div>
-                            <div><b>Nicole Miller</b>: <i>algo</i></div>
-                            <div><b>Annemie Osborne</b>: <i>violoncelle</i></div>
+                            <div><b>Benjamin Sauzereau</b>: <span class="instrument-album">guitare</span></div>
+                            <div><b>Mathieu Robert</b>: <span class="instrument-album">sax soprano</span></div>
+                            <div><b>Doorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Benoît Leseure</b>: <span class="instrument-album">violon</span></div>
+                            <div><b>Nicole Miller</b>: <span class="instrument-album">alto</span></div>
+                            <div><b>Annemie Osborne</b>: <span class="instrument-album">violoncelle</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
                                 audio:
                                 <a href=" https://soundcloud.com/dorian-dumont/eb-philemon-le-chien-qui-ne-voulait-pas-grandir-1er-album"
-                                   target="_blank">Eb</a>
+                                   target="_blank">Eb</a><
                             </div>
                             <div class="album-video-link">
                                 video:
@@ -285,10 +286,10 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>François Vaiana</b>: <i>chant</i></div>
-                            <div><b>Jens Bouttery</b>: <i>batterie</i></div>
-                            <div><b>Dorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
+                            <div><b>François Vaiana</b>: <span class="instrument-album">chant</span></div>
+                            <div><b>Jens Bouttery</b>: <span class="instrument-album">batterie</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Benjamin Sauzereau</b>: <span class="instrument-album">guitare</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -322,17 +323,17 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Emily Allison</b>: <i>voix</i></div>
-                            <div><b>Thomas Mayade</b>: <i>fuglehorn</i></div>
-                            <div><b>Jérôme Klein</b>: <i>batterie</i></div>
-                            <div><b>Dorian Dumont</b>: <i>Piano</i></div>
-                            <div><b>Lennart Heyndels</b>: <i>contrebasse</i></div>
+                            <div><b>Emily Allison</b>: <span class="instrument-album">voix</span></div>
+                            <div><b>Thomas Mayade</b>: <span class="instrument-album">fuglehorn</span></div>
+                            <div><b>Jérôme Klein</b>: <span class="instrument-album">batterie</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">Piano</span></div>
+                            <div><b>Lennart Heyndels</b>: <span class="instrument-album">contrebasse</span></div>
                         </div>
                         <div>Featuring -</div>
                         <div class="guest">
-                            <div><b>David Linx</b>: <i>chant</i></div>
-                            <div><b>Christophe Panzani</b>: <i>saxophone tenor</i></div>
-                            <div><b>Sandrine Marchetti</b>: <i>piano</i></div>
+                            <div><b>David Linx</b>: <span class="instrument-album">chant</span></div>
+                            <div><b>Christophe Panzani</b>: <span class="instrument-album">saxophone tenor</span></div>
+                            <div><b>Sandrine Marchetti</b>: <span class="instrument-album">piano</span></div>
                         </div>
                         <div>
                             <div class="album-video-link">
@@ -361,13 +362,13 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Jens Bouttery</b>: <i>batterie, compo</i></div>
-                            <div><b>Daan Milius</b>: <i>vidéo, sampler</i></div>
-                            <div><b>Dorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
-                            <div><b>Niels Van Heertum</b>: <i>euphonium</i></div>
-                            <div><b>Joris Lindemans</b>: <i>violoncelle</i></div>
-                            <div><b>Gregor Siedl</b>: <i>clarinette, sax</i></div>
+                            <div><b>Jens Bouttery</b>: <span class="instrument-album">batterie, compo</span></div>
+                            <div><b>Daan Milius</b>: <span class="instrument-album">vidéo, sampler</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Benjamin Sauzereau</b>: <span class="instrument-album">guitare</span></div>
+                            <div><b>Niels Van Heertum</b>: <span class="instrument-album">euphonium</span></div>
+                            <div><b>Joris Lindemans</b>: <span class="instrument-album">violoncelle</span></div>
+                            <div><b>Gregor Siedl</b>: <span class="instrument-album">clarinette, sax</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -409,11 +410,11 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Charlotte Haesen</b>: <i>chant</i></div>
-                            <div><b>Philip Breidenbach</b>: <i>guitare</i></div>
-                            <div><b>Dorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Fil Caporali</b>: <i>contrebasse</i></div>
-                            <div><b>Samuel Reisen</b>: <i>batterie</i></div>
+                            <div><b>Charlotte Haesen</b>: <span class="instrument-album">chant</span></div>
+                            <div><b>Philip Breidenbach</b>: <span class="instrument-album">guitare</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Fil Caporali</b>: <span class="instrument-album">contrebasse</span></div>
+                            <div><b>Samuel Reisen</b>: <span class="instrument-album">batterie</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -447,10 +448,10 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>Fabrice Ducognon</b>: <i>chant</i></div>
-                            <div><b>Dorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Romain Castéra</b>: <i>batterie</i></div>
-                            <div><b>Charles Huck</b>: <i>contrebasse</i></div>
+                            <div><b>Fabrice Ducognon</b>: <span class="instrument-album">chant</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Romain Castéra</b>: <span class="instrument-album">batterie</span></div>
+                            <div><b>Charles Huck</b>: <span class="instrument-album">contrebasse</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -501,11 +502,11 @@ include 'partials/header.php';
                             </div>
                         </div>
                         <div class="large-album-content-below">
-                            <div><b>François Vaiana</b>: <i>chant</i></div>
-                            <div><b>Jens Bouttery</b>: <i>batterie</i></div>
-                            <div><b>Dorian Dumont</b>: <i>piano</i></div>
-                            <div><b>Benjamin Sauzereau</b>: <i>guitare</i></div>
-                            <div><b>Lara Rossel</b>: <i>contrebasse</i></div>
+                            <div><b>François Vaiana</b>: <span class="instrument-album">chant</span></div>
+                            <div><b>Jens Bouttery</b>: <span class="instrument-album">batterie</span></div>
+                            <div><b>Dorian Dumont</b>: <span class="instrument-album">piano</span></div>
+                            <div><b>Benjamin Sauzereau</b>: <span class="instrument-album">guitare</span></div>
+                            <div><b>Lara Rossel</b>: <span class="instrument-album">contrebasse</span></div>
                         </div>
                         <div>
                             <div class="album-audio-link">
@@ -527,14 +528,14 @@ include 'partials/header.php';
 
             </div>
             <div class="right-side-general">
-                <div class="projets-info">Clique, donc, sur une pochette si tu veux en savoir +</div>
+                <div class="projets-info">Clique donc sur une pochette si tu veux en savoir +</div>
                 <div data-switcher-content=".switcher-content">
                     <div class="small-album-format">
                         <div class="small-albums-container">
                             <div class="small-album-image-container">
                                 <img src="assets/square.jpg" class="small-album-image">
                                 <div class="small-album-container-title">
-                                    <div>disques
+                                    <div class="album-box-title">disques
                                         <div><i class="fa fa-chevron-down"></i></div>
                                     </div>
                                 </div>
@@ -568,7 +569,7 @@ include 'partials/header.php';
                             <div class="small-album-image-container">
                                 <img src="assets/square.jpg" class="small-album-image">
                                 <div class="small-album-container-title">
-                                    <div>E.P.(s)
+                                    <div class="album-box-title">E.P.(s)
                                         <div><i class="fa fa-chevron-down"></i></div>
                                     </div>
                                 </div>
@@ -609,9 +610,6 @@ include 'partials/header.php';
         =SUBTIL MESSAGE SUBLIMINAL= À chaque fois que vous écoutez ma musique, quelqu’un, quelque part, sauve un bébé
         panda. C’est forcément le cas sinon l’entropie accumulé de l’univers risquerait de nous engloutir tous.
         L’équilibre cosmique est à ce prix.
-    </div>
-    <div class="nicole">
-        website designed by nicole
     </div>
 
 </div>
