@@ -7,16 +7,5 @@ if (isset($_POST['email'])) {
         "New email signup request: $email" //Body of the emails. Be sure to include $email
     );
 }
-/*
 
-Below here you can 'echo 'a response json object or something if you want. That would be received by the $.post call's
-callback in the web app as the data returning from the call. You should probably set response headers as json headers
-etc...
-
-EXAMPLE
-
-echo {
-  message: "Data sent to $email"
-}
-
-*/
+echo "{message: \"Email request sent for $email\"}";
