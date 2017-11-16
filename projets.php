@@ -68,7 +68,7 @@ include 'partials/header.php';
                 </div>
             </div>
             <div class="right-side-general">
-                Clique donc sur une image si tu veux plus de détails
+                Clique donc sur une image si tu veux en savoir plus
             </div>
         </div>
 

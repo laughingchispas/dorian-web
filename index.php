@@ -65,7 +65,7 @@ include 'partials/header.php';
             <div class="bottom-home-title">nouvelles fraîches</div>
 
             <div class="nouvelle-fraiche">
-                <div>le 12 septembre 2017,</div>
+                <div>le 20 novembre 2017,</div>
                 <br>
                 <div> Ça y est, nous y sommes!</div>
                 <div> Ce site est aujourd’hui officiellement ouvert.</div>

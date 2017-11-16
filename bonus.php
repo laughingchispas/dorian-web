@@ -106,7 +106,7 @@ include 'partials/site-head.php';
             <div class="gallerie">
                 <div class="gallerie-title">
                     <a><i class="fa fa-wpexplorer"></i></a>
-                    <div class="title">gallerie</div>
+                    <div class="title">galerie</div>
                     <div id="hideshow-gallery"><i id="gallery" class="fa fa-plus"></i></div>
                 </div>
                 <div class="content content-gallery" style="display: none">Under construction...coming soon :)</div>
@@ -184,8 +184,7 @@ include 'partials/site-head.php';
                         <div class="thanks-par">Merci pour ça déjà.</div>
                         </br>
 
-                        <div class="thanks-par">Séquence émotion.</div>
-                        <div class="thanks-par">Préparez les kleenex (et hop placement de produit) :</div>
+                        <div class="thanks-par">Séquence émotion. Préparez les kleenex (et hop placement de produit) :</div>
 
                         </br>
                         <div class="thanks-par">Je tiens à remercier mes parents pour leur amour, leur soutien et leur écoute. Ils m’ont porté et poussé dans les moments où j’en avais besoin.</div>
@@ -238,6 +237,8 @@ include 'partials/site-head.php';
                         <div class="thanks-par">Niels pour les histoires.</div>
                         <div class="thanks-par">Et Jérémy pour sa frénésie.</div>
                         <div class="thanks-par">(Toujours finir par une rime. Jean-Michel Parprincipe pour moi. Il est pote avec Pascal Disgression. Ils habitent dans ma tête. Ça se passe bien)</div>
+                        </br></br>
+
                         <div class="thanks-par">Et à tous ceux que je n’ai pas citer (parce que ceci est une liste non exhaustive. Les vrais ne sont pas là.)</div>
 
                         </br></br>
