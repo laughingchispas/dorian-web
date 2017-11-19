@@ -62,7 +62,6 @@ include 'partials/header.php';
             <div class="left-side">
                 <div class="contact-image">
                     <img class="contact-image" src="assets/pages/musique.jpg">
-                    <div class="agenda-image-title image-title">Musique</div>
                 </div>
             </div>
             <div class="right-side-general">Petite sélection auditive et visuel.</div>
@@ -70,7 +69,10 @@ include 'partials/header.php';
 
         <div class="music-audio-title">VIDEO</div>
         <div class="music-video-box">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wAVaBSlthrU?enablejsapi=1&showinfo" frameborder="0"></iframe>
+            <div class="container-music-video">
+                <iframe src="https://www.youtube.com/embed/wAVaBSlthrU?enablejsapi=1&showinfo"
+                        frameborder="0" allowfullscreen class="music-video"></iframe>
+            </div>
             <div class="link-box">
                 <a href="https://www.youtube.com/watch?v=DXWoRPvPuzI" target="_blank">Philémon</a>
                 <a href="https://www.youtube.com/watch?v=2wuam6mD3sU" target="_blank">Blue Monday @ Bravo</a>

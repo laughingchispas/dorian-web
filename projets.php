@@ -64,7 +64,6 @@ include 'partials/header.php';
             <div class="left-side">
                 <div class="contact-image">
                     <img class="projets-image" src="assets/pages/projets.jpg">
-                    <div class="projets-image-title image-title">Projets</div>
                 </div>
             </div>
             <div class="right-side-general">
@@ -76,35 +75,27 @@ include 'partials/header.php';
             <div class="projets-supra-container"
                  data-switcher-content=".switcher-content">
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-easy-pieces">
-                    <div class="projet">Easy Pieces</div>
                     <img src="assets/easyside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-philemon">
-                    <div class="projet">Philemon</div>
                     <img src="assets/philside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-blogpera">
-                    <div class="projet">The Blogpera</div>
                     <img src="assets/jmoside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-blue-monday">
-                    <div class="projet">Blue Monday People</div>
                     <img src="assets/blueside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-echt">
-                    <div class="projet">SubChack</div>
                     <img src="assets/echtside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-fd">
-                    <div class="projet">Effdé</div>
                     <img src="assets/fdside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-charlotte">
-                    <div class="projet">Charlotte Haesen</div>
                     <img src="assets/chside.jpg" class="projet-image-small">
                 </div>
                 <div class="projets-container switcher-trigger" data-switcher-target="#sT-9-1">
-                    <div class="projet">9 +1</div>
                     <img src="assets/9side.jpg" class="projet-image-small">
                 </div>
             </div>

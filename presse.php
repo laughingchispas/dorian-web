@@ -62,7 +62,6 @@ include 'partials/header.php';
         <div class="side-container">
             <div class="left-side">
                     <div class="contact-image"><img class="projets-image contact-image" src="assets/pages/presse.jpg">
-                        <div class="presse-image-title image-title">presse</div>
                     </div>
 
             </div>

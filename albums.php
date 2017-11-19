@@ -62,7 +62,6 @@ include 'partials/header.php';
         <div class="side-container">
             <div class="left-side">
                 <div class="contact-image"><img class="disc-image" src="assets/pages/albums.jpg">
-                    <div class="albums-image-title image-title">Albums</div>
                 </div>
                 <div class="album-under-big-pic-content">
                     <div>En attendant qu’un système d’achat en ligne soit mis en place sur ce site, si vous voulez vous
@@ -528,15 +527,15 @@ include 'partials/header.php';
 
             </div>
             <div class="right-side-general">
-                <div class="projets-info">Clique donc sur une pochette si tu veux en savoir +</div>
+                <div class="projets-info">Clique donc sur une pochette si tu veux en savoir plus</div>
                 <div data-switcher-content=".switcher-content">
-                    <div class="small-album-format">
+                    <div class="small-album-format top-album-container">
                         <div class="small-albums-container">
                             <div class="small-album-image-container">
                                 <img src="assets/square.jpg" class="small-album-image">
                                 <div class="small-album-container-title">
                                     <div class="album-box-title">disques
-                                        <div><i class="fa fa-chevron-down"></i></div>
+                                        <div><i id="album-chevron" class="fa fa-chevron-down album-icons"></i></div>
                                     </div>
                                 </div>
                             </div>
@@ -570,7 +569,7 @@ include 'partials/header.php';
                                 <img src="assets/square.jpg" class="small-album-image">
                                 <div class="small-album-container-title">
                                     <div class="album-box-title">E.P.(s)
-                                        <div><i class="fa fa-chevron-down"></i></div>
+                                        <div><i id="ep-chevron" class="fa fa-chevron-down album-icons"></i></div>
                                     </div>
                                 </div>
                             </div>

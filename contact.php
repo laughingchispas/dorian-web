@@ -62,7 +62,6 @@ include 'partials/header.php';
         <div class="side-container">
             <div class="left-side">
                 <div class="contact-image"><img class="contact-image" src="assets/pages/contact.jpg">
-                    <div class="contact-title image-title">Contact</div>
                 </div>
             </div>
             <div class="right-side-general">

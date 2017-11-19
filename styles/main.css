@@ -60,6 +60,7 @@ a {
 .scroller a {
     text-decoration: none;
     color: white;
+    text-decoration: underline;
 }
 
 .scroller a:hover {
@@ -92,6 +93,11 @@ i.fa.fa-chevron-down {
 .small-album-container-title .album-box-title {
     font-size: 18px;
     padding-top: 10px;
+    font-family: 'Amatic SC', Arial, cursive;
+}
+
+.new-album-container {
+    padding-bottom: 15px;
 }
 
 .right-side {
@@ -99,11 +105,14 @@ i.fa.fa-chevron-down {
 }
 
 .left-title {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .bottom-title {
     margin: 0;
+    font-family: 'Amatic SC', Arial, cursive;
+    font-size: 30px;
+    font-style: normal;
 }
 
 .button {
@@ -249,9 +258,13 @@ i.fa.fa-chevron-down {
     padding: 0 3px 15px 5px;
 }
 
-.container-bio {
+.containerbio {
     text-align: justify;
-    padding: 15px 0 0 0;
+    font-size: 13px;
+}
+
+.bio {
+    font-size: 13px;
 }
 
 #bio-title-phrase {
@@ -380,7 +393,7 @@ i.fa.fa-chevron-down {
     cursor: pointer;
     margin: 0 0 10% 0;
     position: relative;
-    border: 1px solid #F2CC45;
+    border: 2px solid #F2CC45;
 }
 
 .small-album-image-container-title {
@@ -390,9 +403,21 @@ i.fa.fa-chevron-down {
     top: 0;
 }
 
+.small-album-format.top-album-container {
+    padding: 150px 0 0 0;
+}
+
 .presse {
     padding: 5px 0;
     font-size: 12px;
+}
+
+.small-album-image-container .album-box-title i.fa.fa-chevron-down.album-icons:hover {
+    color: black
+}
+
+#album-chevron i.fa.fa-chevron-down.album-icons:hover {
+    color: red;
 }
 
 .presse-album-title {
@@ -472,12 +497,12 @@ i.fa.fa-chevron-down {
 .projets-container {
     width: 30%;
     position: relative;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     margin: 5px;
 }
 
 .projets-container:hover {
-    border: 1px solid #F2CC45;
+    border: 2px solid #F2CC45;
 }
 
 .projets-image {
@@ -590,7 +615,7 @@ i.fa.fa-chevron-down {
 
 .concert-container {
     width: 100%;
-    margin: 20px 0 0 50px;
+    margin: 20px 0 0 0;
 }
 
 .concert-container a {
@@ -605,6 +630,7 @@ i.fa.fa-chevron-down {
     text-transform: uppercase;
     padding: 15px 0 3px 0;
     font-size: 30px;
+    font-family: 'Amatic SC', Arial, cursive;
 }
 
 .agenda-sub-pic-text {
@@ -637,7 +663,7 @@ i.fa.fa-chevron-down {
 .more {
     width: 20%;
     cursor: pointer;
-
+    text-decoration: underline;
 }
 
 .projet-agenda {
@@ -688,6 +714,20 @@ i.fa.fa-chevron-down {
 
 .music-video-box a:hover, .music-audio-box a:hover {
     color: #F2CC45;
+}
+
+.container-music-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.music-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /********************************* bonus styles **********************************/
@@ -771,10 +811,12 @@ body.page-bonus .left-panel a:hover {
     align-items: center;
     margin: 10px 0;
     cursor: pointer;
+    font-family: 'Amatic SC', Arial, cursive;
 }
 
 .title {
     padding: 0 10px;
+    font-family: 'Amatic SC', Arial, cursive;
 
 }
 
@@ -799,6 +841,18 @@ body.page-bonus .left-panel a:hover {
 .jouez-moi-title {
     justify-content: flex-end;
     width: 65%;
+}
+
+.les-explanation, .moi-explanation {
+    padding: 5px 0;
+}
+
+.jouez-lez a {
+    text-decoration: underline;
+}
+
+.jouez-moi a {
+    text-decoration: underline;
 }
 
 .jouez-les-title {
@@ -939,6 +993,12 @@ body.page-bonus {
     color: #000;
 }
 
+body.page-bonus #site-navigation-main .nav_item a:hover{
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 3px 0;
+}
+
 body.page-bonus #site-navigation-main a,
 body.page-bonus .name-banner {
     color: #000;
@@ -1027,11 +1087,23 @@ body.page-bonus .left-panel a:hover {
     }
 
     .small-album-container-title .album-box-title {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .small-albums-container {
-        width: 75%;
+        width: 70%;
+        padding-left: 40px;
+    }
+
+    .concert-container-title {
+        text-transform: uppercase;
+        padding: 15px 0 3px 0;
+        font-size: 30px;
+    }
+
+    .concert-container {
+        width: 100%;
+        margin: 20px 0 0 50px;
     }
 
 }
@@ -1062,6 +1134,11 @@ body.page-bonus .left-panel a:hover {
     .group {
         padding: 50px 0 10px 0;
         font-size: 20px;
+    }
+
+    .small-albums-container {
+        width: 55%;
+        padding-left: 80px;
     }
 
 }

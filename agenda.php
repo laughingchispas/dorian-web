@@ -62,7 +62,6 @@ include 'partials/header.php';
             <div class="left-side">
                 <div class="contact-image">
                     <img class="contact-image" src="assets/pages/agenda.jpg">
-                    <div class="agenda-image-title image-title">Agenda</div>
                 </div>
             </div>
             <div class="right-side-general">Clique sur <u>+ d’infos</u> pour plus d’infos… (logique implacable)</div>
@@ -72,13 +71,159 @@ include 'partials/header.php';
         <div class="concert-container">
              <div class="concert-container-title">Concerts du futur</div>
             <div class="table-heading table">
+                <div class="date" id="date" style="color: #F2CC45;">date</div>
+                <div class="place" id="place" style="color: #F2CC45;">lieu</div>
+                <div class="more"></div>
+                <div class="projet-agenda" id="projet-agenda" style="color: #F2CC45;">projet</div>
+            </div>
+            <div  class="table-contents table">
+                <div class="table-row">
+                    <div class="date">29.11.17</div>
+                    <div class="place">Sounds</div>
+                    <div id="hideshow-date-1" class="more">+ d'infos</div>
+                    <a href="projets.php" class="project" target="_blank" style="text-decoration: underline; text-transform: uppercase;">Easy Pieces</a>
+                </div>
+                <div class="more-agenda new-date-1" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">21h30</span> et voici l’adresse : <span class="address"><span>28, Rue de la Tulipe, Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu : <a href="https://www.soundsjazzclub.be/index.php/fr/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="date">07.12.17</div>
+                    <div class="place">Ancienne Belgique</div>
+                    <div id="hideshow-date-2" class="more">+ d'infos</div>
+                    <a href="projets.php" class="project" target="_blank" style="text-decoration: underline; text-transform: uppercase;">Echt!</a>
+                </div>
+                <div class="more-agenda new-date-2" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">20h</span> et voici l’adresse : <span class="address"><span>110, Boulevard Anspach, Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu :<a href="https://www.abconcerts.be/fr/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="table-row">
+                    <div class="date">07.12.17</div>
+                    <div class="place">Bruggenhuis, Geraardsbergen</div>
+                    <div id="hideshow-date-3" class="more">+ d'infos</div>
+                    <a href="projets.php" class="project" target="_blank" style="text-decoration: underline; text-transform: uppercase;">Philémon</a>
+                </div>
+                <div class="more-agenda new-date-3" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">20h</span> et voici l’adresse : <span class="address"><span>50, Majoor Van Lierdelaan,</span><span></br>9500 Geraardsbergen (Overboelare),  BELGIQUE</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu :<a href="https://www.hetbruggenhuis.be/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="table-row">
+                    <div class="date">14.02.18</div>
+                    <div class="place">Jazz Station</div>
+                    <div id="hideshow-date-4" class="more">+ d'infos</div>
+                    <a href="projets.php" class="project" target="_blank" style="text-decoration: underline; text-transform: uppercase;">Blue Monday People</a>
+                </div>
+                <div class="more-agenda new-date-4" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">20h</span> et voici l’adresse : <span class="address"><span>193A-195, Chaussée de Louvain, 1210 Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu :<a href="http://www.jazzstation.be/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="date">22.02.18</div>
+                    <div class="place">La Cellule 133</div>
+                    <div id="hideshow-date-5" class="more">+ d'infos</div>
+                    <div href="projets.php" class="project" target="_blank">Harold/Tadam</div>
+                </div>
+                <div class="more-agenda new-date-5" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">2h</span> et voici l’adresse : <span class="address"><span>133a, Avenue Ducpétiaux, Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu <a href="http://www.cellule133a.be/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="date">29.30.18</div>
+                    <div class="place">La Cellule 133</div>
+                    <div id="hideshow-date-6" class="more">+ d'infos</div>
+                    <div href="projets.php" class="project" target="_blank">Harold/Tadam</div>
+                </div>
+                <div class="more-agenda new-date-6" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">2h</span> et voici l’adresse : <span class="address"><span>133a, Avenue Ducpétiaux, Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu <a href="http://www.cellule133a.be/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-row">
+                    <div class="date">31.05.18</div>
+                    <div class="place">La Cellule 133</div>
+                    <div id="hideshow-date-7" class="more">+ d'infos</div>
+                    <div href="projets.php" class="project" target="_blank">Harold/Tadam</div>
+                </div>
+                <div class="more-agenda new-date-7" style="display: none">
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>ça commence à <span class="address">2h</span> et voici l’adresse : <span class="address"><span>133a, Avenue Ducpétiaux, Bruxelles</span></span></div>
+                    </div>
+                    <div class="table-row">
+                        <div class="date"></div>
+                        <div>
+                            site du lieu <a href="http://www.cellule133a.be/" target="_blank"> ici</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <!--concerts du passé a rajouter -->
+        <!--<div class="concert-container">
+            <div class="concert-container-title">Concerts du passé</div>
+            <div class="table-heading table">
                 <div class="date" id="date">date</div>
                 <div class="place" id="place">lieu</div>
                 <div class="more"></div>
                 <div class="projet-agenda" id="projet-agenda">projet</div>
             </div>
             <div  class="table-contents table">
-
                 <div class="table-row">
                     <div class="date">24.09.17</div>
                     <div class="place">Bonnefooi</div>
@@ -180,45 +325,9 @@ include 'partials/header.php';
 
 
             </div>
+        </div>-->   <!--end concerts du passé a rajouter -->
         </div>
-
-
-        <!--<div class="concert-container">
-            <div class="concert-container-title">Concerts du passé</div>
-            <div class="table-heading table" *ngFor="let title of content.tableTitle_Fr">
-                <div class="date"> date </div>
-                <div class="place">lieu</div>
-                <a href="#" class="projet">projet</a>
-            </div>
-            <div  class="table-contents table">
-                <div class="table-row">
-                    <div class="date">24.09.17</div>
-                    <div href="http://www.jazzstation.be/?lang=fr" class="place" target="_blank">Bonnefooi</div>
-                    <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">ECHT !</div>
-                </div>
-                <div class="table-row">
-                    <div class="date">15.10.17</div>
-                    <div href="http://www.jazzstation.be/?lang=fr" class="place" target="_blank">Atelier rue Verte</div>
-                    <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">BLUE MONDAY PEOPLE</div>
-                </div>
-                <div class="table-row">
-                    <div class="date">18.10.17</div>
-                    <div href="http://www.jazzstation.be/?lang=fr" class="place" target="_blank">Sounds</div>
-                    <div href="https://philemonchien.wordpress.com/" class="project" target="_blank">BLUE MONDAY PEOPLE</div>
-                </div>
-                <div class="table-row">
-                    <div class="date">06.02.18</div>
-                    <div href="http://www.jazzstation.be/?lang=fr" class="place" target="_blank">Zinnema</div>
-                    <div class="project" target="_blank">BLUE MONDAY PEOPLE</div>
-                </div>
-                <div class="table-row">
-                    <div class="date">07.02.18</div>
-                    <div href="http://www.jazzstation.be/?lang=fr" class="place" target="_blank">Zinnema</div>
-                    <div class="project" target="_blank">BLUE MONDAY PEOPLE</div>
-                </div>
-                </div>
-            </div>
-        </div>-->
+        </div>
 
     </div>
 </div>
@@ -269,6 +378,19 @@ $(document).ready(function() {
         $('.new-date-5').toggle("slide");
     });
 });
+
+$(document).ready(function() {
+    $('#hideshow-date-6').click(function() {
+        $('.new-date-6').toggle("slide");
+    });
+});
+
+$(document).ready(function() {
+    $('#hideshow-date-7').click(function() {
+        $('.new-date-7').toggle("slide");
+    });
+});
+
 
 
 

@@ -93,7 +93,6 @@ include 'partials/site-head.php';
             <div class="left-side">
                 <div class="bonus-image-container">
                     <div class="contact-image bonus-image"><img class="contact-image" src="assets/pages/bonus.jpg">
-                        <div class="bonus-image-title image-title">bonus?!</div>
                     </div>
                 </div>
             </div>
@@ -143,9 +142,12 @@ include 'partials/site-head.php';
                     <div><i id="hideshow-moi" class="fa fa-plus"></i></div>
                 </div>
                 <div class="content content-moi" style="display: none">
+                    <div class="moi-explanation">
+                        Une petite sélection de mes compositions que vous pouvez télécharger et jouer.
+                    </div>
                     <div class="pdf-block" style="color: black">
-                        <a class="pdf" href="assets/pdf/moi/mad.pdf" target="_blank" style="color: black; text-decoration: underline;">Mad pdf</a>
-                        <a class="pdf" href="assets/pdf/moi/mad.wav" target="_blank" style="color: black; text-decoration: underline;">Mad audio</a>
+                        <a class="pdf" href="assets/pdf/moi/mad.pdf" target="_blank" style="color: black; text-decoration: underline;">Mad (Music: Dorian Dumont/ Lyrics: William Blake) /pdf</a>
+                        <a class="pdf" href="assets/pdf/moi/mad.wav" target="_blank" style="color: black; text-decoration: underline;">Mad (Music: Dorian Dumont/ Lyrics: William Blake) /audio</a>
                     </div>
                 </div>
             </div>
@@ -158,10 +160,18 @@ include 'partials/site-head.php';
                     <div><i id="hideshow-les" class="fa fa-plus"></i></div>
                 </div>
                 <div class="content content-les" style="display: none">
+                    <div class="les-explanation">
+                        <div>
+                            Une petite sélection de transcriptions que vous pouvez télécharger et jouer.
+                        </div>
+                        <div>
+                            (Attention je précise que les droits d’auteurs appartiennent à ceux qui ont composé ces morceaux bien évidemment)
+                        </div>
+                    </div>
                     <div class="pdf-block">
-                        <a class="pdf" href="assets/pdf/les/1612_Vulfpeck.pdf" target="_blank" style="color: black; text-decoration: underline;">Vulfpeck 1612</a>
-                        <a class="pdf" href="assets/pdf/les/April_14.pdf" target="_blank" style="color: black; text-decoration: underline;">April 14th</a>
-                        <a class="pdf" href="assets/pdf/les/desbemols.pdf" target="_blank" style="color: black; text-decoration: underline;">De bémols et de dièses</a>
+                        <a class="pdf" href="assets/pdf/les/1612_Vulfpeck.pdf" target="_blank" style="color: black; text-decoration: underline;">1612 (Vulfpeck)</a>
+                        <a class="pdf" href="assets/pdf/les/April_14.pdf" target="_blank" style="color: black; text-decoration: underline;">Avril 14th (Aphex Twin)</a>
+                        <a class="pdf" href="assets/pdf/les/desbemols.pdf" target="_blank" style="color: black; text-decoration: underline;">De bémols et de dièses (Dick Annegarn)</a>
                     </div>
                 </div>
             </div>
@@ -193,14 +203,14 @@ include 'partials/site-head.php';
                         <div class="thanks-par">Un énorme merci à Nicole Miller, sa jovialité et son enthousiasme et sans qui ce site n’aurait pas vu le jour (au moins pas avant quelques années et sûrement pas aussi beau)</div>
                         <div class="thanks-par">Je tiens aussi à remercier Roger Vantilt pour ses photos et son regard.</div>
 
-                        </br></br>
+                        </br>
                         <div class="thanks-par">Et puis, tant qu’on y est, je tiens à remercier Solal d’être là et pour son sourire.</div>
                         <div class="thanks-par">J’adresse aussi un grand salut à Diederik Wissels, un grand professeur et une grande personne tout simplement. (et je ne parle ni de taille -alors qu’il est plutôt grand- ni de l’âge -alors qu’il est plus vieux que moi- ici).</div>
 
                         </br>
                         <div class="thanks-par">Et aussi une immense pensée pour ses amis qui font du bien:</div>
 
-                        </br></br>
+                        </br>
                         <div class="thanks-par">José pour son bouc.</div>
                         <div class="thanks-par">Alex parce que c’est le même sang et puis Tournemine.</div>
                         <div class="thanks-par">Ben pour l’inspiration qu’il me donne et pour sa justesse (excepté sur sa guitare. Et big le tacle! Sinon c’est trop bisounours)</div>
@@ -237,16 +247,16 @@ include 'partials/site-head.php';
                         <div class="thanks-par">Niels pour les histoires.</div>
                         <div class="thanks-par">Et Jérémy pour sa frénésie.</div>
                         <div class="thanks-par">(Toujours finir par une rime. Jean-Michel Parprincipe pour moi. Il est pote avec Pascal Disgression. Ils habitent dans ma tête. Ça se passe bien)</div>
-                        </br></br>
+                        </br>
 
                         <div class="thanks-par">Et à tous ceux que je n’ai pas citer (parce que ceci est une liste non exhaustive. Les vrais ne sont pas là.)</div>
 
-                        </br></br>
-                        <div class="thanks-par">Et enfin merci à toi, lecteur de ces lignes. Ta patience est d’or. Ta curiosité est un gouffre sans fin (pour preuve tu lis ces lignes de remerciements jusqu’au bout. Fou que tu es). Ou alors ta souris est cassé, ou tu as atterris ici par hasard, tu cherchais à acheter un frigo en ligne et tu t’es perdue dans le cyber-espace.</div>
+                        </br>
+                        <div class="thanks-par">Et enfin merci à toi, lecteur de ces lignes.</div>
+                        <div class="thanks-par">Ta patience est d’or. Ta curiosité est un gouffre sans fin (pour preuve tu lis ces lignes de remerciements jusqu’au bout. Fou que tu es). Ou alors ta souris est cassé, ou tu as atterris ici par hasard, tu cherchais à acheter un frigo en ligne et tu t’es perdue dans le cyber-espace.</div>
                         <div class="thanks-par">Ou tu es simplement un aficionados de la parenthèse.</div>
 
-
-                        </br></br>
+                        </br>
                         <div class="thanks-par">Quoiqu’il en soit ton intérêt pour ma musique me donne le courage de m’entêter dans la poursuite de mes aspirations artistiques.</div>
                         <div class="thanks-par">Et je tiens publiquement à te témoigner mon admiration pour ta vivacité d’esprit et ton bon goût.</div>
                         <div class="thanks-par">Grand bien vous fasse</div>
